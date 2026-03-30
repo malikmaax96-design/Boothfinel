@@ -442,31 +442,12 @@ ul { list-style: none; }
 .booth-img {
   width: 100%;
   height: 100%;
-  background: var(--dark-5);
+  object-fit: cover;
+  object-position: center;
   transition: transform 0.5s ease;
-  background-size: cover;
-  background-position: center;
+  display: block;
 }
 .booth-card:hover .booth-img { transform: scale(1.08); }
-
-/* Booth image colours as gradient placeholders */
-.booth-img-slimpod  { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); }
-.booth-img-selfie   { background: linear-gradient(135deg, #2d1b69 0%, #4a3080 50%, #6a4eb0 100%); }
-.booth-img-retro    { background: linear-gradient(135deg, #1e3a2f 0%, #2d5a3d 50%, #3d7a52 100%); }
-.booth-img-magic    { background: linear-gradient(135deg, #3d1a1a 0%, #6b2d2d 50%, #a84040 100%); }
-.booth-img-party    { background: linear-gradient(135deg, #3d2a00 0%, #7a5500 50%, #c9a84c 100%); }
-.booth-img-inflatable { background: linear-gradient(135deg, #003d4a 0%, #006a7a 50%, #00a0b0 100%); }
-.booth-img-gif      { background: linear-gradient(135deg, #2a0037 0%, #4a0060 50%, #7a00a0 100%); }
-
-.booth-img::after {
-  content: attr(data-icon);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 4rem;
-  opacity: 0.3;
-}
 
 .booth-overlay {
   position: absolute;
