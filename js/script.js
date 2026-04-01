@@ -91,6 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCarousel();
   initScrollReveal();
   initFooterBoothLinks();
+  initGalleryFilter();
 });
 
 /* ── Sticky Nav ── */
@@ -307,3 +308,33 @@ function submitEnquiry(e) {
 }
 
 window.submitEnquiry = submitEnquiry;
+
+/* ── Gallery Filter ── */
+function initGalleryFilter() {
+  const filterBtns = document.querySelectorAll('.gallery-filter-btn');
+  const galleryItems = document.querySelectorAll('.gallery-item');
+
+  if (!filterBtns.length) return;
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filter = btn.dataset.filter;
+
+      galleryItems.forEach(item => {
+        const cat = item.dataset.cat;
+        const show = filter === 'all' || cat === filter;
+
+        if (show) {
+          item.classList.remove('hidden');
+          item.classList.add('fade-in');
+          setTimeout(() => item.classList.remove('fade-in'), 500);
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+    });
+  });
+}
