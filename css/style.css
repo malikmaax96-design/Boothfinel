@@ -1144,6 +1144,65 @@ ul { list-style: none; }
   .form-row { grid-template-columns: 1fr; }
 }
 
+/* ── Booth Selector (inside contact) ── */
+.booth-selector {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(201,168,76,0.15);
+}
+.booth-selector-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.booth-selector-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.booth-sel-item {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 2px solid rgba(201,168,76,0.15);
+  cursor: pointer;
+  transition: var(--transition);
+  aspect-ratio: 1/1;
+  display: block;
+}
+.booth-sel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.4s ease;
+  display: block;
+}
+.booth-sel-item span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 100%);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 1rem 0.75rem 0.6rem;
+  text-align: center;
+}
+.booth-sel-item:hover {
+  border-color: var(--gold);
+  box-shadow: var(--shadow-gold);
+}
+.booth-sel-item:hover img { transform: scale(1.06); }
+
+@media (max-width: 768px) {
+  .booth-selector-grid { grid-template-columns: repeat(2, 1fr); }
+  .booth-selector-title { font-size: 1.3rem; }
+}
+
 /* ==============================
    GALLERY SECTION
    ============================== */

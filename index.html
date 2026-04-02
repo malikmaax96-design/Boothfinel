@@ -124,7 +124,7 @@
           </div>
           <div class="booth-info">
             <h3>LCD SlimPod</h3>
-            <p>Our sleek, modern touchscreen photo booth. Perfect for any event style with a slim, elegant footprint.</p>
+            <p>Affordable iPad Photo Booth with 2 high-quality prints per session, instant digital sharing, unlimited sessions, stick props, and a guest book. Free delivery &amp; setup included.</p>
             <span class="booth-tag">Most Popular</span>
           </div>
         </div>
@@ -136,7 +136,7 @@
           </div>
           <div class="booth-info">
             <h3>Selfie Mirror Pod</h3>
-            <p>A full-length mirror that doubles as a state-of-the-art photo booth — glamour meets technology.</p>
+            <p>Featuring a sleek half mirror screen with a professional DSLR camera for high-quality photos every time. Includes unlimited sessions, instant prints, and a guest book.</p>
             <span class="booth-tag">Fan Favourite</span>
           </div>
         </div>
@@ -148,7 +148,8 @@
           </div>
           <div class="booth-info">
             <h3>Retro Pod</h3>
-            <p>Classic charm meets modern performance. An iconic design with vintage strip prints guests will love.</p>
+            <p>Sleek POD with inbuilt printer — instant high-quality prints, minimal cables. DSLR camera, unlimited sessions, and a guest book. Keeps your venue clean and clutter-free.</p>
+            <span class="booth-tag">Inbuilt Printer</span>
           </div>
         </div>
 
@@ -159,7 +160,7 @@
           </div>
           <div class="booth-info">
             <h3>Magic Mirror</h3>
-            <p>An interactive full-length mirror booth with fun animations, games, and instant photo printing.</p>
+            <p>Stunning full-length mirror display powered by a professional DSLR camera. Unlimited sessions, instant prints, guest book included. Adds a touch of glamour to any occasion.</p>
             <span class="booth-tag">Wedding Favourite</span>
           </div>
         </div>
@@ -171,31 +172,32 @@
           </div>
           <div class="booth-info">
             <h3>Party Booth</h3>
-            <p>High-energy, open-air booth perfect for large groups and non-stop party fun all night long.</p>
+            <p>Enclosed private booth for up to 8 people. Cosy and fun — 2 prints per session, unlimited sessions, guest book, and full setup &amp; pack down service included.</p>
+            <span class="booth-tag">Up to 8 People</span>
           </div>
         </div>
 
         <div class="booth-card reveal" data-booth="inflatable">
           <div class="booth-img-wrap">
-            <div class="booth-img booth-img-inflatable"></div>
+            <img src="images/booth-inflatable.jpg" alt="Inflatable Photo Booth" class="booth-img" />
             <div class="booth-overlay"><span>View Details →</span></div>
           </div>
           <div class="booth-info">
             <h3>Inflatable Booth</h3>
-            <p>A unique, eye-catching inflatable enclosure — a real show-stopper that guests can't resist.</p>
-            <span class="booth-tag">Unique!</span>
+            <p>Spacious glowing inflatable for up to 10 people — offering privacy and fun for large groups. Choose the colour to match your event theme. A real showstopper!</p>
+            <span class="booth-tag">Up to 10 People</span>
           </div>
         </div>
 
         <div class="booth-card reveal" data-booth="gif">
           <div class="booth-img-wrap">
-            <div class="booth-img booth-img-gif"></div>
+            <img src="images/booth-gif.jpg" alt="GIF Booth" class="booth-img" />
             <div class="booth-overlay"><span>View Details →</span></div>
           </div>
           <div class="booth-info">
             <h3>GIF Booth</h3>
-            <p>Capture animated GIFs and boomerangs — instantly shareable on social media for maximum reach.</p>
-            <span class="booth-tag">Social Media Ready</span>
+            <p>Same device as LCD SlimPod but digital-only — no prints. High-quality photos, GIFs, boomerangs, and instant sharing via email. Smart background removal included.</p>
+            <span class="booth-tag">Digital &amp; Social</span>
           </div>
         </div>
 
@@ -538,6 +540,38 @@
           </div>
           <a href="#booking" class="btn-primary" style="margin-top:1.5rem;display:inline-block;">Ready to Book? →</a>
         </div>
+      </div>
+
+      <!-- Booth Photo Selector -->
+      <div class="booth-selector reveal">
+        <h3 class="booth-selector-title">Which service are you interested in?</h3>
+        <div class="booth-selector-grid">
+          <a href="#booking" class="booth-sel-item" onclick="document.getElementById('enquiryBooth').value='LCD SlimPod'">
+            <img src="images/booth-slimpod.jpg" alt="LCD SlimPod" />
+            <span>LCD SlimPod</span>
+          </a>
+          <a href="#booking" class="booth-sel-item" onclick="document.getElementById('enquiryBooth').value='Magic Mirror'">
+            <img src="images/booth-magic.jpg" alt="Magic Mirror" />
+            <span>Magic Mirror</span>
+          </a>
+          <a href="#booking" class="booth-sel-item" onclick="document.getElementById('enquiryBooth').value='Retro Pod'">
+            <img src="images/booth-retro.jpg" alt="Retro Pod" />
+            <span>Retro Pod</span>
+          </a>
+          <a href="#booking" class="booth-sel-item" onclick="document.getElementById('enquiryBooth').value='Selfie Mirror Pod'">
+            <img src="images/booth-selfie.jpg" alt="Selfie Mirror Pod" />
+            <span>Selfie Mirror Pod</span>
+          </a>
+          <a href="#booking" class="booth-sel-item" onclick="document.getElementById('enquiryBooth').value='Party Booth'">
+            <img src="images/booth-party.jpg" alt="Party Booth" />
+            <span>Party Booth</span>
+          </a>
+          <a href="#booking" class="booth-sel-item" onclick="document.getElementById('enquiryBooth').value='Inflatable Booth'">
+            <img src="images/booth-inflatable.jpg" alt="Inflatable Booth" />
+            <span>Inflatable Booth</span>
+          </a>
+        </div>
+        <p style="text-align:center;color:var(--text-muted);font-size:0.9rem;margin-top:1rem;">Click a booth to go straight to the booking form</p>
       </div>
     </div>
   </section>
