@@ -497,6 +497,24 @@ ul { list-style: none; }
   letter-spacing: 0.5px;
 }
 
+.booth-more-info {
+  display: inline-block;
+  margin-top: 0.75rem;
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--gold);
+  transition: color 0.2s, transform 0.2s;
+}
+.booth-card:hover .booth-more-info {
+  color: var(--gold-light);
+}
+a.booth-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 /* ==============================
    BOOTH MODALS
    ============================== */
