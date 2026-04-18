@@ -16,12 +16,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
-  <!-- INLINE OVERRIDE: ensure all content visible regardless of cached CSS/JS -->
+  <!-- Force fresh load of CSS/JS - bypass CDN cache -->
   <style>
-    .reveal { opacity: 1 !important; transform: none !important; }
-    .reveal.visible { opacity: 1 !important; transform: none !important; }
+    /* CRITICAL: ensure all reveal elements are always visible */
+    .reveal, .reveal.visible {
+      opacity: 1 !important;
+      transform: none !important;
+      visibility: visible !important;
+    }
   </style>
+  <link rel="stylesheet" href="css/style.css?v=5" />
+  <!-- Additional override AFTER external CSS (wins over any opacity:0) -->
+  <style>.reveal{opacity:1!important;visibility:visible!important}</style>
 </head>
 <body>
 
@@ -869,18 +875,21 @@
     <span class="whatsapp-tooltip">Chat on WhatsApp</span>
   </a>
 
-  <script src="js/script.js"></script>
+  <script src="js/script.js?v=5"></script>
   <!-- INLINE FALLBACK: make all reveals visible if JS fails -->
   <script>
     (function() {
       function showAll() {
-        document.querySelectorAll('.reveal').forEach(function(el) { el.classList.add('visible'); });
+        var els = document.querySelectorAll('.reveal');
+        for (var i = 0; i < els.length; i++) {
+          els[i].style.opacity = '1';
+          els[i].style.transform = 'none';
+          els[i].style.visibility = 'visible';
+          els[i].classList.add('visible');
+        }
       }
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', showAll);
-      } else {
-        showAll();
-      }
+      showAll();
+      document.addEventListener('DOMContentLoaded', showAll);
       window.addEventListener('load', showAll);
     })();
   </script>
