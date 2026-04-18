@@ -278,9 +278,9 @@ window.setCqBooth = setCqBooth;
 /* ── Enquiry Form Submit ── */
 function submitEnquiry(e) {
   e.preventDefault();
-  const btn  = document.getElementById('enquirySubmitBtn');
+  const btn     = document.getElementById('enquirySubmitBtn');
   const success = document.getElementById('formSuccess');
-  const form = document.getElementById('enquiryForm');
+  const form    = document.getElementById('enquiryForm');
 
   const booth     = document.getElementById('enquiryBooth').value || 'Not specified';
   const firstName = (document.getElementById('cqFirstName')  || {}).value || '';
@@ -294,19 +294,49 @@ function submitEnquiry(e) {
   const postcode  = (document.getElementById('cqPostcode')   || {}).value || '';
   const notes     = (document.getElementById('cqNotes')      || {}).value || '';
 
-  btn.textContent = 'Sending…';
+  btn.textContent = 'Sending\u2026';
   btn.disabled = true;
 
+  // 1. Send email via FormSubmit.co (free, no backend needed)
+  const emailData = new FormData();
+  emailData.append('_subject', '\uD83C\uDF89 New Booth Enquiry \u2014 ' + booth + ' | Boothdrop');
+  emailData.append('_template', 'table');
+  emailData.append('_captcha', 'false');
+  emailData.append('Booth',       booth);
+  emailData.append('Name',        firstName + ' ' + lastName);
+  emailData.append('Email',       email);
+  emailData.append('Phone',       phone);
+  emailData.append('Date',        date);
+  emailData.append('Event_Type',  eventType);
+  emailData.append('Time',        startTime + ' \u2013 ' + endTime);
+  emailData.append('Postcode',    postcode);
+  emailData.append('Notes',       notes || 'None');
+
+  fetch('https://formsubmit.co/ajax/info.boothdrop@boothdrop.co.uk', {
+    method: 'POST',
+    body: emailData,
+    headers: { 'Accept': 'application/json' }
+  }).catch(function() {}); // silently handle network errors
+
+  // 2. Open WhatsApp with the same details
   const waText = encodeURIComponent(
-    `New Enquiry from Website!\n\nBooth: ${booth}\nName: ${firstName} ${lastName}\nEmail: ${email}\nPhone: ${phone}\nDate: ${date}\nEvent Type: ${eventType}\nTime: ${startTime} – ${endTime}\nPostcode: ${postcode}\n\nNotes: ${notes}`
+    'New Enquiry from Website!\n\nBooth: ' + booth +
+    '\nName: ' + firstName + ' ' + lastName +
+    '\nEmail: ' + email +
+    '\nPhone: ' + phone +
+    '\nDate: ' + date +
+    '\nEvent Type: ' + eventType +
+    '\nTime: ' + startTime + ' \u2013 ' + endTime +
+    '\nPostcode: ' + postcode +
+    '\n\nNotes: ' + (notes || 'None')
   );
 
-  setTimeout(() => {
+  setTimeout(function() {
     success.style.display = 'block';
     form.reset();
-    btn.textContent = 'Send Enquiry ✉️';
+    btn.textContent = 'Send Enquiry \u2709\uFE0F';
     btn.disabled = false;
-    window.open(`https://wa.me/447368631516?text=${waText}`, '_blank');
+    window.open('https://wa.me/447368631516?text=' + waText, '_blank');
   }, 800);
 }
 
