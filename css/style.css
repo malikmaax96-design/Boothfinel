@@ -49,6 +49,17 @@ ul { list-style: none; }
 
 .section { padding: 5rem 0; }
 
+/* === SCROLL REVEAL ANIMATION === */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* === TYPOGRAPHY === */
 .section-eyebrow {
   font-size: 0.85rem;
