@@ -1,0 +1,76 @@
+{
+  "slug": "london",
+  "title": "Photo Booth Hire London | Boothdrop Entertainment",
+  "metaDescription": "Photo booth hire across all 32 London boroughs and the City. Magic Mirror, 360 and slim pods with attendant, props and prints included. Get a free quote.",
+  "h1": "Photo Booth Hire in London",
+  "primaryKeyword": "photo booth hire London",
+  "intro": "Boothdrop Entertainment delivers photo booths to weddings, corporate events, proms and parties across the whole of Greater London, from the City to the outer boroughs. Each booking comes with a professional attendant, free delivery and setup, unlimited sessions, props and a personalised print template. Packages start from £299 and an £80 deposit holds your date.",
+  "sections": [
+    {
+      "heading": "Coverage across all 32 boroughs and the City",
+      "paragraphs": [
+        "Greater London is the busiest part of our service area, and we work in every one of its 32 boroughs as well as the City of London. That means Camden, Islington and Hackney on the inner ring, Barnet, Enfield and Havering on the northern and eastern edges, Croydon, Bromley and Sutton to the south, and Hillingdon, Hounslow and Harrow out west. Because we are a mobile service with no public premises, the booth comes to you wherever the venue happens to be.",
+        "The capital also sits in the middle of the wider region we cover, so a venue just over the boundary in Essex, Kent, Surrey or Hertfordshire is no problem either. If your reception is in Epping, Dartford, Epsom or Watford, treat it as a London booking and we will take care of the rest."
+      ]
+    },
+    {
+      "heading": "Seven London areas, one team",
+      "paragraphs": [
+        "To keep local advice useful, we split the capital into seven areas, each with its own page. Central London covers the City, Westminster and the West End, where hotels, livery halls, members' clubs and offices sit inside the Congestion Charge zone. North London takes in Barnet, Enfield, Haringey, Islington and Camden, with their banqueting suites, community venues and golf clubs on the Hertfordshire edge. East London runs from Shoreditch and Canary Wharf out to Ilford, Romford and Upminster, mixing warehouse spaces with large banqueting halls.",
+        "South London is Croydon, Sutton, Merton, Lambeth and the southern half of Southwark, with hotels, church halls and pubs. South East London covers Greenwich, Lewisham, Bexley and Bromley, from riverside venues to village halls near the Kent border. South West London means Wandsworth, Richmond, Kingston and Wimbledon, known for riverside hotels, rowing clubs and Georgian houses. West London stretches through Ealing, Hounslow, Hillingdon, Brent, Harrow, Hammersmith and Fulham, home to Heathrow hotels and a large cluster of Asian wedding venues."
+      ]
+    },
+    {
+      "heading": "Loading, lifts and London traffic",
+      "paragraphs": [
+        "London venues ask more questions about access than anywhere else, so here is how we handle the usual ones. The Congestion Charge and ULEZ are our concern, not yours; we plan the route and the vehicle, and there is nothing to add to your bill for either. Where a venue has a loading bay with timed access, tell us the window and we will book the slot. Most hotel and office venues have a goods lift, which is ideal for the heavier booths such as the Magic Mirror, Party Booth and Inflatable Booth.",
+        "Stairs are the one thing to flag early. The slim pods can be carried up a flight if needed, but the heavier units need a lift or ground-floor access. Every booth runs from a single standard socket, apart from the Inflatable Booth, which needs two. Setup takes around 45 to 60 minutes before your hire window opens and is never charged as hire time, so a 7pm start means we arrive by 6pm at the latest."
+      ],
+      "list": [
+        "Congestion Charge and ULEZ handled by us",
+        "Loading bay slots booked in advance where needed",
+        "Lift or ground-floor access for Magic Mirror, Party Booth and Inflatable",
+        "One standard socket for most booths, two for the Inflatable",
+        "Setup 45 to 60 minutes before the hire starts, not charged"
+      ]
+    },
+    {
+      "heading": "The booths Londoners book most",
+      "paragraphs": [
+        "The Magic Mirror is the capital's wedding favourite: a full-length interactive mirror with animations and games that looks right at home in a hotel ballroom or a Georgian reception room. For smaller city rooms and tighter budgets, the LCD SlimPod is our most popular and most affordable option, with a footprint of just 1.5m by 2m and smart background removal that needs no green screen.",
+        "Corporate teams and brand events in London increasingly ask for the 360 Booth, where guests stand on a platform while a camera arm captures slow-motion video for instant sharing; we confirm its space requirements for your venue at quote stage. The GIF Booth is the lowest-footprint choice of all, digital-only and ideal for product launches and social-first parties where prints are not the point."
+      ]
+    },
+    {
+      "heading": "Events we cover across the capital",
+      "paragraphs": [
+        "Weddings make up a large share of London bookings, from civil ceremonies in town halls to multi-day Asian weddings in banqueting halls, and for the latter the guest counts justify a booth that handles up to eight or ten people per shot. Corporate Christmas parties fill December, so book early if you want a weekend date. Proms arrive in late June and early July, and school halls and hotel function suites across the boroughs host them.",
+        "Birthday parties range from a 1st birthday in a community centre to a 50th in a rooftop bar, and the right booth depends on the room more than the age. One planner tip that applies everywhere in London: send us the venue's access notes with your enquiry, and we will match the booth to the building before you commit."
+      ]
+    },
+    {
+      "heading": "Venue types we see across London",
+      "paragraphs": [
+        "London venues range from listed halls and livery halls to warehouse conversions, hotel ballrooms, rooftop bars, members' clubs, museums and galleries, and the many church halls, community centres, sports clubs and school halls that host parties in the outer boroughs. Each has its quirks, and our team has worked around most of them, from porters who need a vehicle registration in advance to listed rooms where nothing can touch the walls.",
+        "Marquees in London parks and private gardens are another regular, and these work well for every booth provided there is a solid, level floor and a power supply within reach of a standard extension lead. If the marquee floor is matting laid over grass, let us know so we can bring the right booth."
+      ]
+    }
+  ],
+  "popularBooths": [
+    { "slug": "magic-mirror", "reason": "The full-length interactive mirror is the wedding favourite for London hotel ballrooms and reception rooms with space to show it off." },
+    { "slug": "lcd-slimpod", "reason": "Its 36cm width and single socket make it the go-to for compact city function rooms and budget-conscious parties." },
+    { "slug": "360-booth", "reason": "Corporate and brand events across the capital want slow-motion video that guests can share the same night." },
+    { "slug": "gif-booth", "reason": "Digital-only delivery and the smallest footprint suit launches and social-first parties in tight central venues." }
+  ],
+  "faqs": [
+    { "q": "Where do you park and unload at a London venue?", "a": "Most hotels, halls and offices have a loading bay or service entrance, and we use that to unload before moving the van to a car park or nearby street. If your venue has timed access or needs a vehicle registration in advance, let us know and we will arrange it when the booking is confirmed." },
+    { "q": "The room is on an upper floor with no lift. Can you still come?", "a": "Yes, with the right booth. The LCD SlimPod, GIF Booth, Retro Pod and Selfie Mirror Pod can all be carried up stairs. The Magic Mirror, Party Booth and Inflatable Booth are too heavy for a staircase and need either a lift or a ground-floor room, so tell us about stairs when you enquire." },
+    { "q": "Do you charge for travelling into London?", "a": "No. Delivery, setup and pack-down are included in every package across Greater London. In the rare case that a travel contribution applies to a far-flung venue, it is shown clearly on the quote up front, never added afterwards." },
+    { "q": "Who pays the Congestion Charge and ULEZ?", "a": "We do. Our team plans the route and the vehicle for every London booking, and any Congestion Charge or ULEZ cost is absorbed by us as part of free delivery. There is nothing for you to pay or register." },
+    { "q": "Our venue wants insurance paperwork from every supplier. Can you provide it?", "a": "Yes. Boothdrop Entertainment holds public liability insurance and we can send the certificate to your venue or planner as soon as you ask. Many London hotels and listed venues require it before granting access, so it is best to request it early." },
+    { "q": "Can the booth run past midnight?", "a": "It can, provided the venue allows suppliers on site at that hour. Tell us the finish time when you enquire and we will quote the hire window to match, with pack-down planned to fit the venue's closing or curfew time." }
+  ],
+  "todos": [
+    "TODO: client to supply 360 Booth dimensions/space/power"
+  ]
+}

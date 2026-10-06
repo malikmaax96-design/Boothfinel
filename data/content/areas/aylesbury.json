@@ -1,0 +1,83 @@
+{
+  "slug": "aylesbury",
+  "title": "Photo Booth Hire Aylesbury | Boothdrop Entertainment",
+  "metaDescription": "Photo booth hire in Aylesbury, Wendover and the Vale for barn weddings, village hall parties, proms and corporate events. From £299. Get a free quote.",
+  "h1": "Photo Booth Hire in Aylesbury and the Vale",
+  "primaryKeyword": "photo booth hire Aylesbury",
+  "intro": "Aylesbury sits in the Vale with the Chilterns rising to the south, and the venues follow the landscape: flint and timber barns, village halls, golf clubs and canal-side function rooms. Our team covers the whole area with a photo booth, attendant, props and unlimited prints, from £299 with delivery and setup included.",
+  "sections": [
+    {
+      "heading": "Weddings in barns, proms in halls, parties everywhere",
+      "paragraphs": [
+        "Aylesbury's wedding season is dominated by barns in the villages around the town and by village halls dressed with bunting and fairy lights. Both work well for a booth, with one caveat: power can be limited, so we always ask where the nearest socket is before the day. School proms run through late June and early July, typically at hotels or golf clubs, and birthdays and anniversaries fill the community centres and pub function rooms all year round.",
+        "Corporate bookings are steady rather than spectacular: Christmas parties, long-service awards and team days at hotels and conference venues on the edge of town. Planners usually want the company logo on every print and a digital gallery sent out the next morning, both of which are standard with us."
+      ],
+      "list": [
+        "Barn weddings: confirm socket position and floor surface",
+        "Village halls: check the finish time in the hire agreement",
+        "Proms: book early for late June dates",
+        "Corporate: logo on prints and a next-day digital gallery"
+      ]
+    },
+    {
+      "heading": "Aylesbury, Wendover, Buckingham and the villages",
+      "paragraphs": [
+        "Aylesbury is the county town of Buckinghamshire and the hub of our Buckinghamshire coverage. We cover the town itself and the wider Vale, including Wendover, Princes Risborough, Buckingham, Haddenham, Stoke Mandeville, Bierton and the Waddesdon area, and we cross the borders freely to Thame in Oxfordshire and Tring in Hertfordshire. The A41, A413 and A418 link everything together, so journey times are short and delivery is included at no charge. Any travel contribution for an unusually remote venue would be shown on the quote in advance, never as a surprise on the day."
+      ]
+    },
+    {
+      "heading": "The kinds of venue we see most",
+      "paragraphs": [
+        "Chiltern barns, often with high ceilings and stone or oak floors, are the signature wedding venue of the area. Village halls are the backbone of the local party scene, from christenings to 60th birthdays. Golf clubs around the town host weddings and proms, hotels take the larger corporate dinners, and school halls are used for fundraisers and end-of-term events. Along the Grand Union Canal there are waterside pubs and function rooms with lovely views and, occasionally, tight access along a towpath lane, so we check vehicle access for those ahead of time."
+      ]
+    },
+    {
+      "heading": "Booths that suit Aylesbury events",
+      "paragraphs": [
+        "The Retro Pod is a quiet favourite here. Its inbuilt printer means minimal cabling, a tidy 1.5-metre square footprint and classic photo-strip prints that look right in a rustic barn or a village hall. The Magic Mirror is the pick for weddings with a bigger budget and a grander room, and the LCD SlimPod is the all-rounder for birthdays, proms and corporate parties, offering smart background removal without a green screen and two prints per session plus digital copies.",
+        "Whichever booth you choose, the attendant brings a box of stick props, a guest book for print booths and a print template designed around your names, date or logo. Guests get their prints on the night and the digital copies follow by email."
+      ]
+    },
+    {
+      "heading": "Vehicle access and setup",
+      "paragraphs": [
+        "Village halls and barns usually have a car park or a yard beside the building, and that is all we need: a place to pull up, unload and park. Town-centre venues in Aylesbury may ask us to use a loading bay or a hotel car park, and we follow the venue's instructions. Some rural venues have narrow lanes or gravel tracks, which are fine for our vehicle, but a very long carry from parking to the room is worth mentioning in advance.",
+        "We allow 45 to 60 minutes to build the booth before the hire starts, and that time is free. One standard socket within reach of the booth position is the only technical requirement for most booths. Stairs are uncommon in barns and halls, but if your function room is upstairs, let us know at booking."
+      ]
+    },
+    {
+      "heading": "Prices and inclusions",
+      "paragraphs": [
+        "Packages from £299 cover the attendant, props, unlimited sessions, a custom print or overlay template with your text and logo, guest book on print booths, digital copies, email and social sharing, LED lighting and public liability insurance. An £80 deposit secures the date and the remaining balance is due a month before the event. Green screen is available if you ask, and we are rated 5 stars on Trustpilot."
+      ]
+    }
+  ],
+  "popularBooths": [
+    { "slug": "retro-pod", "reason": "The inbuilt printer and strip-style prints suit rustic barns and village halls where cabling needs to stay minimal." },
+    { "slug": "magic-mirror", "reason": "Golf club and hotel weddings around the town give the full-length mirror a room worthy of it." },
+    { "slug": "lcd-slimpod", "reason": "The value choice for proms, community centre birthdays and corporate Christmas parties across the Vale." }
+  ],
+  "faqs": [
+    {
+      "q": "Where will you unload at a barn or village hall near Aylesbury?",
+      "a": "At the nearest point a vehicle can reach, which for most barns and halls is the car park or yard beside the door. We unload, park and then build the booth. If the venue has a long carry or a narrow track, tell us when booking so we can plan the arrival."
+    },
+    {
+      "q": "Are stairs a problem for the booth?",
+      "a": "Rarely, as long as we know beforehand. The slim pods can be carried up a flight of stairs by two people. For the Magic Mirror we prefer a ground-floor room or a lift. Mention any stairs at booking and we will recommend the most suitable booth."
+    },
+    {
+      "q": "Do you charge extra for travel to Aylesbury or the villages?",
+      "a": "No. Delivery, setup and pack-down are included in every package and Aylesbury Vale is well within our regular area. If a travel contribution ever applied to a far-flung venue, it would be shown on the quote up front, not added afterwards."
+    },
+    {
+      "q": "Our barn only has a generator. Can the booth run on it?",
+      "a": "The booth needs a stable standard socket. A properly rated generator supplying a normal 13-amp outlet is usually fine, but please check with the venue that the supply is reliable and tell us in advance so the attendant can protect the equipment."
+    },
+    {
+      "q": "Can the booth finish by the village hall curfew?",
+      "a": "Yes. We agree the hire window with you around the hall's finish time, and pack-down is quick and quiet. Many village halls require everything to be out by a set hour, so let us know what the hire agreement says and we will work to it."
+    }
+  ],
+  "todos": []
+}

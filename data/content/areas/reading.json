@@ -1,0 +1,84 @@
+{
+  "slug": "reading",
+  "title": "Photo Booth Hire Reading | Boothdrop Entertainment",
+  "metaDescription": "Photo booth hire in Reading for Thames-side weddings, business-park corporate events, proms and parties. Attendant and prints from £299. Get a quote.",
+  "h1": "Photo Booth Hire in Reading",
+  "primaryKeyword": "photo booth hire Reading",
+  "intro": "Reading is a town of two halves for us: business-park conference venues along the M4 by day, and Thames-side hotels and pubs for weddings at the weekend. Our team brings the booth, attendant, props and prints to both, with setup included and packages from £299. Get a quote by phone, WhatsApp or email.",
+  "sections": [
+    {
+      "heading": "Loading, parking and power in Reading",
+      "paragraphs": [
+        "Reading town centre has a busy one-way system and several pedestrianised streets, so for central venues we agree an unloading point in advance, usually a loading bay or the hotel's own delivery entrance, and move the vehicle to a car park once the kit is inside. Business parks and riverside hotels are far simpler, with car parks beside the function suite. Park and ride is not an option for a vehicle carrying a booth, so we always plan a route to the door.",
+        "Give us 45 to 60 minutes before the hire window to build the booth; that time is not charged. A single standard socket near the booth and a level floor are the only requirements. If the function room is upstairs, as it often is in older riverside pubs, say so when you book so the right booth is sent."
+      ],
+      "list": [
+        "Agreed unloading point for town-centre venues",
+        "Vehicle parked once the kit is inside",
+        "One socket within reach of the booth",
+        "Stairs and lifts confirmed in advance",
+        "Finish time matched to the venue licence"
+      ]
+    },
+    {
+      "heading": "Reading's venue types",
+      "paragraphs": [
+        "Weddings in Reading gravitate to the water: hotels and pubs on the Thames at Caversham and towards Pangbourne, and venues along the Kennet closer to town. Business-park conference centres and hotels around Theale and the M4 junctions host most of the corporate work, from product launches to Christmas parties. University venues on the edge of town are used for balls and alumni events, golf clubs around Wokingham handle weddings and proms, and village halls in the surrounding villages host birthdays and anniversaries."
+      ]
+    },
+    {
+      "heading": "Corporate events and Thames-side weddings",
+      "paragraphs": [
+        "Reading's business parks generate a steady stream of corporate bookings: conference dinners, awards evenings, staff Christmas parties and brand activations where the booth is as much a marketing tool as entertainment. For these, a GIF Booth with a branded animated overlay and instant email or QR delivery is the usual request, and the sharing screen puts the brand in front of every guest who takes a photo.",
+        "Thames-side weddings are the other side of the business. Riverside venues often have a marquee or a garden room with a view, and a booth placed just inside the doors catches guests moving between the bar and the dance floor. Plan the hire to start after the meal, and ask the venue about the music curfew so the booth closes before the lights come up."
+      ]
+    },
+    {
+      "heading": "Popular booths for Reading",
+      "paragraphs": [
+        "The GIF Booth leads for corporate work because it has the smallest footprint of any booth we run and needs no printer or consumables. The Selfie Mirror Pod is a strong choice for larger weddings and proms, printing instantly for each guest with a DSLR camera behind a half-mirror screen. The Magic Mirror remains the showpiece for weddings with a ballroom to fill, and the LCD SlimPod is the value option for birthdays and smaller receptions, with smart background removal that needs no green screen."
+      ]
+    },
+    {
+      "heading": "Reading and the surrounding towns",
+      "paragraphs": [
+        "Reading is the largest town in Berkshire and sits at the centre of our Berkshire coverage. In and around the town we regularly work in Caversham, Tilehurst, Woodley, Earley, Whitley and Calcot, and we are just as often in Wokingham, Theale and Pangbourne, or up the river at Henley-on-Thames. Junctions 10 to 12 of the M4, the A33 and the A329(M) make everything quick to reach. Delivery and setup are free; a travel contribution would only ever apply to a genuinely far-flung venue and would be shown on your quote up front."
+      ]
+    },
+    {
+      "heading": "Packages and booking",
+      "paragraphs": [
+        "Hire begins at £299 and an £80 deposit secures your date, with the balance payable one month before the event. Each booking comes with a professional attendant, unlimited sessions, props, a custom print or overlay template with text and logo, a guest book on print booths, digital copies with email and social sharing, LED lighting and public liability insurance, which business-park venues routinely request. Green screen is available on request, and our reviews are rated 5 stars on Trustpilot."
+      ]
+    }
+  ],
+  "popularBooths": [
+    { "slug": "gif-booth", "reason": "Business-park launches and conference dinners want branded digital captures with instant email and QR delivery." },
+    { "slug": "selfie-mirror-pod", "reason": "Instant prints for every guest suit larger Thames-side weddings and the summer prom rush." },
+    { "slug": "magic-mirror", "reason": "Riverside hotel ballrooms give the full-length mirror the setting it needs." },
+    { "slug": "lcd-slimpod", "reason": "The budget-friendly option for birthdays in village halls and smaller receptions around the town." }
+  ],
+  "faqs": [
+    {
+      "q": "Where do you unload for a town-centre venue in Reading?",
+      "a": "We agree a loading bay or delivery entrance with the venue before the day, unload there and move the vehicle to a car park. Business parks and riverside hotels have car parks next to the function suite, so unloading is simple. Park and ride does not apply to our vehicle."
+    },
+    {
+      "q": "Can you manage stairs at an older riverside pub?",
+      "a": "Yes. Several Thames-side pubs have an upstairs function room, and the slim pods can be carried up by two people. The Magic Mirror and Inflatable Booth are better on the ground floor or where there is a lift, so tell us the layout when you book."
+    },
+    {
+      "q": "Is travel to Reading charged?",
+      "a": "No. Delivery, setup and pack-down are included in every package and Reading is well inside our regular area. If a travel contribution ever applied to a far-flung venue, you would see it on the quote up front before paying a deposit."
+    },
+    {
+      "q": "Can the booth capture guest emails at a corporate event?",
+      "a": "Guests enter their email address on the sharing screen to receive their photo or GIF, so you can collect a list of attendees who opted in. We can brand the overlay and the sharing screen with your logo and campaign artwork, and send the full gallery to the organiser afterwards."
+    },
+    {
+      "q": "Will the booth work in a marquee by the river?",
+      "a": "Yes, provided the marquee has a solid level floor and a reliable power supply to a standard socket. We position the booth away from the entrance to keep it dry and tape down cables. Let us know if the marquee is on grass so we can plan the position."
+    }
+  ],
+  "todos": []
+}

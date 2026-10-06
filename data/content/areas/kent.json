@@ -1,0 +1,80 @@
+{
+  "slug": "kent",
+  "title": "Photo Booth Hire Kent | Boothdrop Entertainment",
+  "metaDescription": "Photo booth hire across Kent, from Maidstone and Canterbury to the coast. Eight booths, attendant and setup included, from £299. Get a free quote today.",
+  "h1": "Photo Booth Hire across Kent",
+  "primaryKeyword": "photo booth hire Kent",
+  "intro": "Boothdrop Entertainment provides photo booth hire across Kent, taking in the Medway towns, the Kent Downs, the Weald and the coast from Whitstable round to Folkestone. Choose from eight booths, with packages from £299 that include an attendant, delivery and setup, unlimited sessions and a personalised print design.",
+  "sections": [
+    {
+      "heading": "Oast houses, castles and seaside rooms",
+      "paragraphs": [
+        "Kent's venues are among the most distinctive in the south-east. Converted oast houses and hop barns, with their round kilns and timber interiors, host a large share of the weddings we attend, especially around Maidstone, Tonbridge and Faversham. Historic castles and manor houses, some with moats and gatehouses, offer dramatic backdrops but can bring narrow doorways and strict delivery times. On the coast, Whitstable, Margate, Ramsgate and Folkestone have seafront hotels, beach-side function rooms and restored period venues.",
+        "The Medway towns of Rochester, Chatham and Gillingham supply hotels, riverside venues and community halls for parties and corporate dinners, while the villages across the Kent Downs and the Weald rely on their village halls and country houses. Golf clubs, school halls and sports clubs complete the list."
+      ]
+    },
+    {
+      "heading": "Covering Kent from Dartford to Dover",
+      "paragraphs": [
+        "Starting in the north-west, Dartford, Gravesend and Sevenoaks are within easy reach of the M25 and are among our most frequent stops. Maidstone, the county town, is served from the M20, and Tunbridge Wells and Tonbridge in the west are reached down the A21. Canterbury and Ashford sit at the heart of the county, and we continue out to Faversham, Whitstable, Margate, Ramsgate, Dover and Folkestone on the coast.",
+        "The M20 and M2 are our main routes east, with the A2 carrying us through Canterbury towards Dover. Long drives to Thanet or the Channel coast are planned into the schedule, and because delivery and setup are included in every package, distance within the county is rarely something you need to think about."
+      ]
+    },
+    {
+      "heading": "Weddings in the Weald, parties on the coast, corporate in the Medway",
+      "paragraphs": [
+        "Kent weddings lean towards the rustic: oast houses, barns and farm marquees where the booth sits in a corner of the reception space and runs from after the speeches until late. Our planning advice is to position it near the bar rather than the dance floor, so people drift across in small groups rather than all at once. Guest books are included with every print booth and make a lovely alternative to a traditional signing table.",
+        "Seaside birthday parties and summer balls in Margate, Whitstable and Folkestone, Christmas parties for firms in Maidstone, Ashford and the Medway towns, and school proms from Sevenoaks to Canterbury all feature in a typical year. For corporate events we add the company logo to the print template and send a digital gallery afterwards; for proms we keep the props plentiful and the queue moving."
+      ]
+    },
+    {
+      "heading": "Booths our Kent customers favour",
+      "paragraphs": [
+        "The Retro Pod is a natural match for an oast house or hop barn: its inbuilt printer means almost no visible cables, the footprint is only 1.5 metres square and the classic strip prints suit a rustic colour palette. The Magic Mirror remains the most popular choice for larger country house weddings and castle receptions, where its full-length frame and animations earn their place.",
+        "For seafront venues and big celebrations the Inflatable Booth, lit in a colour chosen to match the theme, draws a crowd and holds up to ten people at a time. The LCD SlimPod is the budget-friendly all-rounder for village hall parties and corporate Christmas dos, with prints, GIFs and smart background removal built in."
+      ],
+      "list": [
+        "Retro Pod for oast houses and barns with tidy cabling",
+        "Magic Mirror for castle and country house weddings",
+        "Inflatable Booth for seafront parties and large guest lists",
+        "LCD SlimPod for village halls and tighter budgets"
+      ]
+    },
+    {
+      "heading": "Setup, access and power in Kent venues",
+      "paragraphs": [
+        "Oast houses can have low beams, round rooms and steps between levels, so we ask about ceiling height and the route from the door to the reception room when you enquire. Castles and manor venues often require suppliers to arrive within a set window and use a specific entrance; we follow whatever the venue coordinator sets out. Seafront venues may only have on-street parking, so we unload quickly and move the vehicle before guests arrive.",
+        "Setup runs for roughly 45 to 60 minutes before the hire period begins and is not charged as hire time. A single standard socket powers every booth except the Inflatable Booth, which uses two. Marquees on farms and in orchards need a reliable 13A supply, and we recommend asking the marquee company to confirm the generator can handle lighting, catering and the booth together without dipping."
+      ]
+    }
+  ],
+  "popularBooths": [
+    { "slug": "retro-pod", "reason": "Oast houses and hop barns dominate Kent weddings, and the inbuilt printer, tidy cabling and classic strip prints suit their timber interiors." },
+    { "slug": "magic-mirror", "reason": "Castle and Kent Downs country house receptions call for a statement piece, and the full-length interactive mirror delivers one." },
+    { "slug": "inflatable-booth", "reason": "Seafront parties in Margate, Whitstable and Folkestone love a glowing showpiece that fits up to ten friends at once." },
+    { "slug": "lcd-slimpod", "reason": "The slim, affordable choice for village hall birthdays across the Weald and corporate Christmas parties in the Medway towns." }
+  ],
+  "faqs": [
+    {
+      "q": "Is parking a problem at seafront venues in Margate or Whitstable?",
+      "a": "Rarely, with a little planning. We unload as close to the entrance as the venue allows, then move the vehicle to a car park nearby for the duration of the event. If the venue has a loading bay or a time-restricted bay, let us know and we will arrive to suit it."
+    },
+    {
+      "q": "Can a booth go upstairs in an oast house or castle venue?",
+      "a": "Yes, provided we know in advance. The slimmer booths such as the Retro Pod and LCD SlimPod are carried up stairs without difficulty; the Magic Mirror and Inflatable Booth are better on the ground floor or where a lift is available. Tell us the room and we will advise."
+    },
+    {
+      "q": "Do you charge extra for travel to Dover, Folkestone or Thanet?",
+      "a": "Delivery and setup are included in every package, and the east Kent coast is well within our usual range. If any travel contribution ever applies to a far-flung venue it is shown on the quote up front, so the price you see is the price you pay."
+    },
+    {
+      "q": "Can you set up in a marquee in an orchard or on a farm?",
+      "a": "Yes, and we do so often in Kent. We need a level, firm floor, cover from the weather and a reliable 13A supply within a few metres. If the marquee is running on a generator, ask the supplier to confirm it will carry the booth alongside the lighting and catering."
+    },
+    {
+      "q": "Which booth fits a small oast roundel or a low-ceilinged barn?",
+      "a": "The Retro Pod and LCD SlimPod both stand under two metres tall and need only 1.5 metres of floor in one direction, so they suit rooms with low beams. The Magic Mirror needs a little over two metres of headroom, and the Inflatable Booth needs three."
+    }
+  ],
+  "todos": []
+}
