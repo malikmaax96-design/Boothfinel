@@ -1,0 +1,21 @@
+    <section class="reviews-block section">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Customer reviews</p>
+          <h2 class="section-title">Rated 5 Stars on Trustpilot</h2>
+          <p class="section-desc">Real feedback from couples, planners and event teams we have worked with.</p>
+        </div>
+        <!-- TODO: client to supply Trustpilot TrustBox embed code (Business ID + template) — paste inside .trustpilot-widget -->
+        <div class="trustpilot-widget reveal" data-trustpilot-placeholder>
+          <a href="{{site.social.trustpilot}}" target="_blank" rel="noopener" class="btn-secondary">Read our reviews on Trustpilot</a>
+        </div>
+        <div class="review-excerpts">
+          {{#each reviews}}<figure class="review-card reveal{{#if todo}} review-card--todo{{/if}}">
+            <span class="stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <blockquote><p>{{text}}</p></blockquote>
+            <figcaption>{{author}}</figcaption>
+          </figure>
+          {{/each}}
+        </div>
+      </div>
+    </section>

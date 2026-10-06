@@ -1,0 +1,27 @@
+    <section class="bd-hero bd-hero--simple">
+      <div class="container">
+{{> breadcrumb}}
+        <p class="section-eyebrow">Tips &amp; inspiration</p>
+        <h1 class="bd-hero-title">{{h1}}</h1>
+        <p class="bd-hero-sub">{{intro}}</p>
+      </div>
+    </section>
+    <section class="blog-section section">
+      <div class="container">
+        <div class="blog-grid blog-grid--index">
+          {{#each posts}}<article class="blog-card reveal">
+            <a href="{{href}}" class="blog-card-img-wrap" aria-hidden="true" tabindex="-1">{{{picture}}}<span class="blog-cat">{{category}}</span></a>
+            <div class="blog-card-body">
+              <div class="blog-meta"><span>{{dateDisplay}}</span><span>&bull;</span><span>{{readingTime}}</span></div>
+              <h2 class="blog-title"><a href="{{href}}">{{h1}}</a></h2>
+              <p class="blog-excerpt">{{excerpt}}</p>
+              <a href="{{href}}" class="blog-read-more">Read more<span class="sr-only"> about {{h1}}</span></a>
+            </div>
+          </article>
+          {{/each}}
+        </div>
+      </div>
+    </section>
+{{> link-lists}}
+{{> quote-form}}
+{{> cta-band}}

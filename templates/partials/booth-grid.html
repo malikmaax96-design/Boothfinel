@@ -1,0 +1,21 @@
+    <section class="booths section" id="booths">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">{{boothGridEyebrow}}</p>
+          <h2 class="section-title">{{boothGridHeading}}</h2>
+          {{#if boothGridDesc}}<p class="section-desc">{{boothGridDesc}}</p>{{/if}}
+        </div>
+        <div class="booths-grid">
+          {{#each boothGrid}}<a href="{{href}}" class="booth-card reveal">
+            <div class="booth-img-wrap">{{{picture}}}</div>
+            <div class="booth-info">
+              <h3>{{name}}</h3>
+              <p>{{tagline}}</p>
+              <span class="booth-tag">{{badge}}</span>
+              <span class="booth-more-info">From &pound;{{priceFrom}}</span>
+            </div>
+          </a>
+          {{/each}}
+        </div>
+      </div>
+    </section>

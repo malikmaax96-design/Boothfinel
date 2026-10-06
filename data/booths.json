@@ -1,0 +1,20 @@
+{
+  "_comment": "Structural booth data (order = display order). Copy lives in data/content/booths/<slug>.json. image = base name in /images (see data/images.json).",
+  "booths": [
+    { "slug": "lcd-slimpod",       "urlSlug": "lcd-slimpod-hire",            "image": "booth-slimpod",    "formValue": "LCD SlimPod" },
+    { "slug": "magic-mirror",      "urlSlug": "magic-mirror-hire",           "image": "booth-magic",      "formValue": "Magic Mirror" },
+    { "slug": "360-booth",         "urlSlug": "360-photo-booth-hire",        "image": "booth-360",        "formValue": "360 Booth", "imageTodo": "TODO: client to supply a 360 Booth photo (placeholder graphic in use)" },
+    { "slug": "selfie-mirror-pod", "urlSlug": "selfie-mirror-pod-hire",      "image": "booth-selfie",     "formValue": "Selfie Mirror Pod" },
+    { "slug": "retro-pod",         "urlSlug": "retro-pod-hire",              "image": "booth-retro",      "formValue": "Retro Pod" },
+    { "slug": "party-booth",       "urlSlug": "party-booth-hire",            "image": "booth-party",      "formValue": "Party Booth" },
+    { "slug": "inflatable-booth",  "urlSlug": "inflatable-photo-booth-hire", "image": "booth-inflatable", "formValue": "Inflatable Booth", "imageTodo": "TODO: client to supply a higher-resolution Inflatable Booth photo (current source is 280×280px)" },
+    { "slug": "gif-booth",         "urlSlug": "gif-booth-hire",              "image": "booth-gif",        "formValue": "GIF Booth" }
+  ],
+  "events": [
+    { "slug": "wedding-photo-booth-hire",        "name": "Weddings" },
+    { "slug": "asian-wedding-photo-booth-hire",  "name": "Asian Weddings" },
+    { "slug": "corporate-photo-booth-hire",      "name": "Corporate Events" },
+    { "slug": "prom-photo-booth-hire",           "name": "Proms" },
+    { "slug": "birthday-party-photo-booth-hire", "name": "Birthday Parties" }
+  ]
+}

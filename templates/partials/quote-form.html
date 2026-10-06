@@ -1,0 +1,74 @@
+    <section class="contact-section section" id="quote">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Get in touch</p>
+          <h2 class="section-title">{{quoteHeading}}</h2>
+          <p class="section-desc">Tell us about your event and we will reply with a quote within 24 hours.</p>
+        </div>
+        <form class="cq-form reveal" id="enquiryForm" action="{{site.formHandlerFallback}}" method="POST" data-handler="{{site.formHandler}}" data-whatsapp="{{site.whatsapp}}" novalidate>
+          <input type="hidden" name="_subject" value="New photo booth enquiry via boothdrop.co.uk">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="page" value="{{canonical}}">
+          <input type="text" name="_honey" class="cq-honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="cq-form-row">
+            <div class="cq-form-group">
+              <label for="cqName">Your name <span aria-hidden="true">*</span></label>
+              <input type="text" id="cqName" name="name" autocomplete="name" required maxlength="100">
+            </div>
+            <div class="cq-form-group">
+              <label for="cqTel">Phone <span aria-hidden="true">*</span></label>
+              <input type="tel" id="cqTel" name="phone" autocomplete="tel" required maxlength="30" inputmode="tel">
+            </div>
+          </div>
+          <div class="cq-form-row">
+            <div class="cq-form-group">
+              <label for="cqEmail">Email <span aria-hidden="true">*</span></label>
+              <input type="email" id="cqEmail" name="email" autocomplete="email" required maxlength="120">
+            </div>
+            <div class="cq-form-group">
+              <label for="cqDate">Event date</label>
+              <input type="date" id="cqDate" name="event_date">
+            </div>
+          </div>
+          <div class="cq-form-row">
+            <div class="cq-form-group">
+              <label for="cqEventType">Event type <span aria-hidden="true">*</span></label>
+              <select id="cqEventType" name="event_type" required>
+                <option value="">Select an event type</option>
+                {{#each eventTypesForm}}<option{{#if selected}} selected{{/if}}>{{label}}</option>
+                {{/each}}
+              </select>
+            </div>
+            <div class="cq-form-group">
+              <label for="cqPostcode">Venue postcode</label>
+              <input type="text" id="cqPostcode" name="postcode" autocomplete="postal-code" maxlength="10" placeholder="e.g. SW1A 1AA">
+            </div>
+          </div>
+          <div class="cq-form-row">
+            <div class="cq-form-group cq-full">
+              <label for="cqBooth">Booth of interest</label>
+              <select id="cqBooth" name="booth">
+                <option value="">Not sure yet - please advise</option>
+                {{#each boothOptions}}<option{{#if selected}} selected{{/if}}>{{label}}</option>
+                {{/each}}
+              </select>
+            </div>
+          </div>
+          <div class="cq-form-group cq-full">
+            <label for="cqNotes">Anything else we should know?</label>
+            <textarea id="cqNotes" name="notes" rows="4" maxlength="2000" placeholder="Venue name, guest numbers, hire hours, special requirements"></textarea>
+          </div>
+          <div class="cq-form-actions">
+            <button type="submit" class="btn-primary cq-submit-btn" id="enquirySubmitBtn">Send Enquiry</button>
+            <div class="cq-contact-quick">
+              <a href="{{site.phoneTelLink}}">Call {{site.phoneDisplay}}</a>
+              <a href="{{site.whatsapp}}" target="_blank" rel="noopener">WhatsApp us</a>
+              <a href="mailto:{{site.email}}">Email us</a>
+            </div>
+          </div>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          <p class="form-privacy">We only use your details to reply to this enquiry. See our <a href="/privacy-policy">privacy policy</a>.</p>
+        </form>
+      </div>
+    </section>

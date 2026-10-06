@@ -1,0 +1,212 @@
+[
+  {
+    "from": "/booths/lcd-slimpod",
+    "to": "/booths/lcd-slimpod-hire",
+    "reason": "booth page moved to clean keyword URL"
+  },
+  {
+    "from": "/booths/magic-mirror",
+    "to": "/booths/magic-mirror-hire",
+    "reason": "booth page moved to clean keyword URL"
+  },
+  {
+    "from": "/booths/selfie-mirror-pod",
+    "to": "/booths/selfie-mirror-pod-hire",
+    "reason": "booth page moved to clean keyword URL"
+  },
+  {
+    "from": "/booths/retro-pod",
+    "to": "/booths/retro-pod-hire",
+    "reason": "booth page moved to clean keyword URL"
+  },
+  {
+    "from": "/booths/party-booth",
+    "to": "/booths/party-booth-hire",
+    "reason": "booth page moved to clean keyword URL"
+  },
+  {
+    "from": "/booths/inflatable-booth",
+    "to": "/booths/inflatable-photo-booth-hire",
+    "reason": "booth page moved to clean keyword URL"
+  },
+  {
+    "from": "/booths/gif-booth",
+    "to": "/booths/gif-booth-hire",
+    "reason": "booth page moved to clean keyword URL"
+  },
+  {
+    "from": "/services",
+    "to": "/events/",
+    "reason": "legacy section URL"
+  },
+  {
+    "from": "/gallery",
+    "to": "/#gallery",
+    "reason": "legacy anchor section"
+  },
+  {
+    "from": "/about",
+    "to": "/#about",
+    "reason": "legacy anchor section"
+  },
+  {
+    "from": "/book",
+    "to": "/contact#book",
+    "reason": "legacy booking URL"
+  },
+  {
+    "from": "/booking",
+    "to": "/contact#book",
+    "reason": "legacy booking URL"
+  },
+  {
+    "from": "/photobooth-for-hire-in-london",
+    "to": "/areas/photo-booth-hire-london",
+    "reason": "legacy agency area URL pattern (not present in this repo; redirected as a safety net)"
+  },
+  {
+    "from": "/photobooth-for-hire-in-central-london",
+    "to": "/areas/photo-booth-hire-central-london",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-north-london",
+    "to": "/areas/photo-booth-hire-north-london",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-east-london",
+    "to": "/areas/photo-booth-hire-east-london",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-south-london",
+    "to": "/areas/photo-booth-hire-south-london",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-south-east-london",
+    "to": "/areas/photo-booth-hire-south-east-london",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-south-west-london",
+    "to": "/areas/photo-booth-hire-south-west-london",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-west-london",
+    "to": "/areas/photo-booth-hire-west-london",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-oxfordshire",
+    "to": "/areas/photo-booth-hire-oxfordshire",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-berkshire",
+    "to": "/areas/photo-booth-hire-berkshire",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-hampshire",
+    "to": "/areas/photo-booth-hire-hampshire",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-kent",
+    "to": "/areas/photo-booth-hire-kent",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-essex",
+    "to": "/areas/photo-booth-hire-essex",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-surrey",
+    "to": "/areas/photo-booth-hire-surrey",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-cambridgeshire",
+    "to": "/areas/photo-booth-hire-cambridgeshire",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-west-sussex",
+    "to": "/areas/photo-booth-hire-west-sussex",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-bedfordshire",
+    "to": "/areas/photo-booth-hire-bedfordshire",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-hertfordshire",
+    "to": "/areas/photo-booth-hire-hertfordshire",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-buckinghamshire",
+    "to": "/areas/photo-booth-hire-buckinghamshire",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-nottinghamshire",
+    "to": "/areas/photo-booth-hire-nottinghamshire",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-northamptonshire",
+    "to": "/areas/photo-booth-hire-northamptonshire",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-oxford",
+    "to": "/areas/photo-booth-hire-oxford",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-bromley",
+    "to": "/areas/photo-booth-hire-bromley",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-northampton",
+    "to": "/areas/photo-booth-hire-northampton",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-aylesbury",
+    "to": "/areas/photo-booth-hire-aylesbury",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-reading",
+    "to": "/areas/photo-booth-hire-reading",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-slough",
+    "to": "/areas/photo-booth-hire-slough",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-chelmsford",
+    "to": "/areas/photo-booth-hire-chelmsford",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-cambridge",
+    "to": "/areas/photo-booth-hire-cambridge",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-luton",
+    "to": "/areas/photo-booth-hire-luton",
+    "reason": "legacy agency area URL pattern"
+  }
+]

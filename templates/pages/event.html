@@ -1,0 +1,26 @@
+{{> hero}}
+{{> sections}}
+    <section class="booths section">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Our recommendations</p>
+          <h2 class="section-title">Best Booths for {{name}}</h2>
+        </div>
+        <div class="booths-grid">
+          {{#each popularBoothCards}}<a href="{{href}}" class="booth-card reveal">
+            <div class="booth-img-wrap">{{{picture}}}</div>
+            <div class="booth-info">
+              <h3>{{name}}</h3>
+              <p>{{reason}}</p>
+              <span class="booth-more-info">From &pound;{{priceFrom}}</span>
+            </div>
+          </a>
+          {{/each}}
+        </div>
+      </div>
+    </section>
+{{> link-lists}}
+{{> faq}}
+{{> reviews}}
+{{> quote-form}}
+{{> cta-band}}
