@@ -1,0 +1,73 @@
+{
+  "slug": "home",
+  "title": "Photo Booth Hire UK | Boothdrop Entertainment",
+  "metaDescription": "Photo booth hire across London, the Home Counties, South East, East of England and the Midlands from £299 with an attendant and prints. Get a free quote.",
+  "h1": "Photo Booth Hire: The Perfect Booth for Every Occasion",
+  "heroSubtitle": "Photo booth hire for weddings, parties and corporate events across London, the South East, the East of England and the Midlands",
+  "heroTagline": "Eight booths, a professional attendant on every booking and prints your guests take home. Packages from £299.",
+  "primaryKeyword": "photo booth hire",
+  "intro": "Boothdrop Entertainment brings mirror booths, open-air pods, enclosed booths and 360 video to weddings, parties and corporate events. Every hire includes a professional attendant, free setup, unlimited sessions and custom prints, with packages from £299.",
+  "sections": [
+    {
+      "heading": "About",
+      "paragraphs": [
+        "Boothdrop Entertainment is a mobile photo booth hire company serving weddings, proms, birthday parties and corporate events across London, the Home Counties, the South East, the East of England and the Midlands. We run eight different booths, from the LCD SlimPod and Retro Pod to the Magic Mirror, Inflatable Booth and 360 Booth, so there is a fit for every room and every budget. Each one is delivered, built and operated by our own attendant.",
+        "What we care about is simple: the booth turns up on time, looks right in the room, works all night and leaves guests with photos they actually want to keep. That means DSLR cameras, LED lighting, print templates designed around your event and an attendant who keeps the queue moving. We are rated 5 stars on Trustpilot, and we treat every booking as the one that earns the next review."
+      ]
+    },
+    {
+      "heading": "Photo booth hire for weddings, parties and corporate events",
+      "paragraphs": [
+        "Weddings are where most people first meet our booths. The Magic Mirror is the favourite, with its full-length frame, on-screen games and prints for every guest, and the guest book fills with photos and messages while the dance floor warms up. For birthday parties, the LCD SlimPod is the most affordable and most popular choice, slim enough for a pub function room and clever enough to swap backgrounds without a green screen.",
+        "Corporate clients use the GIF Booth and 360 Booth for brand activations, Christmas parties and awards evenings, with logos on every overlay and instant sharing by email or QR code. Proms love the Selfie Mirror Pod and the curtained Party Booth. Asian weddings with big guest lists are well served by the Inflatable Booth, which takes up to ten people and glows in the colours of your event."
+      ]
+    },
+    {
+      "heading": "Where we cover",
+      "paragraphs": [
+        "We are a mobile service, so the booth comes to your venue. In London we cover all 32 boroughs and the City, with area pages for Central, North, East, South, South East, South West and West London and practical notes on the Congestion Charge, ULEZ and venue loading. Across the Home Counties we are regularly in Surrey, Kent, Essex, Hertfordshire, Berkshire, Buckinghamshire and Bedfordshire, from village halls to golf clubs and country house hotels.",
+        "Further out, we travel into Hampshire and West Sussex towards the South Coast, Oxfordshire to the west, Cambridgeshire and the East of England, and north through Northamptonshire to Nottinghamshire. Delivery, setup and pack-down are free across our service area, and for the longest journeys we confirm on the quote whether any travel contribution applies. If your venue is not somewhere we have named, ask anyway."
+      ]
+    },
+    {
+      "heading": "Why choose Boothdrop Entertainment",
+      "paragraphs": [
+        "There is no booth-only hire with us. A trained attendant is on every booking to set up, run the session, manage props and help guests share, and they stay until the hire ends. Delivery, setup and pack-down are free, sessions are unlimited during the hire, props and LED lighting are included and every print or digital file carries a template designed with you. We are fully insured for public liability and can send the certificate to your venue.",
+        "Booking is straightforward. Check live availability online or send us the date, venue postcode and guest numbers and we will quote within 24 hours. An £80 deposit secures the date, the balance is due one month before the event and our terms come with the confirmation. Call or WhatsApp 07368 631 516, or email info.boothdrop@boothdrop.co.uk."
+      ],
+      "list": [
+        "Eight booths covering prints, digital and 360 video",
+        "Professional attendant on every hire",
+        "Free delivery, setup and pack-down",
+        "Unlimited sessions, props and LED lighting",
+        "Custom templates with your names, date or logo",
+        "Rated 5 stars on Trustpilot"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much does photo booth hire cost?",
+      "a": "Our packages start from £299, with the final price depending on the booth, the hire length and your venue location. Every quote includes the attendant, free delivery, setup and pack-down, unlimited sessions, props, LED lighting and a custom template, so the figure we give you is the full price."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "London and all its boroughs, the Home Counties, the wider South East including Hampshire and West Sussex, the East of England including Essex and Cambridgeshire, and the Midlands as far as Northamptonshire and Nottinghamshire. If your venue is just outside those areas, ask and we will check the diary."
+    },
+    {
+      "q": "What is included with every booking?",
+      "a": "A professional attendant for the full hire, free delivery, setup and pack-down, unlimited sessions, props, LED lighting, a custom print or overlay template with your text or logo, digital copies with email and social sharing, a guest book with print booths and public liability insurance. A green screen is available on request."
+    },
+    {
+      "q": "How do we book a photo booth?",
+      "a": "Check live availability on our site or send us the date, venue postcode, guest numbers and the booth you like. We quote within 24 hours. An £80 deposit secures the date, the balance is due one month before the event, and our terms are sent with your confirmation."
+    },
+    {
+      "q": "What does the venue need to provide?",
+      "a": "A level indoor space, typically 1.5m by 2m up to about 2.5m square depending on the booth, and one standard plug socket. The Inflatable Booth needs around 4m by 4m with 3m of headroom and two sockets. We confirm the 360 Booth's requirements for your venue at quote stage."
+    }
+  ],
+  "todos": [
+    "TODO: client to supply 360 Booth dimensions/space/power"
+  ]
+}

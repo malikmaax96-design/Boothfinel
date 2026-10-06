@@ -1,0 +1,73 @@
+{
+  "slug": "reviews",
+  "title": "Customer Reviews | Boothdrop Entertainment",
+  "metaDescription": "Boothdrop Entertainment is rated 5 stars on Trustpilot. See what customers mention most about our photo booths and how to leave a review. Get a free quote.",
+  "h1": "Boothdrop Entertainment Reviews",
+  "primaryKeyword": "Boothdrop Entertainment reviews",
+  "intro": "We are rated 5 stars on Trustpilot, and that rating is built one event at a time. This page explains why feedback matters to us, the themes that come up again and again, and how to leave a review of your own once your event is over.",
+  "sections": [
+    {
+      "heading": "Why feedback shapes how we work",
+      "paragraphs": [
+        "Photo booth hire is a service you only experience once the day arrives, so word of mouth carries more weight than any brochure. When a couple or an events manager takes the time to write about their booth, it tells the next planner what to expect and tells us what to keep doing. We read every review, including the shortest ones, and we talk them through as a team after busy weekends.",
+        "Honest feedback also catches the small things. A comment about a print template that needed a last-minute tweak, or a queue that built up during the speeches, becomes a change to how we brief the attendant at the next booking. We would far rather hear it than not, which is why we ask every client for a few words once their photos have been delivered."
+      ]
+    },
+    {
+      "heading": "What customers consistently mention",
+      "paragraphs": [
+        "We will not quote individual reviews here, partly because they belong to the people who wrote them and partly because you can read them in full on Trustpilot. There are, though, a few themes that come up time and again, and they match the parts of the service we work hardest on.",
+        "Those themes are not accidental. Punctuality comes from planning travel properly and arriving with time in hand. Print quality comes from DSLR cameras, dye-sublimation printers and LED lighting that is set for the room rather than left on default. The attendant is the part guests remember most, which is exactly why every booking has one."
+      ],
+      "list": [
+        "Punctual arrival and a setup finished before guests notice",
+        "A friendly attendant who keeps the queue moving and the props tidy",
+        "Sharp, bright prints that come out in seconds",
+        "Templates that match the invitations, colours or company branding",
+        "Clear communication from the first quote to the final gallery",
+        "Guest books that are full by the end of the night"
+      ]
+    },
+    {
+      "heading": "How to leave a review on Trustpilot",
+      "paragraphs": [
+        "After your event, once the digital gallery or USB has been sent, we email a link to our Trustpilot profile. Click through, choose a star rating and write a few sentences about the day. You do not need an account beforehand, as Trustpilot will ask you to confirm your email address so the review can be verified. If you cannot find the email, message us and we will resend the link.",
+        "The most helpful reviews mention the kind of event, the booth you hired and anything a future planner would want to know, such as how the booth fitted into a marquee or how the attendant handled a large group. A line about the prints or the guest book is always welcome too. Photos are not required, but Trustpilot allows them if you want to show the setup."
+      ]
+    },
+    {
+      "heading": "What we promise every client",
+      "paragraphs": [
+        "A five-star rating is only worth keeping if we earn it again at the next event. So this is what we commit to on every booking, whether it is a small birthday in a village hall or a corporate evening at a conference centre: a professional attendant for the full hire, free delivery, setup and pack-down, unlimited sessions, props, LED lighting and a custom template designed with you before the day.",
+        "We also promise straightforward communication. Packages start from £299, an £80 deposit holds the date and the balance is due one month before the event. If anything changes on your side, such as timings or a new venue, tell us and we will adjust the plan. If something is not right on the night, tell the attendant and it will be sorted there and then."
+      ]
+    },
+    {
+      "heading": "Where your feedback goes",
+      "paragraphs": [
+        "Reviews do not just sit on a profile page. Comments about particular booths influence what we invest in next, remarks about templates feed into the designs we offer, and mentions of individual attendants are passed on to them directly. If you have a suggestion that does not belong in a public review, email info.boothdrop@boothdrop.co.uk and it will reach the same people."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Where can we read reviews of Boothdrop Entertainment?",
+      "a": "On our Trustpilot profile, where every review is verified and shown in full. We link to it rather than copying reviews onto our own site so you can read them unedited and in context, including the type of event and the booth that was hired."
+    },
+    {
+      "q": "How do we leave a review after our event?",
+      "a": "Once your gallery or USB has been delivered we email a link to Trustpilot. Follow it, pick a star rating and write a few sentences about the day. Trustpilot asks you to confirm your email address so the review can be verified. If you cannot find the link, message us and we will resend it."
+    },
+    {
+      "q": "Can a guest leave a review, or only the person who booked?",
+      "a": "Anyone who experienced the booth is welcome to leave feedback. If you were a guest rather than the organiser, mention the event date or venue type in the review so we can match it to the booking and pass the comments on to the attendant who was there."
+    },
+    {
+      "q": "What happens if something goes wrong on the night?",
+      "a": "Tell the attendant straight away and they will put it right there and then, whether that is a reprint, a template tweak or moving the booth. If something still falls short, contact us afterwards. We would always rather hear about it and fix it than read it later."
+    }
+  ],
+  "todos": [
+    "TODO: client to supply Trustpilot profile URL for the review link"
+  ]
+}

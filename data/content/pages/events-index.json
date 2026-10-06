@@ -1,0 +1,70 @@
+{
+  "slug": "events",
+  "title": "Photo Booth Hire for Events | Boothdrop Entertainment",
+  "metaDescription": "Photo booth hire for weddings, Asian weddings, corporate events, proms and birthday parties, with an attendant and prints from £299. Get a free quote.",
+  "h1": "Photo Booth Hire for Events of Every Kind",
+  "primaryKeyword": "photo booth hire for events",
+  "intro": "A photo booth does a different job at a wedding than it does at a product launch, which is why we plan each booking around the event rather than the hardware. Below is how we approach the five occasions we are booked for most often, along with the booths that tend to suit each one. Packages start from £299.",
+  "sections": [
+    {
+      "heading": "Weddings",
+      "paragraphs": [
+        "At a wedding the booth has two jobs: entertain guests during the lull between the meal and the first dance, and leave the couple with a guest book full of photos and messages. The Magic Mirror is the one couples ask for most, with its full-length frame, on-screen animations and prints for everyone in the shot. The Retro Pod suits couples who love the classic photo-strip look, and the LCD SlimPod is a tidy choice for barns and halls where space is tight.",
+        "We design the print template around your stationery, with names and date, and the attendant encourages guests to stick a copy in the guest book and write a note. Evening-only hire is common, but ask us about an early build if the booth is in the same room as the wedding breakfast."
+      ]
+    },
+    {
+      "heading": "Asian weddings",
+      "paragraphs": [
+        "Multi-day celebrations, large guest lists and richly coloured decor call for a booth that can keep pace. The Inflatable Booth takes up to ten people and its glow can be matched to the mandap or stage colours; the Magic Mirror and Selfie Mirror Pod take up to eight and print for every guest. Templates can carry both families' names, bilingual text and motifs that echo the invitations. For banqueting halls with high throughput, we will advise on positioning so the queue never blocks the dance floor or the food service."
+      ]
+    },
+    {
+      "heading": "Corporate events",
+      "paragraphs": [
+        "For conferences, awards nights, summer socials and Christmas parties, the booth is part icebreaker, part branding tool. Every print or digital file carries your logo on a custom overlay, and the GIF Booth delivers boomerangs and stills straight to guests by email or QR code, making it a natural fit for brand activations and social campaigns. The 360 Booth creates slow-motion video that colleagues share for days afterwards.",
+        "Office Christmas parties are our busiest corporate season, so December dates go early. Venue access, loading bays and a named on-site contact matter more at corporate venues, and we sort those out with your events team well before the day."
+      ]
+    },
+    {
+      "heading": "Proms",
+      "paragraphs": [
+        "Prom guests want to be seen in their outfits, so an open-air booth with a big screen earns its place. The Selfie Mirror Pod and Magic Mirror give instant prints for every student in the shot, while the Party Booth with its curtain is a hit with friendship groups who want to pile in. School halls and hotel function rooms both work well, and our attendant keeps the props tidy and the queue orderly. Templates can include the school crest, year group and prom date, and digital copies go to the organiser for the yearbook or the school's social accounts."
+      ]
+    },
+    {
+      "heading": "Birthday parties",
+      "paragraphs": [
+        "From 18ths and 21sts to 40ths, 50ths and surprise parties, a booth gives guests something to do between the cake and the DJ. The LCD SlimPod is the most affordable option and fits in a village hall or pub function room without fuss. The Party Booth brings private, enclosed silliness for larger groups, and the Inflatable Booth makes a statement in a marquee or large hall.",
+        "Birthday templates can be as playful as you like: a photo of the birthday person, a nickname, the year they were born. Festive birthdays and family Christmas parties get the same treatment, with seasonal props and a template to match."
+      ]
+    },
+    {
+      "heading": "Choosing the right booth for your event",
+      "paragraphs": [
+        "If you are torn between two booths, three questions usually settle it. How much floor space is there? How many guests will want to be in one shot? Do you want prints, digital files or both? Tell us the answers along with the date and venue postcode and we will recommend one or two options, with a quote, within 24 hours."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you cover events that are not listed here?",
+      "a": "Yes. Christenings, anniversaries, school fairs, charity balls, graduation celebrations and community events all book with us. The booths and the service are the same; we simply adapt the template, the props and the timings to suit. Tell us about the occasion and we will recommend a booth."
+    },
+    {
+      "q": "When should the booth run during a wedding?",
+      "a": "Most couples run it from the end of the speeches through the evening reception, when guests are relaxed and the evening crowd has arrived. If the booth must be built before the wedding breakfast because the room is shared, ask about an early setup with the booth switched off until later."
+    },
+    {
+      "q": "Which booth works best for a brand activation?",
+      "a": "The GIF Booth, which is digital-only with a custom animated overlay and instant delivery by email or QR code, or the 360 Booth for slow-motion video that gets shared widely. Both carry your branding on every file. For the 360 Booth we confirm space and power with your venue."
+    },
+    {
+      "q": "Can you provide a booth for an office Christmas party?",
+      "a": "Yes, and December is our busiest corporate month, so book early. The Party Booth and Inflatable Booth are popular for big groups, while the LCD SlimPod fits smaller venues. We bring seasonal props and design a festive template with your company logo and the year."
+    }
+  ],
+  "todos": [
+    "TODO: client to supply 360 Booth dimensions/space/power"
+  ]
+}
