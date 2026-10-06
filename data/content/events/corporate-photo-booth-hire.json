@@ -1,0 +1,120 @@
+{
+  "slug": "corporate-photo-booth-hire",
+  "name": "Corporate Events",
+  "shortName": "corporate",
+  "image": "booth-gif",
+  "title": "Corporate Photo Booth Hire | Boothdrop Entertainment",
+  "metaDescription": "Corporate photo booth hire with your branding on every print and file, GDPR-aware data capture and insurance documents on request. From £299. Get a quote.",
+  "h1": "Corporate Photo Booth Hire",
+  "primaryKeyword": "corporate photo booth hire",
+  "intro": "Corporate photo booth hire from Boothdrop Entertainment puts your branding on every print and every digital file, handles guest data properly and arrives with the paperwork your venue will ask for. We supply awards nights, Christmas parties, product launches, exhibition stands and conferences across London, the South East and the Midlands, with packages from £299.",
+  "sections": [
+    {
+      "heading": "Your branding on every print and every file",
+      "paragraphs": [
+        "Every package includes a custom overlay designed to your brand guidelines. Logo, colours, campaign strapline, hashtag and event name are placed on the print and carried through to the digital copies guests receive by email, so the image that ends up on someone's phone or on social media still carries your name. The booth start screen can be branded too, and for digital-first events we produce an animated overlay for GIFs and boomerangs.",
+        "Send us a logo file and your brand colours, or a full artwork brief from your agency, and we will return a proof for sign-off well before the event. Changes are no trouble, and the approved design is locked in so what appears on the night is exactly what your marketing team approved."
+      ]
+    },
+    {
+      "heading": "Data capture, consent and GDPR",
+      "paragraphs": [
+        "If you want to collect email addresses for marketing, the booth can ask for them, but guests always choose whether to enter one. Email collection is opt-in and a guest can simply take their print and walk away. If you would rather not collect anything, we switch email and social sharing off entirely and guests receive prints only, which is often the right call for events with external attendees or a sensitive audience.",
+        "Images are held securely after the event and handed to you on USB or as a download where that is part of the package. We only keep images as long as you need us to, and we delete them once you confirm you have everything. If your procurement or legal team needs our data handling arrangements in writing, ask and we will set them out."
+      ]
+    },
+    {
+      "heading": "Events where a booth earns its place",
+      "paragraphs": [
+        "Awards nights are the obvious fit: a booth beside the drinks reception gives tables something to do between courses and gives the comms team a stream of branded images before the first award is handed out. Christmas parties are the busiest season and the dates go early. Product launches use the booth as a backdrop for the new product, and exhibition stands use it to stop foot traffic and open a conversation."
+      ],
+      "list": [
+        "Awards dinners and gala nights",
+        "Staff Christmas parties and summer socials",
+        "Product launches and press events",
+        "Exhibition and trade show stands",
+        "Conference networking breaks and drinks receptions",
+        "Client hospitality and team milestones"
+      ]
+    },
+    {
+      "heading": "The GIF Booth for social-first activations",
+      "paragraphs": [
+        "When the point is content rather than keepsakes, the GIF Booth is the one to book. It is the same slim hardware as the LCD SlimPod but digital-only: GIFs, boomerangs and stills delivered instantly by email or QR code, with your animated overlay on every file and smart background removal so guests can be dropped onto a branded backdrop without a green screen. It has the smallest footprint of anything we hire, 1.5m by 2m on one socket, which is why it works on an exhibition stand where every square metre is paid for."
+      ]
+    },
+    {
+      "heading": "Working with venue AV teams and your compliance checklist",
+      "paragraphs": [
+        "Conference centres and hotels usually have an in-house AV team and a list of supplier requirements. We liaise with them on load-in, power and positioning, bring our own extension leads and keep cables tidy and taped down. Our risk assessment and public liability insurance documents are available on request and can be sent ahead of the event for the venue file. If the venue needs a specific arrival window or a named contact on site, let us know when you book and we will work to it."
+      ]
+    },
+    {
+      "heading": "Which booth suits a corporate event",
+      "paragraphs": [
+        "For a hotel ballroom or awards dinner, the Magic Mirror gives the most presence and takes up to eight people in a shot. For a networking break or a stand where floor space is tight, the LCD SlimPod or GIF Booth fit in 1.5m by 2m with one socket. The Selfie Mirror Pod sits between the two: DSLR quality, an instant print for each guest and a USB of everything handed over at the end."
+      ],
+      "list": [
+        "GIF Booth: digital-only, instant QR delivery, animated branded overlay",
+        "LCD SlimPod: compact, affordable, virtual props and background removal",
+        "Magic Mirror: full-length mirror for ballrooms and awards nights",
+        "Selfie Mirror Pod: DSLR prints for each guest with USB handover"
+      ]
+    },
+    {
+      "heading": "Invoicing, purchase orders and how to book",
+      "paragraphs": [
+        "We invoice in the normal way and will quote your purchase order number on the invoice. Packages start from £299; an £80 deposit secures the date and the balance is due one month before the event. Every booking includes a professional attendant, free delivery, setup and pack-down, unlimited sessions, props, your branded template, digital copies and full public liability insurance.",
+        "Send over the date, venue and expected headcount and we reply within 24 hours with a quote. We are a mobile service across London, the Home Counties, the South East, the East of England and the Midlands, so a regional roadshow or a multi-site Christmas party can be covered by the same team."
+      ]
+    }
+  ],
+  "popularBooths": [
+    {
+      "slug": "gif-booth",
+      "reason": "Digital-only GIFs and boomerangs with instant QR delivery and an animated branded overlay, in the smallest footprint we offer."
+    },
+    {
+      "slug": "lcd-slimpod",
+      "reason": "Compact and affordable, with background removal that drops guests onto a branded backdrop without a green screen."
+    },
+    {
+      "slug": "magic-mirror",
+      "reason": "The booth with the most presence for an awards night or a hotel ballroom, printing for everyone in the group."
+    },
+    {
+      "slug": "selfie-mirror-pod",
+      "reason": "DSLR quality, an instant print for each guest and a USB of the full set for your comms team."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you put our logo on the photos?",
+      "a": "Yes, on every print and every digital file. Send us your logo, brand colours and any campaign wording and we will design a template for sign-off before the event. The GIF Booth and LCD SlimPod can also carry an animated overlay on GIFs and boomerangs, so shared content keeps your branding."
+    },
+    {
+      "q": "How do you handle guest data under GDPR?",
+      "a": "Email collection is opt-in; guests decide whether to enter an address and can take a print without doing so. Sharing can be switched off completely if you prefer. We only keep images as long as you need us to and delete them once you confirm you have your copies. We can set this out in writing for your procurement team."
+    },
+    {
+      "q": "Can you send a risk assessment and insurance certificate to our venue?",
+      "a": "Yes. Our risk assessment and public liability insurance documents are available on request and we will send them ahead of the event so the venue or your events team can file them. We also liaise with the venue AV team on load-in times, power and where the booth stands."
+    },
+    {
+      "q": "Do you accept purchase orders?",
+      "a": "We do. Give us your PO number when you confirm and it will appear on the invoice. Packages start from £299 with an £80 deposit to secure the date and the balance due one month before the event. If your finance team needs a supplier form completed, send it with the booking."
+    },
+    {
+      "q": "Which booth works best on an exhibition stand?",
+      "a": "The GIF Booth. It needs only 1.5m by 2m and one socket, delivers GIFs and stills instantly by QR code, and carries your animated overlay on every file, so visitors share branded content while they are still on the stand. If you want prints to hand out, the LCD SlimPod uses the same footprint."
+    },
+    {
+      "q": "How early should we book a company Christmas party?",
+      "a": "As early as you can. December dates are the busiest of the year and Fridays and Saturdays go first. An £80 deposit secures the date, so most companies hold it as soon as the venue is confirmed and finalise the template and headcount later in the autumn."
+    }
+  ],
+  "todos": [
+    "TODO: client to confirm data retention period after events (how long images are held before deletion)",
+    "TODO: client to confirm whether invoiced corporate bookings follow standard deposit/balance terms or 30-day payment terms"
+  ]
+}
