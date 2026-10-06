@@ -1,0 +1,23 @@
+{{> hero}}
+{{> sections}}
+    <section class="popular-booths section">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Local favourites</p>
+          <h2 class="section-title">Most Popular Booths in {{name}}</h2>
+        </div>
+        <div class="popular-grid">
+          {{#each popularBoothCards}}<a href="{{href}}" class="popular-card reveal">
+            {{{picture}}}
+            <div class="popular-card-body"><h3>{{name}}</h3><p>{{reason}}</p></div>
+          </a>
+          {{/each}}
+        </div>
+      </div>
+    </section>
+{{> booth-grid}}
+{{> link-lists}}
+{{> faq}}
+{{> reviews}}
+{{> quote-form}}
+{{> cta-band}}

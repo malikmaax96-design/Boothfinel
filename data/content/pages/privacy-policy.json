@@ -1,0 +1,55 @@
+{
+  "slug": "privacy-policy",
+  "title": "Privacy Policy | Boothdrop Entertainment",
+  "metaDescription": "How Boothdrop Entertainment collects, uses and protects the details you share when you enquire or book a photo booth. Questions? Call 07368 631 516.",
+  "h1": "Privacy Policy",
+  "primaryKeyword": "privacy policy",
+  "intro": "This policy explains what personal information we collect through this website and our booking process, why we collect it, and the choices you have.",
+  "sections": [
+    {
+      "heading": "Who we are",
+      "paragraphs": [
+        "Boothdrop Entertainment provides mobile photo booth hire for events. We are the data controller for the personal information described on this page. You can contact us about anything in this policy by emailing info.boothdrop@boothdrop.co.uk or calling 07368 631 516.",
+        "TODO: client to supply the registered business name, trading address and (if registered) company and ICO registration numbers for this section."
+      ]
+    },
+    {
+      "heading": "What we collect and why",
+      "paragraphs": [
+        "When you send an enquiry through our quote form we collect your name, phone number, email address, event date, event type, venue postcode, the booth you are interested in and any notes you add. We use these details to reply to your enquiry, prepare a quote and, if you book, to deliver the service. The legal basis is taking steps at your request before entering a contract, and then performing that contract.",
+        "If you book online through our booking system, the provider (BoothBook) processes your booking and payment details under its own privacy policy. We receive the booking information needed to run your event.",
+        "During an event, guests may choose to email themselves photos or GIFs from the booth. Those email addresses are used only to deliver the images and are not added to any marketing list."
+      ]
+    },
+    {
+      "heading": "How enquiries are delivered",
+      "paragraphs": [
+        "Our quote form is delivered to us by email through FormSubmit, a third-party form-handling service, and we may also open a pre-filled WhatsApp message on your device so you can send the same details to us directly if you prefer. WhatsApp is operated by Meta and is subject to its own privacy policy.",
+        "This website is hosted by Hostinger. Fonts are loaded from Google Fonts, which may record your IP address when the font files are requested. We do not run advertising trackers on this site."
+      ]
+    },
+    {
+      "heading": "How long we keep your information",
+      "paragraphs": [
+        "We keep enquiry details for as long as needed to answer you and, if you book, for the period required to deliver the event and meet our accounting obligations. Event photos are kept only as long as you need us to and are deleted on request. TODO: client to confirm the standard retention period for enquiries, bookings and event images."
+      ]
+    },
+    {
+      "heading": "Your rights",
+      "paragraphs": [
+        "Under UK data protection law you can ask us for a copy of the personal information we hold about you, ask us to correct or delete it, or object to how we use it. Email info.boothdrop@boothdrop.co.uk and we will respond within one month. If you are unhappy with our response you can complain to the Information Commissioner's Office at ico.org.uk."
+      ]
+    },
+    {
+      "heading": "Changes to this policy",
+      "paragraphs": [
+        "We may update this page from time to time. The version published here applies, and significant changes will be noted on this page."
+      ]
+    }
+  ],
+  "faqs": [],
+  "todos": [
+    "TODO: client to supply registered business name, trading address, company number and ICO registration number",
+    "TODO: client to confirm data retention periods"
+  ]
+}

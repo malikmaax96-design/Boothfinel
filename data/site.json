@@ -1,0 +1,45 @@
+{
+  "name": "Boothdrop Entertainment",
+  "legalName": "Boothdrop Entertainment",
+  "url": "https://www.boothdrop.co.uk",
+  "phoneDisplay": "07368 631 516",
+  "phoneTel": "+447368631516",
+  "phoneTelLink": "tel:+447368631516",
+  "whatsapp": "https://wa.me/447368631516",
+  "email": "info.boothdrop@boothdrop.co.uk",
+  "formHandler": "https://formsubmit.co/ajax/info.boothdrop@boothdrop.co.uk",
+  "formHandlerFallback": "https://formsubmit.co/info.boothdrop@boothdrop.co.uk",
+  "bookingWidget": "https://boothdrop.s1.boothbook.com/widgets/booking-widget",
+  "bookingWidgetScript": "https://boothdrop.s1.boothbook.com/app/widget.js",
+  "priceFrom": 299,
+  "deposit": 80,
+  "priceRange": "££",
+  "social": {
+    "instagram": "https://www.instagram.com/boothdrop",
+    "facebook": "",
+    "trustpilot": "https://uk.trustpilot.com/review/boothdrop.co.uk"
+  },
+  "_todo_social": "TODO: client to supply Facebook page URL and confirm Trustpilot profile URL (currently assumed from domain).",
+  "address": null,
+  "_todo_address": "TODO: client to decide whether to publish a postal address (needed for Google Business Profile / LocalBusiness.address). Until then schema uses areaServed only.",
+  "openingHours": [
+    { "days": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "20:00" }
+  ],
+  "_todo_openingHours": "TODO: client to confirm enquiry-line hours (placeholder 09:00–20:00 daily).",
+  "defaultOgImage": "/images/og-default.jpg",
+  "themeColor": "#0a0a0f",
+  "nav": [
+    { "label": "Booths", "href": "/booths/" },
+    { "label": "Events", "href": "/events/" },
+    { "label": "Areas", "href": "/areas/" },
+    { "label": "Reviews", "href": "/reviews" },
+    { "label": "Blog", "href": "/blog/" },
+    { "label": "FAQ", "href": "/faq" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "eventTypesForm": ["Wedding", "Asian Wedding", "Corporate Event", "Prom / School Event", "Birthday Party", "Christmas Party", "Other"],
+  "reviewPlaceholders": [
+    { "text": "TODO: client to supply a genuine Trustpilot review excerpt (1–2 sentences).", "author": "TODO: reviewer first name", "todo": true },
+    { "text": "TODO: client to supply a genuine Trustpilot review excerpt (1–2 sentences).", "author": "TODO: reviewer first name", "todo": true }
+  ]
+}

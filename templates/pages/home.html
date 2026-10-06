@@ -1,0 +1,217 @@
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Rated 5 stars on Trustpilot</p>
+        <h1 class="hero-title">{{{h1Html}}}</h1>
+        <p class="hero-subtitle">{{heroSubtitle}}</p>
+        <p class="hero-tagline">{{heroTagline}}</p>
+        <div class="hero-badges">
+          <span class="badge">Unlimited sessions</span>
+          <span class="badge">Professional attendant</span>
+          <span class="badge">Fully insured</span>
+          <span class="badge">From &pound;{{site.priceFrom}}</span>
+        </div>
+        <div class="hero-cta">
+          <a href="/contact#quote" class="btn-primary">Get a Free Quote</a>
+          <a href="#booths" class="btn-secondary">See Our Booths</a>
+        </div>
+        <p class="hero-phone"><a href="{{site.phoneTelLink}}">Call {{site.phoneDisplay}}</a></p>
+      </div>
+    </section>
+
+    <section class="stats-bar" aria-label="Key facts">
+      <div class="stats-container">
+        <div class="stat-item"><span class="stat-num">8</span><span class="stat-label">Booth Types</span></div>
+        <div class="stat-item"><span class="stat-num">&pound;{{site.priceFrom}}</span><span class="stat-label">Packages From</span></div>
+        <div class="stat-item"><span class="stat-num">5&#9733;</span><span class="stat-label">Trustpilot Rated</span></div>
+        <div class="stat-item"><span class="stat-num">Free</span><span class="stat-label">Delivery &amp; Setup</span></div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p class="section-eyebrow">About us</p>
+            <h2 class="section-title">{{aboutHeading}}</h2>
+            {{#each aboutParagraphs}}<p>{{{this}}}</p>
+            {{/each}}
+            <a href="/contact#quote" class="btn-primary">Get a Free Quote</a>
+          </div>
+          <div class="about-features reveal">
+            <div class="feature-card"><h3>Modern equipment</h3><p>DSLR cameras, touchscreens, instant dye-sub printers and smart background removal across our range.</p></div>
+            <div class="feature-card"><h3>Fully customisable</h3><p>Print templates, start screens, overlays and backdrops tailored to your theme or brand.</p></div>
+            <div class="feature-card"><h3>Professional attendants</h3><p>A friendly attendant sets up, runs the booth and packs down, so you never have to think about it.</p></div>
+            <div class="feature-card"><h3>Prints and digital</h3><p>Instant keepsake prints plus email, QR and social sharing so every guest leaves with something.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+{{> booth-grid}}
+
+    <section class="included section">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Every booking includes</p>
+          <h2 class="section-title">Everything You Need, Included</h2>
+        </div>
+        <ul class="included-grid">
+          <li class="included-item reveal">Unlimited sessions</li>
+          <li class="included-item reveal">Fun props box</li>
+          <li class="included-item reveal">Professional attendant</li>
+          <li class="included-item reveal">Guest book</li>
+          <li class="included-item reveal">Custom photo template</li>
+          <li class="included-item reveal">Digital copies</li>
+          <li class="included-item reveal">Free delivery &amp; setup</li>
+          <li class="included-item reveal">Fully insured</li>
+          <li class="included-item reveal">LED lighting</li>
+          <li class="included-item reveal">Green screen option</li>
+          <li class="included-item reveal">Social media sharing</li>
+          <li class="included-item reveal">Online gallery</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="services section" id="events">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">What we cover</p>
+          <h2 class="section-title">Photo Booth Hire for Every Event</h2>
+        </div>
+        <div class="services-grid">
+          {{#each eventCards}}<a href="{{href}}" class="service-card reveal">
+            <h3>{{name}}</h3>
+            <p>{{blurb}}</p>
+            <span class="booth-more-info">Learn more</span>
+          </a>
+          {{/each}}
+        </div>
+      </div>
+    </section>
+
+{{> sections}}
+
+    <section class="how-works section">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Simple process</p>
+          <h2 class="section-title">Book in 3 Easy Steps</h2>
+        </div>
+        <ol class="steps-grid">
+          <li class="step-card reveal"><div class="step-num">01</div><h3>Choose your booth</h3><p>Browse our eight booth styles and pick the one that fits your venue, guest numbers and theme.</p></li>
+          <li class="step-card reveal"><div class="step-num">02</div><h3>Secure your date</h3><p>Send an enquiry or book online. An &pound;{{site.deposit}} deposit holds the date; the balance is due one month before.</p></li>
+          <li class="step-card reveal"><div class="step-num">03</div><h3>Enjoy the night</h3><p>We deliver, set up, run the booth and pack down. You and your guests just have fun.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Customer reviews</p>
+          <h2 class="section-title">Rated 5 Stars on Trustpilot</h2>
+          <p class="section-desc"><a href="{{site.social.trustpilot}}" target="_blank" rel="noopener">Read our reviews on Trustpilot</a> or see our <a href="/reviews">reviews page</a>.</p>
+        </div>
+        <!-- TODO: client to confirm these pre-existing testimonials are genuine Trustpilot reviews, or replace them with verified excerpts. They were carried over unchanged from the previous version of this page. -->
+        <div class="testimonials-carousel">
+          <div class="testimonials-track" id="testimonialsTrack">
+            {{#each testimonials}}<figure class="testimonial-card">
+              <span class="stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <blockquote><p>{{text}}</p></blockquote>
+              <figcaption class="reviewer"><span class="reviewer-avatar" aria-hidden="true">{{initial}}</span><strong>{{author}}</strong></figcaption>
+            </figure>
+            {{/each}}
+          </div>
+          <div class="carousel-controls">
+            <button class="carousel-btn" id="prevBtn" type="button" aria-label="Previous reviews">&lsaquo;</button>
+            <div class="carousel-dots" id="carouselDots"></div>
+            <button class="carousel-btn" id="nextBtn" type="button" aria-label="Next reviews">&rsaquo;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="areas section" id="areas">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Coverage</p>
+          <h2 class="section-title">Areas We Cover</h2>
+          <p class="section-desc">Mobile photo booth hire across London, the Home Counties, the East of England and the Midlands. Not listed? <a href="/contact">Ask us</a>, we may still be able to help.</p>
+        </div>
+        <div class="areas-columns reveal">
+          {{#each areaGroups}}<nav class="area-column" aria-label="{{title}}">
+            <h3><a href="{{href}}">{{title}}</a></h3>
+            <ul>
+              {{#each links}}<li><a href="{{href}}" class="area-tag">{{name}}</a></li>
+              {{/each}}
+            </ul>
+          </nav>
+          {{/each}}
+        </div>
+      </div>
+    </section>
+
+{{> faq}}
+{{> quote-form}}
+
+    <section class="booking section" id="booking">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Ready to book?</p>
+          <h2 class="section-title">Check Availability &amp; Book Online</h2>
+          <p class="section-desc">Use our live booking system to check your date, build your package and pay your deposit securely.</p>
+        </div>
+        <div class="booking-widget-wrap reveal">
+          <iframe src="{{site.bookingWidget}}" id="boothbook-iframe" class="booking-iframe" title="Book a photo booth with Boothdrop Entertainment" loading="lazy"></iframe>
+          <script src="{{site.bookingWidgetScript}}" defer></script>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section section" id="gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Our booths</p>
+          <h2 class="section-title">Gallery</h2>
+          <p class="section-desc">A look at the booths we bring to events. Follow us on Instagram for photos from recent bookings.</p>
+        </div>
+        <!-- TODO: client to supply real event photos (with permission) to replace product shots in this gallery -->
+        <div class="gallery-grid">
+          {{#each gallery}}<a href="{{href}}" class="gallery-item{{#if mod}} {{mod}}{{/if}} reveal">
+            {{{picture}}}
+            <div class="gallery-overlay"><p>{{name}}</p></div>
+          </a>
+          {{/each}}
+        </div>
+        <div class="gallery-cta reveal">
+          <div class="gallery-cta-links">
+            <a href="{{site.social.instagram}}" target="_blank" rel="noopener" class="btn-secondary">Follow on Instagram</a>
+            <a href="/contact#quote" class="btn-primary">Get a Free Quote</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-section section" id="blog">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Tips &amp; inspiration</p>
+          <h2 class="section-title">From the Boothdrop Blog</h2>
+        </div>
+        <div class="blog-grid blog-grid--index">
+          {{#each posts}}<article class="blog-card reveal">
+            <a href="{{href}}" class="blog-card-img-wrap" aria-hidden="true" tabindex="-1">{{{picture}}}<span class="blog-cat">{{category}}</span></a>
+            <div class="blog-card-body">
+              <div class="blog-meta"><span>{{dateDisplay}}</span><span>&bull;</span><span>{{readingTime}}</span></div>
+              <h3 class="blog-title"><a href="{{href}}">{{h1}}</a></h3>
+              <p class="blog-excerpt">{{excerpt}}</p>
+              <a href="{{href}}" class="blog-read-more">Read more<span class="sr-only"> about {{h1}}</span></a>
+            </div>
+          </article>
+          {{/each}}
+        </div>
+        <div class="blog-cta reveal"><a href="/blog/" class="btn-secondary">Visit the blog</a></div>
+      </div>
+    </section>
+{{> cta-band}}

@@ -1,0 +1,24 @@
+    <section class="bd-hero">
+      <div class="bd-hero-content">
+        <div class="bd-hero-text">
+{{> breadcrumb}}
+          {{#if badge}}<span class="bd-badge-popular">{{badge}}</span>{{/if}}
+          <p class="section-eyebrow">{{eyebrow}}</p>
+          <h1 class="bd-hero-title">{{h1}}</h1>
+          <p class="bd-hero-sub">{{intro}}</p>
+          {{#if heroSpecs}}<ul class="bd-hero-specs">
+            {{#each heroSpecs}}<li class="bd-spec">{{this}}</li>
+            {{/each}}
+          </ul>{{/if}}
+          <div class="bd-hero-cta">
+            <a href="{{quoteHref}}" class="btn-primary">Get a Free Quote</a>
+            <a href="{{site.phoneTelLink}}" class="btn-secondary">Call {{site.phoneDisplay}}</a>
+          </div>
+          <p class="bd-hero-price">Packages from &pound;{{site.priceFrom}} &middot; &pound;{{site.deposit}} deposit secures your date</p>
+        </div>
+        <div class="bd-hero-img-wrap">
+          {{{heroImage}}}
+        </div>
+      </div>
+    </section>
+    <div class="bd-trust-bar"><p>Fully insured &nbsp;|&nbsp; Professional attendant &nbsp;|&nbsp; Free delivery &amp; setup &nbsp;|&nbsp; Rated 5 stars on Trustpilot</p></div>

@@ -1,0 +1,14 @@
+    {{#if linkGroups}}<section class="link-lists section">
+      <div class="container">
+        <div class="link-lists-grid">
+          {{#each linkGroups}}<nav class="link-group reveal" aria-label="Related links: {{title}}">
+            <h2>{{title}}</h2>
+            <ul>
+              {{#each links}}<li><a href="{{href}}">{{name}}</a></li>
+              {{/each}}
+            </ul>
+          </nav>
+          {{/each}}
+        </div>
+      </div>
+    </section>{{/if}}

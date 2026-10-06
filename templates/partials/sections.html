@@ -1,0 +1,13 @@
+    <section class="prose-section section">
+      <div class="container prose">
+        {{#each sections}}<div class="prose-block reveal">
+          <h2>{{heading}}</h2>
+          {{#each paragraphs}}<p>{{{this}}}</p>
+          {{/each}}{{#if list}}<ul class="check-list">
+            {{#each list}}<li>{{this}}</li>
+            {{/each}}
+          </ul>{{/if}}
+        </div>
+        {{/each}}
+      </div>
+    </section>

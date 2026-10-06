@@ -1,0 +1,80 @@
+{
+  "slug": "hampshire",
+  "title": "Photo Booth Hire Hampshire | Boothdrop Entertainment",
+  "metaDescription": "Hampshire photo booth hire for weddings, proms and corporate events in Southampton, Winchester and Basingstoke. Packages from £299. Get a free quote.",
+  "h1": "Hampshire Photo Booth Hire",
+  "primaryKeyword": "photo booth hire Hampshire",
+  "intro": "From the New Forest to the Solent coast and up to Basingstoke, Boothdrop Entertainment offers photo booth hire throughout Hampshire for weddings, corporate events, proms and parties. Our packages start from £299 and come with a friendly attendant, free delivery and setup, unlimited sessions and a print template designed around your event.",
+  "sections": [
+    {
+      "heading": "Hampshire towns we serve",
+      "paragraphs": [
+        "Southampton and Portsmouth are the two largest cities in the county and both see plenty of our bookings, from waterfront hotels to university halls and city-centre venues. Winchester, with its historic halls and hotels, is a wedding hotspot, and Basingstoke, Farnborough, Fleet and Aldershot in the north-east generate a great deal of corporate work alongside private parties.",
+        "We also cover Andover, Eastleigh, Fareham, Petersfield and Alton, together with the New Forest villages and the coastal communities around the Solent. The M3 brings us down from the north, the M27 runs along the coast between Southampton and Portsmouth, and the A34 and A303 serve Winchester, Andover and the Test Valley."
+      ]
+    },
+    {
+      "heading": "Arriving, unloading and getting set up",
+      "paragraphs": [
+        "Coastal venues in Southampton and Portsmouth often sit in busy areas with timed loading bays, so we confirm the unloading arrangement with the venue beforehand and keep the vehicle there only as long as it takes to bring the kit inside. New Forest hotels and Test Valley barns can involve narrow lanes and gravel approaches; we allow for slower progress on the way in and bring trolleys to move the equipment across loose surfaces.",
+        "Setup normally takes around 45 to 60 minutes before the hire window starts and that preparation time is never charged as hire time. One standard socket is enough for every booth except the Inflatable Booth, which uses two. If the reception is in a marquee, whether in a New Forest garden or on a Winchester lawn, a dependable 13A supply is required, and a generator should be checked by the marquee company for steady output before guests arrive."
+      ],
+      "list": [
+        "Level floor from 1.5m x 1.5m to 4m x 4m depending on booth",
+        "One 13A socket within a few metres of the booth position",
+        "Ceiling height of at least two metres, three for the Inflatable Booth",
+        "Lift or ground-floor access where possible; stairs are fine with notice",
+        "A spot out of the main thoroughfare but visible to guests"
+      ]
+    },
+    {
+      "heading": "Event types we see most in Hampshire",
+      "paragraphs": [
+        "Hampshire weddings range from relaxed barn receptions in the Test Valley to formal dinners in Winchester's historic halls, and the booth tends to open after the speeches when the evening guests have arrived. Military and mess venues around Aldershot and Portsmouth host regimental dinners, summer balls and leaving parties, and we are used to following the security and arrival procedures those sites require.",
+        "Corporate clients in Basingstoke, Farnborough and Southampton book the booth for awards dinners, team days and Christmas parties with a branded print. Proms for schools across the county cluster into a few weeks of June and July, so dates go quickly and booking early matters. Birthday celebrations in village halls and golf clubs make up the rest, and the £80 deposit keeps the date secure while the details are finalised."
+      ]
+    },
+    {
+      "heading": "Venue types across the county",
+      "paragraphs": [
+        "The New Forest is full of country house hotels and inns with large gardens, perfect for summer weddings with a marquee or a function room overlooking the lawn. Winchester offers panelled halls, hotels and historic rooms with character. Along the coast there are waterfront hotels, sailing and yacht clubs and harbour-side function rooms in Southampton, Portsmouth and Fareham.",
+        "Inland, the Test Valley around Andover has converted barns and farm venues, while Basingstoke and Farnborough are strong on conference hotels and business venues. Village halls, community centres and school halls fill the gaps, and the booth settles into any of them without fuss."
+      ]
+    },
+    {
+      "heading": "Which booths work best here",
+      "paragraphs": [
+        "The Magic Mirror is the most requested booth for Hampshire weddings; the full-length mirror, animations and games suit a Winchester hall or a New Forest hotel ballroom, and it prints a copy for every guest in the shot. For proms and birthday parties where guests like a bit of privacy to be silly, the curtained Party Booth holds up to eight and provides two prints a session.",
+        "Where floor space is tight, such as a village hall stage or a mess anteroom, the LCD SlimPod fits in 1.5 metres by 2 metres and brings background removal and GIFs without needing a green screen. Corporate planners in Basingstoke often pair it with a branded overlay for a tidy, low-footprint activation."
+      ]
+    }
+  ],
+  "popularBooths": [
+    { "slug": "magic-mirror", "reason": "Winchester's historic halls and New Forest hotel ballrooms are classic wedding settings, and the full-length mirror with prints for every guest suits them perfectly." },
+    { "slug": "party-booth", "reason": "The curtained enclosure is a hit at Hampshire school proms and birthday parties, where groups of up to eight want a private space to pull faces." },
+    { "slug": "lcd-slimpod", "reason": "Compact enough for mess anterooms, village halls and Basingstoke office parties, with prints and background removal from £299." }
+  ],
+  "faqs": [
+    {
+      "q": "Where do you unload at a busy Southampton or Portsmouth venue?",
+      "a": "We ask the venue for its supplier entrance or loading bay and the time window that applies, then unload there and move the vehicle to a car park straight away. City-centre venues sometimes need a permit or a code for a barrier, so please pass on anything the venue tells you."
+    },
+    {
+      "q": "Can you set up in a marquee in the New Forest?",
+      "a": "Yes. A marquee needs a firm, level floor, protection from rain and a reliable 13A socket near the booth. Where power comes from a generator, we ask the marquee company to confirm it is sized for the booth, lighting and catering together, so the printer and screen run without interruption."
+    },
+    {
+      "q": "Do you add travel fees for Hampshire bookings?",
+      "a": "Delivery and setup are included in every package, so most Hampshire bookings carry no travel charge at all. If any travel contribution ever applies to a far-flung venue it is shown on the quote up front, so you know the full cost before paying the deposit."
+    },
+    {
+      "q": "Can you work at a military or mess venue in Aldershot?",
+      "a": "Yes. We supply attendant details and vehicle registration in advance when the venue asks, arrive at the agreed time and follow the site's signing-in procedure. Please tell us about any security checks when you book so we can allow extra time before setup begins."
+    },
+    {
+      "q": "How far ahead should we book for a Hampshire school prom?",
+      "a": "As early as the date is fixed. Proms across Hampshire fall within a few weeks of June and July, and popular Friday dates go first. An £80 deposit secures the booking, and the balance is due one month before the event, which gives schools time to arrange payment."
+    }
+  ],
+  "todos": []
+}

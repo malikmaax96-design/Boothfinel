@@ -1,0 +1,19 @@
+    <article class="blog-post">
+      <header class="blog-post-header">
+        <div class="container">
+{{> breadcrumb}}
+          <p class="section-eyebrow">{{category}} &middot; {{dateDisplay}} &middot; {{readingTime}}</p>
+          <h1 class="section-title">{{h1}}</h1>
+          <p class="bd-hero-sub">{{intro}}</p>
+          <div class="blog-post-hero">{{{heroImage}}}</div>
+        </div>
+      </header>
+{{> sections}}
+      <div class="container blog-post-footer">
+        <p>Planning an event? <a href="{{quoteHref}}">Get a free photo booth quote</a> or call <a href="{{site.phoneTelLink}}">{{site.phoneDisplay}}</a>.</p>
+      </div>
+    </article>
+{{> link-lists}}
+{{> faq}}
+{{> quote-form}}
+{{> cta-band}}

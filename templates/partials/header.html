@@ -1,0 +1,17 @@
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="/" class="logo" aria-label="{{site.name}} home">
+        <picture>
+          <source type="image/webp" srcset="/images/logo-112.webp">
+          <img src="/images/logo-112.png" alt="{{site.name}}" class="logo-img" width="{{images.logo.w}}" height="{{images.logo.h}}" decoding="async">
+        </picture>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        {{#each nav}}<a href="{{href}}"{{#if current}} aria-current="page"{{/if}}>{{label}}</a>
+        {{/each}}<a href="/contact#quote" class="btn-nav-cta">Get a Quote</a>
+      </nav>
+      <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>

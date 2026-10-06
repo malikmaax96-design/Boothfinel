@@ -1,0 +1,52 @@
+{{> hero}}
+    <section class="bd-included section" id="whats-included">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Every booking</p>
+          <h2 class="section-title">What&rsquo;s Included with the {{name}}</h2>
+        </div>
+        <ul class="bd-included-grid">
+          {{#each included}}<li class="bd-inc-item reveal">{{this}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    </section>
+{{> sections}}
+    <section class="bd-specs section" id="specs">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Technical details</p>
+          <h2 class="section-title">{{name}} Dimensions &amp; Requirements</h2>
+        </div>
+        <dl class="spec-table reveal">
+          {{#each specList}}<div class="spec-row"><dt>{{label}}</dt><dd>{{value}}</dd></div>
+          {{/each}}
+        </dl>
+      </div>
+    </section>
+    <section class="pricing-section section" id="pricing">
+      <div class="container">
+        <div class="pricing-card reveal">
+          <div class="pricing-main">
+            <p class="section-eyebrow">Pricing &amp; packages</p>
+            <h2 class="section-title">{{name}} Hire from &pound;{{priceFrom}}</h2>
+            <p>Every {{name}} package includes delivery, setup and pack-down, a professional attendant for the whole hire, unlimited sessions, props and a custom template. A &pound;{{site.deposit}} deposit secures your date and the balance is due one month before your event.</p>
+            <ul class="check-list">
+              {{#each customisation}}<li>{{this}}</li>
+              {{/each}}
+            </ul>
+          </div>
+          <div class="pricing-aside">
+            <p class="price-from"><span>From</span> &pound;{{priceFrom}}</p>
+            <a href="{{quoteHref}}" class="btn-primary">Get a {{name}} Quote</a>
+            <a href="{{site.phoneTelLink}}" class="btn-secondary">Call {{site.phoneDisplay}}</a>
+            <p class="pricing-note">Exact pricing depends on hire length, date and venue location. We confirm everything in writing before you pay a deposit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+{{> link-lists}}
+{{> faq}}
+{{> reviews}}
+{{> quote-form}}
+{{> cta-band}}

@@ -1,0 +1,21 @@
+{{> hero}}
+{{> sections}}
+{{#if showBoothGrid}}{{> booth-grid}}{{/if}}
+{{#if bookingWidget}}    <section class="booking section" id="book">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Ready to book?</p>
+          <h2 class="section-title">Check Availability &amp; Book Online</h2>
+          <p class="section-desc">Use our live booking system to check your date, build your package and pay your deposit securely.</p>
+        </div>
+        <div class="booking-widget-wrap reveal">
+          <iframe src="{{site.bookingWidget}}" id="boothbook-iframe" class="booking-iframe" title="Book a photo booth with Boothdrop Entertainment" loading="lazy"></iframe>
+          <script src="{{site.bookingWidgetScript}}" defer></script>
+        </div>
+      </div>
+    </section>
+{{/if}}{{> link-lists}}
+{{> faq}}
+{{#if showReviews}}{{> reviews}}{{/if}}
+{{> quote-form}}
+{{> cta-band}}

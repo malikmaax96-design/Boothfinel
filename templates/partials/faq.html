@@ -1,0 +1,15 @@
+    {{#if faqs}}<section class="faq-section section" id="faq">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Good to know</p>
+          <h2 class="section-title">{{faqHeading}}</h2>
+        </div>
+        <div class="faq-list">
+          {{#each faqs}}<details class="faq-item reveal">
+            <summary><span>{{q}}</span></summary>
+            <div class="faq-answer"><p>{{a}}</p></div>
+          </details>
+          {{/each}}
+        </div>
+      </div>
+    </section>{{/if}}
