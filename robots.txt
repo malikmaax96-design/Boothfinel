@@ -5,5 +5,6 @@ Disallow: /scripts/
 Disallow: /templates/
 Disallow: /data/
 Disallow: /404.html
+Disallow: /thank-you
 
 Sitemap: https://www.boothdrop.co.uk/sitemap.xml

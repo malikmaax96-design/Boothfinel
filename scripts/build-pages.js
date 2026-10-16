@@ -831,6 +831,30 @@ simplePage({
   extras: { sitemapPriority: '0.2' },
 });
 
+/* Thank-you page (form redirect target; noindex, not in sitemap) */
+{
+  const copy = pageCopy('thank-you');
+  assemble({
+    kind: 'system',
+    template: 'page',
+    outFile: 'thank-you.html',
+    url: '/thank-you',
+    sourceFile: copy._file,
+    lastmod: gitLastModified(copy._file),
+    title: copy.title,
+    metaDescription: copy.metaDescription,
+    h1: copy.h1,
+    intro: copy.intro,
+    primaryKeyword: copy.primaryKeyword,
+    sections: copy.sections,
+    faqs: copy.faqs,
+    noindex: true,
+    breadcrumbs: [HOME_CRUMB, { name: 'Thank you', href: '/thank-you' }],
+    linkGroups: [{ title: 'Our booths', links: allBoothLinks() }, { title: 'Events', links: allEventLinks() }, { title: 'Areas', links: [{ href: '/areas/', name: 'All areas we cover' }] }],
+    model: { name: copy.h1, eyebrow: 'Enquiry received', heroImage: picture('booth-magic', 'Boothdrop Entertainment photo booth', { lazy: false, className: 'bd-hero-img' }), showBoothGrid: true, showReviews: false, hideQuoteForm: true },
+  });
+}
+
 /* Blog */
 for (const post of posts) {
   post.lastmod = gitLastModified(post._file);

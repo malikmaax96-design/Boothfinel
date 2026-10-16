@@ -17,5 +17,5 @@
 {{/if}}{{> link-lists}}
 {{> faq}}
 {{#if showReviews}}{{> reviews}}{{/if}}
-{{> quote-form}}
+{{#unless hideQuoteForm}}{{> quote-form}}{{/unless}}
 {{> cta-band}}

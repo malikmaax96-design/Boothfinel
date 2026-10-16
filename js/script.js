@@ -155,7 +155,12 @@
     resetAuto();
   }
 
-  /* ── Enquiry form: FormSubmit (AJAX) + optional WhatsApp hand-off ── */
+  /* ── Enquiry form: FormSubmit (activated hashed endpoint) ──
+     Progressive enhancement over a plain POST. With JS we submit the form's own
+     fields via fetch to the AJAX endpoint and show an inline success/error state;
+     if the request fails for any reason we fall back to the native POST so the
+     enquiry is never lost. Without JS the form posts natively and FormSubmit
+     redirects to the _next page. */
   function initEnquiryForm() {
     var form = document.getElementById('enquiryForm');
     if (!form) return;
@@ -177,7 +182,10 @@
       return field && typeof field.value === 'string' ? field.value.trim() : '';
     }
 
+    var nativeFallbackArmed = false;
+
     form.addEventListener('submit', function (event) {
+      if (nativeFallbackArmed) return; // let the browser POST natively
       event.preventDefault();
       if (fieldValue('_honey')) return; // bot
       if (!form.checkValidity()) {
@@ -186,43 +194,44 @@
         return;
       }
 
-      var payload = new FormData();
-      var booth = fieldValue('booth') || 'Not sure yet';
-      payload.append('_subject', 'New photo booth enquiry: ' + booth);
-      payload.append('_template', 'table');
-      payload.append('_captcha', 'false');
-      payload.append('Name', fieldValue('name'));
-      payload.append('Phone', fieldValue('phone'));
-      payload.append('Email', fieldValue('email'));
-      payload.append('Event date', fieldValue('event_date') || 'Not given');
-      payload.append('Event type', fieldValue('event_type'));
-      payload.append('Postcode', fieldValue('postcode') || 'Not given');
-      payload.append('Booth', booth);
-      payload.append('Notes', fieldValue('notes') || 'None');
-      payload.append('Page', fieldValue('page'));
+      var payload = new FormData(form);
+      var summary = {
+        booth: fieldValue('booth') || 'Not sure yet',
+        name: fieldValue('name'),
+        phone: fieldValue('phone'),
+        email: fieldValue('email'),
+        date: fieldValue('event_date') || 'Not given',
+        type: fieldValue('event_type'),
+        postcode: fieldValue('postcode') || 'Not given',
+        notes: fieldValue('notes') || 'None'
+      };
 
       var originalLabel = button ? button.textContent : '';
-      if (button) { button.disabled = true; button.textContent = 'Sending…'; }
+      if (button) { button.disabled = true; button.textContent = 'Sending\u2026'; }
       setStatus('');
 
       fetch(handler, { method: 'POST', body: payload, headers: { Accept: 'application/json' } })
         .then(function (response) {
-          if (!response.ok) throw new Error('Form service responded ' + response.status);
-          return response.json().catch(function () { return {}; });
+          return response.json().catch(function () { return {}; }).then(function (data) {
+            if (!response.ok || (data && data.success === 'false')) {
+              throw new Error((data && data.message) || ('Form service responded ' + response.status));
+            }
+            return data;
+          });
         })
         .then(function () {
           setStatus('Thank you! Your enquiry has been sent. We reply within 24 hours.', false);
           form.reset();
           if (whatsapp) {
             var text = 'New enquiry from boothdrop.co.uk\n' +
-              'Booth: ' + booth + '\n' +
-              'Name: ' + payload.get('Name') + '\n' +
-              'Phone: ' + payload.get('Phone') + '\n' +
-              'Email: ' + payload.get('Email') + '\n' +
-              'Date: ' + payload.get('Event date') + '\n' +
-              'Event: ' + payload.get('Event type') + '\n' +
-              'Postcode: ' + payload.get('Postcode') + '\n' +
-              'Notes: ' + payload.get('Notes');
+              'Booth: ' + summary.booth + '\n' +
+              'Name: ' + summary.name + '\n' +
+              'Phone: ' + summary.phone + '\n' +
+              'Email: ' + summary.email + '\n' +
+              'Date: ' + summary.date + '\n' +
+              'Event: ' + summary.type + '\n' +
+              'Postcode: ' + summary.postcode + '\n' +
+              'Notes: ' + summary.notes;
             var link = document.createElement('a');
             link.href = whatsapp + '?text=' + encodeURIComponent(text);
             link.textContent = 'Send the same details to us on WhatsApp';
@@ -231,12 +240,13 @@
             link.className = 'form-whatsapp-link';
             if (status) { status.appendChild(document.createTextNode(' ')); status.appendChild(link); }
           }
+          if (button) { button.disabled = false; button.textContent = originalLabel; }
         })
         .catch(function () {
-          setStatus('Sorry, something went wrong sending the form. Please call 07368 631 516 or email info.boothdrop@boothdrop.co.uk.', true);
-        })
-        .finally(function () {
-          if (button) { button.disabled = false; button.textContent = originalLabel; }
+          // Network or service failure: hand over to a normal POST so the lead still arrives.
+          setStatus('One moment, sending your enquiry another way\u2026', false);
+          nativeFallbackArmed = true;
+          if (typeof form.requestSubmit === 'function') form.requestSubmit(); else form.submit();
         });
     });
   }

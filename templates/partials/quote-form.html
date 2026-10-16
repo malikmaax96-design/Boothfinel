@@ -5,10 +5,12 @@
           <h2 class="section-title">{{quoteHeading}}</h2>
           <p class="section-desc">Tell us about your event and we will reply with a quote within 24 hours.</p>
         </div>
-        <form class="cq-form reveal" id="enquiryForm" action="{{site.formHandlerFallback}}" method="POST" data-handler="{{site.formHandler}}" data-whatsapp="{{site.whatsapp}}" novalidate>
-          <input type="hidden" name="_subject" value="New photo booth enquiry via boothdrop.co.uk">
-          <input type="hidden" name="_template" value="table">
+        <form class="cq-form reveal" id="enquiryForm" action="{{site.formHandlerFallback}}" method="POST" accept-charset="UTF-8" data-handler="{{site.formHandler}}" data-whatsapp="{{site.whatsapp}}" novalidate>
+          <!-- FormSubmit settings (hashed, activated endpoint; the visitor's "email" field sets the reply-to automatically) -->
+          <input type="hidden" name="_subject" value="{{site.formSubject}}">
           <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="{{site.formNext}}">
           <input type="hidden" name="page" value="{{canonical}}">
           <input type="text" name="_honey" class="cq-honey" tabindex="-1" autocomplete="off" aria-hidden="true">
           <div class="cq-form-row">
@@ -61,13 +63,9 @@
           </div>
           <div class="cq-form-actions">
             <button type="submit" class="btn-primary cq-submit-btn" id="enquirySubmitBtn">Send Enquiry</button>
-            <div class="cq-contact-quick">
-              <a href="{{site.phoneTelLink}}">Call {{site.phoneDisplay}}</a>
-              <a href="{{site.whatsapp}}" target="_blank" rel="noopener">WhatsApp us</a>
-              <a href="mailto:{{site.email}}">Email us</a>
-            </div>
           </div>
           <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          <p class="form-fallback">Or WhatsApp / call us: <a href="{{site.whatsapp}}" target="_blank" rel="noopener">WhatsApp</a> &middot; <a href="{{site.phoneTelLink}}">{{site.phoneDisplay}}</a> &middot; <a href="mailto:{{site.email}}">{{site.email}}</a></p>
           <p class="form-privacy">We only use your details to reply to this enquiry. See our <a href="/privacy-policy">privacy policy</a>.</p>
         </form>
       </div>
