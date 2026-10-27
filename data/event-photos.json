@@ -1,0 +1,13 @@
+{
+  "_comment": "Real event photos shown on booth pages in an 'At real events' section. Key = booth slug (see data/booths.json). Each entry: image = base name of a processed image in /images (listed in data/images.json), alt = what the photo shows, caption = optional short text. Leave a booth's list empty to hide the section. Do not add photos the client has not supplied.",
+  "booths": {
+    "lcd-slimpod": [],
+    "magic-mirror": [],
+    "360-booth": [],
+    "selfie-mirror-pod": [],
+    "retro-pod": [],
+    "party-booth": [],
+    "inflatable-booth": [],
+    "gif-booth": []
+  }
+}

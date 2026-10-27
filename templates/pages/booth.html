@@ -12,7 +12,22 @@
       </div>
     </section>
 {{> sections}}
-    <section class="bd-specs section" id="specs">
+{{#if eventPhotos}}    <section class="event-photos section" id="event-photos">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Real events</p>
+          <h2 class="section-title">The {{name}} at Real Events</h2>
+        </div>
+        <ul class="event-photos-grid">
+          {{#each eventPhotos}}<li class="event-photo reveal">
+            {{{picture}}}
+            {{#if caption}}<p>{{caption}}</p>{{/if}}
+          </li>
+          {{/each}}
+        </ul>
+      </div>
+    </section>
+{{/if}}    <section class="bd-specs section" id="specs">
       <div class="container">
         <div class="section-header reveal">
           <p class="section-eyebrow">Technical details</p>
@@ -28,16 +43,24 @@
       <div class="container">
         <div class="pricing-card reveal">
           <div class="pricing-main">
-            <p class="section-eyebrow">Pricing &amp; packages</p>
-            <h2 class="section-title">{{name}} Hire from &pound;{{priceFrom}}</h2>
+            <p class="section-eyebrow">{{#if priceFrom}}Pricing &amp; packages{{else}}Get a quote{{/if}}</p>
+            {{#if priceFrom}}<h2 class="section-title">{{name}} Hire from &pound;{{priceFrom}}</h2>{{else}}<h2 class="section-title">{{name}} Hire: Ask for a Quote</h2>{{/if}}
             <p>Every {{name}} package includes delivery, setup and pack-down, a professional attendant for the whole hire, unlimited sessions, props and a custom template. A &pound;{{site.deposit}} deposit secures your date and the balance is due one month before your event.</p>
+            {{#if packages}}<ul class="package-list">
+              {{#each packages}}<li class="package-item">
+                <strong>{{name}}</strong>
+                <span class="package-price">{{price}}</span>
+                <p>{{description}}</p>
+              </li>
+              {{/each}}
+            </ul>{{/if}}
             <ul class="check-list">
               {{#each customisation}}<li>{{this}}</li>
               {{/each}}
             </ul>
           </div>
           <div class="pricing-aside">
-            <p class="price-from"><span>From</span> &pound;{{priceFrom}}</p>
+            {{#if priceFrom}}<p class="price-from"><span>From</span> &pound;{{priceFrom}}</p>{{else}}<p class="price-from price-from--quote"><span>Pricing</span> Tailored quote</p>{{/if}}
             <a href="{{quoteHref}}" class="btn-primary">Get a {{name}} Quote</a>
             <a href="{{site.phoneTelLink}}" class="btn-secondary">Call {{site.phoneDisplay}}</a>
             <p class="pricing-note">Exact pricing depends on hire length, date and venue location. We confirm everything in writing before you pay a deposit.</p>

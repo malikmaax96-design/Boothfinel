@@ -8,7 +8,6 @@
   "primaryKeyword": "Party Booth hire",
   "tagline": "A private, curtained photo booth with room for up to eight people, two prints per session and a guest book to keep them in.",
   "badge": "Private and Enclosed",
-  "priceFrom": 299,
   "intro": "Some guests pose better behind a curtain. The Party Booth is our enclosed booth, with room for up to eight people inside, two prints per session and a guest book to collect them in. Private, playful and a little bit nostalgic.",
   "sections": [
     {
@@ -41,7 +40,7 @@
     {
       "heading": "Two prints, a guest book and email sharing",
       "paragraphs": [
-        "Each session delivers two prints: one for the guest to keep and one for the guest book, where the attendant encourages a message alongside the photo. Prints carry your custom template with names, date or logo. Every image and GIF is saved digitally and can be emailed from the booth, so guests who prefer a phone copy are covered too, and you receive the full digital set after the event."
+        "Each session delivers two prints: one for the guest to keep and one for the guest book, where the attendant encourages a message alongside the photo. Prints carry your custom template with names, date or logo. Every image and GIF is saved digitally and can be emailed from the booth, so guests who prefer a phone copy are covered too, and you receive the full digital set after the event. If you would rather not count prints at all, the unlimited prints per session package removes the two-print limit, so everyone inside the booth can take a copy home."
       ]
     },
     {
@@ -62,7 +61,7 @@
       "heading": "Events, price and reserving your date",
       "paragraphs": [
         "Birthday parties, proms and Christmas parties are the Party Booth's natural home, where the curtain brings out the silliest poses. It also works well at weddings with a retro theme and at corporate socials where staff appreciate a bit of privacy before pulling a face. Every booking includes the attendant, free delivery, setup and pack-down, props, LED lighting and public liability insurance.",
-        "Party Booth hire is priced from £299. Pay an £80 deposit to secure the date and settle the balance one month before the event. Availability is confirmed within 24 hours, and our attendant arrives 45 to 60 minutes before the booked start to build the booth, with nothing added to the bill for that time. We are rated 5 stars on Trustpilot, and you can reach us on 07368 631 516 or by WhatsApp."
+        "Party Booth hire starts from £299 for the two prints per session package, and an unlimited prints per session package is available too, priced in your quote. Pay an £80 deposit to secure the date and settle the balance one month before the event. Availability is confirmed within 24 hours, and our attendant arrives 45 to 60 minutes before the booked start to build the booth, with nothing added to the bill for that time. We are rated 5 stars on Trustpilot, and you can reach us on 07368 631 516 or by WhatsApp."
       ]
     }
   ],
@@ -104,7 +103,8 @@
     "Custom print template",
     "Stick props",
     "LED lighting",
-    "Public liability insurance"
+    "Public liability insurance",
+    "Unlimited prints package option"
   ],
   "specs": {
     "Height": "Approx 2.2m",
@@ -130,5 +130,19 @@
     "Themed props on request",
     "Green screen on request"
   ],
-  "todos": []
+  "todos": [
+    "TODO: client to confirm the price of the unlimited prints per session package for the LCD SlimPod and Party Booth, and that £239 (LCD SlimPod) and £299 (Party Booth) are the 2-prints-per-session prices"
+  ],
+  "packages": [
+    {
+      "name": "2 prints per session",
+      "price": "From £299",
+      "description": "Two prints each session, one to keep and one for the guest book, with email sharing and unlimited sessions during your hire."
+    },
+    {
+      "name": "Unlimited prints per session",
+      "price": "Price in your quote",
+      "description": "Removes the two-print limit so everyone squeezed into the booth can take a copy home. We confirm the price when we quote for your date."
+    }
+  ]
 }

@@ -12,7 +12,7 @@
             <div class="booth-info">
               <h3>{{name}}</h3>
               <p>{{reason}}</p>
-              <span class="booth-more-info">From &pound;{{priceFrom}}</span>
+              {{#if priceFrom}}<span class="booth-more-info">From &pound;{{priceFrom}}</span>{{else}}<span class="booth-more-info">View details</span>{{/if}}
             </div>
           </a>
           {{/each}}

@@ -3,12 +3,11 @@
   "name": "LCD SlimPod",
   "urlSlug": "lcd-slimpod-hire",
   "title": "LCD SlimPod Hire | Boothdrop Entertainment",
-  "metaDescription": "Hire the LCD SlimPod, our most popular open-air photo booth. Touchscreen, 2 prints per session, no green screen needed. From £299. Get a free quote.",
+  "metaDescription": "Hire the LCD SlimPod, our most popular open-air photo booth. Touchscreen, 2 prints per session, no green screen needed. From £239. Get a free quote.",
   "h1": "LCD SlimPod Hire for Weddings, Parties and Corporate Events",
   "primaryKeyword": "LCD SlimPod hire",
   "tagline": "Our most popular and most affordable booth: a slim touchscreen pod with two prints per session and no green screen required.",
   "badge": "Most Popular",
-  "priceFrom": 299,
   "intro": "The LCD SlimPod is our most popular and most affordable photo booth, and it is easy to see why. A slim touchscreen pod, bright LED lighting, two prints per session and smart background removal, all run by a professional attendant for the whole of the hire.",
   "sections": [
     {
@@ -46,7 +45,7 @@
     {
       "heading": "Prints, GIFs and digital copies",
       "paragraphs": [
-        "Each session produces two prints, one for the guest book and one to take home, or two to split between friends. Prints are ready seconds after the final shot. Alongside the paper copies, every photo, GIF and boomerang is saved digitally and shared by email or straight to social media, so the night lives on after the prints have been pinned to a fridge.",
+        "Each session produces two prints, one for the guest book and one to take home, or two to split between friends. Prints are ready seconds after the final shot. Alongside the paper copies, every photo, GIF and boomerang is saved digitally and shared by email or straight to social media, so the night lives on after the prints have been pinned to a fridge. If you would rather not count prints at all, the unlimited prints per session package removes the two-print limit, so everyone in a big group can take a copy home.",
         "The smart background removal is the feature people ask about most. The software separates guests from whatever is behind them and swaps in a digital scene, so there is no need for a green screen or even a physical backdrop. You can choose a beach, a city skyline, your wedding colours or a branded panel, and the attendant can change it between sessions if you like."
       ]
     },
@@ -73,7 +72,7 @@
     {
       "heading": "Prices, deposit and how to book",
       "paragraphs": [
-        "LCD SlimPod packages start from £299. To hold a date we take an £80 deposit, with the balance due one month before the event. Send us the date, venue and rough timings and we will confirm availability within 24 hours. On the day our attendant arrives 45 to 60 minutes before the hire window to set up, and that setup time is never charged as part of your hire. Boothdrop Entertainment is rated 5 stars on Trustpilot, and we are happy to talk through options by phone or WhatsApp on 07368 631 516."
+        "LCD SlimPod hire starts from £239 for the two prints per session package, and an unlimited prints per session package is available too, priced in your quote. To hold a date we take an £80 deposit, with the balance due one month before the event. Send us the date, venue and rough timings and we will confirm availability within 24 hours. On the day our attendant arrives 45 to 60 minutes before the hire window to set up, and that setup time is never charged as part of your hire. Boothdrop Entertainment is rated 5 stars on Trustpilot, and we are happy to talk through options by phone or WhatsApp on 07368 631 516."
       ]
     }
   ],
@@ -115,7 +114,8 @@
     "Stick props",
     "Guest book",
     "Custom print template",
-    "LED lighting"
+    "LED lighting",
+    "Unlimited prints package option"
   ],
   "specs": {
     "Height": "1.80m",
@@ -142,5 +142,19 @@
     "Themed filters and virtual props",
     "Physical backdrop on request"
   ],
-  "todos": []
+  "todos": [
+    "TODO: client to confirm the price of the unlimited prints per session package for the LCD SlimPod and Party Booth, and that £239 (LCD SlimPod) and £299 (Party Booth) are the 2-prints-per-session prices"
+  ],
+  "packages": [
+    {
+      "name": "2 prints per session",
+      "price": "From £239",
+      "description": "Two prints each session, one for the guest book and one to take home, plus digital copies by email and unlimited sessions during your hire."
+    },
+    {
+      "name": "Unlimited prints per session",
+      "price": "Price in your quote",
+      "description": "Removes the two-print limit so everyone in a big group can take a copy home. We confirm the price when we quote for your date."
+    }
+  ]
 }

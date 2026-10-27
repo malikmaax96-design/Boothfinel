@@ -256,6 +256,7 @@ const images = readJson(path.join(DATA, 'images.json'));
 const structure = readJson(path.join(DATA, 'booths.json'));
 const areasStruct = readJson(path.join(DATA, 'areas.json')).areas;
 const redirects = readJson(path.join(DATA, 'redirects.json'));
+const eventPhotos = readJson(path.join(DATA, 'event-photos.json')).booths || {};
 
 function loadContentDir(type) {
   const dir = path.join(DATA, 'content', type);
@@ -285,7 +286,7 @@ const content = {
 const booths = structure.booths.map((b) => {
   const copy = content.booths.get(b.slug);
   if (!copy) throw new Error(`Missing booth content: data/content/booths/${b.slug}.json`);
-  return { ...b, ...copy, urlSlug: b.urlSlug, href: `/booths/${b.urlSlug}`, priceFrom: copy.priceFrom || site.priceFrom };
+  return { ...b, ...copy, urlSlug: b.urlSlug, href: `/booths/${b.urlSlug}`, priceFrom: b.priceFrom || null };
 });
 const boothBySlug = new Map(booths.map((b) => [b.slug, b]));
 
@@ -407,8 +408,7 @@ function businessNode() {
     makesOffer: booths.map((b) => ({
       '@type': 'Offer',
       itemOffered: { '@type': 'Service', name: `${b.name} hire`, url: `${site.url}${b.href}` },
-      priceCurrency: 'GBP',
-      price: String(b.priceFrom),
+      ...(b.priceFrom ? { priceCurrency: 'GBP', price: String(b.priceFrom) } : {}),
     })),
   };
   if (site.address) {
@@ -475,14 +475,17 @@ function serviceNode(booth) {
     provider: { '@id': BUSINESS_ID },
     areaServed: areas.map((a) => ({ '@type': a.type === 'town' ? 'City' : 'AdministrativeArea', name: a.name })),
     image: `${site.url}/images/${booth.image}${fs.existsSync(path.join(ROOT, 'images', `${booth.image}.svg`)) ? '.svg' : '-opt.jpg'}`,
-    offers: {
-      '@type': 'Offer',
-      priceCurrency: 'GBP',
-      price: String(booth.priceFrom),
-      priceSpecification: { '@type': 'PriceSpecification', minPrice: booth.priceFrom, priceCurrency: 'GBP' },
-      availability: 'https://schema.org/InStock',
-      url: `${site.url}${booth.href}`,
-    },
+    // Only booths with a published price get a priced offer; the rest are quote-only.
+    offers: booth.priceFrom
+      ? {
+          '@type': 'Offer',
+          priceCurrency: 'GBP',
+          price: String(booth.priceFrom),
+          priceSpecification: { '@type': 'PriceSpecification', minPrice: booth.priceFrom, priceCurrency: 'GBP' },
+          availability: 'https://schema.org/InStock',
+          url: `${site.url}${booth.href}`,
+        }
+      : { '@type': 'Offer', availability: 'https://schema.org/InStock', url: `${site.url}${booth.href}` },
   };
 }
 
@@ -534,6 +537,7 @@ function baseContext(page) {
     eventTypesForm: site.eventTypesForm.map((label) => ({ label, selected: label === page.preselectEvent })),
     boothOptions: booths.map((b) => ({ label: b.formValue, selected: b.formValue === page.preselectBooth })),
     reviews: site.reviewPlaceholders,
+    heroPriceLine: page.heroPriceLine || `Packages from £${site.priceFrom} · £${site.deposit} deposit secures your date`,
     quoteHeading: page.quoteHeading || 'Get a Free Photo Booth Quote',
     faqHeading: page.faqHeading || 'Frequently Asked Questions',
     ctaHeading: page.ctaHeading || 'Ready to Book Your Photo Booth?',
@@ -624,6 +628,7 @@ for (const booth of booths) {
     sections: booth.sections,
     faqs: booth.faqs,
     preselectBooth: booth.formValue,
+    heroPriceLine: booth.priceFrom ? `From £${booth.priceFrom} · £${site.deposit} deposit secures your date` : `Priced to your date and venue · £${site.deposit} deposit secures your date`,
     ogImage: fs.existsSync(path.join(ROOT, 'images', `${booth.image}.svg`)) ? null : `/images/${booth.image}-opt.jpg`,
     ogImageDims: images[booth.image] ? { w: images[booth.image].w, h: images[booth.image].h } : null,
     preloadImage: preloadFor(booth.image),
@@ -647,6 +652,11 @@ for (const booth of booths) {
       specList,
       customisation: booth.customisation,
       priceFrom: booth.priceFrom,
+      packages: booth.packages || [],
+      eventPhotos: (eventPhotos[booth.slug] || []).map((p) => ({
+        caption: p.caption || '',
+        picture: picture(p.image, p.alt, { sizes: '(max-width: 768px) 100vw, 33vw' }),
+      })),
     },
   });
 }
