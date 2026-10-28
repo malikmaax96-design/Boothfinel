@@ -208,5 +208,75 @@
     "from": "/photobooth-for-hire-in-luton",
     "to": "/areas/photo-booth-hire-luton",
     "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/locations/london",
+    "to": "/areas/photo-booth-hire-london",
+    "reason": "old booth-drop-website location page"
+  },
+  {
+    "from": "/locations/luton",
+    "to": "/areas/photo-booth-hire-luton",
+    "reason": "old booth-drop-website location page"
+  },
+  {
+    "from": "/locations/dunstable",
+    "to": "/areas/photo-booth-hire-dunstable",
+    "reason": "old booth-drop-website location page (new dedicated page)"
+  },
+  {
+    "from": "/locations/hemel-hempstead",
+    "to": "/areas/photo-booth-hire-hemel-hempstead",
+    "reason": "old booth-drop-website location page (new dedicated page)"
+  },
+  {
+    "from": "/locations/watford",
+    "to": "/areas/photo-booth-hire-watford",
+    "reason": "old booth-drop-website location page (new dedicated page)"
+  },
+  {
+    "from": "/locations/milton-keynes",
+    "to": "/areas/photo-booth-hire-milton-keynes",
+    "reason": "old booth-drop-website location page (new dedicated page)"
+  },
+  {
+    "from": "/locations/all",
+    "to": "/areas/",
+    "reason": "old locations overview"
+  },
+  {
+    "from": "/locations",
+    "to": "/areas/",
+    "reason": "old locations overview"
+  },
+  {
+    "from": "/party-booth",
+    "to": "/booths/party-booth-hire",
+    "reason": "old root-level booth page"
+  },
+  {
+    "from": "/retro-pod",
+    "to": "/booths/retro-pod-hire",
+    "reason": "old root-level booth page"
+  },
+  {
+    "from": "/gif-booth",
+    "to": "/booths/gif-booth-hire",
+    "reason": "old root-level booth page"
+  },
+  {
+    "from": "/blog/corporate-events",
+    "to": "/blog/why-corporate-events-need-a-photo-booth",
+    "reason": "old blog post"
+  },
+  {
+    "from": "/blog/party-guide",
+    "to": "/blog/party-planning-tips",
+    "reason": "old blog post"
+  },
+  {
+    "from": "/blog/wedding-tips",
+    "to": "/blog/how-to-choose-a-wedding-photo-booth",
+    "reason": "old blog post"
   }
 ]
