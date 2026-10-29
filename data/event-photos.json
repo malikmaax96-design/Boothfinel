@@ -2,24 +2,126 @@
   "_comment": "Real event photos shown on booth pages in an 'At real events' section. Key = booth slug (see data/booths.json). Each entry: image = base name of a processed image in /images (listed in data/images.json; create them with scripts/add-event-photo.py), alt = what the photo shows, caption = optional short text. Leave a booth's list empty to hide the section. Only use photos the client has supplied; captions describe the booth and setting, never a named venue or customer unless confirmed.",
   "booths": {
     "lcd-slimpod": [
-      { "image": "event-lcd-1", "alt": "LCD SlimPod set up on artificial grass at an outdoor event", "caption": "LCD SlimPod at an outdoor event" },
-      { "image": "event-lcd-3", "alt": "Guests posing beside the LCD SlimPod at an outdoor party", "caption": "Guests enjoying the LCD SlimPod" },
-      { "image": "event-lcd-2", "alt": "LCD SlimPod beside planters at a garden party", "caption": "LCD SlimPod at a garden party" },
-      { "image": "event-lcd-4", "alt": "LCD SlimPod set up in a living room at a home celebration", "caption": "LCD SlimPod at a home celebration" },
-      { "image": "event-lcd-5", "alt": "Guests gathered around an LCD SlimPod in a hall", "caption": "LCD SlimPod in a hall" }
+      {
+        "image": "event-lcd-1",
+        "alt": "LCD SlimPod set up on artificial grass at an outdoor event",
+        "caption": "LCD SlimPod at an outdoor event"
+      },
+      {
+        "image": "event-lcd-3",
+        "alt": "Guests posing beside the LCD SlimPod at an outdoor party",
+        "caption": "Guests enjoying the LCD SlimPod"
+      },
+      {
+        "image": "event-lcd-2",
+        "alt": "LCD SlimPod beside planters at a garden party",
+        "caption": "LCD SlimPod at a garden party"
+      },
+      {
+        "image": "event-lcd-4",
+        "alt": "LCD SlimPod set up in a living room at a home celebration",
+        "caption": "LCD SlimPod at a home celebration"
+      },
+      {
+        "image": "event-lcd-5",
+        "alt": "Guests gathered around an LCD SlimPod in a hall",
+        "caption": "LCD SlimPod in a hall"
+      },
+      {
+        "image": "event-lcd-6",
+        "alt": "LCD SlimPod with a ring light, printer and a rug of dress-up hats",
+        "caption": "LCD SlimPod with printer and dress-up props"
+      }
     ],
-    "magic-mirror": [],
+    "magic-mirror": [
+      {
+        "image": "event-magic-1",
+        "alt": "Magic Mirror with an orange LED frame, red rope barriers and red carpet in a function room",
+        "caption": "Magic Mirror with red carpet and rope barriers"
+      }
+    ],
     "360-booth": [],
-    "selfie-mirror-pod": [],
-    "retro-pod": [],
-    "party-booth": [],
+    "selfie-mirror-pod": [
+      {
+        "image": "event-selfie-1",
+        "alt": "Selfie Mirror Pod with a blue and purple LED frame beside a printer, flash umbrella and guest book table",
+        "caption": "Selfie Mirror Pod with printer and guest book"
+      }
+    ],
+    "retro-pod": [
+      {
+        "image": "event-retro-1",
+        "alt": "Guests posing in front of a Retro Pod on a tripod with its inbuilt printer and flash",
+        "caption": "Guests at the Retro Pod"
+      }
+    ],
+    "party-booth": [
+      {
+        "image": "event-party-1",
+        "alt": "Wooden enclosed Party Booth with a cream curtain set up in a marquee with a guest book table",
+        "caption": "Party Booth with curtain and guest book table"
+      }
+    ],
     "inflatable-booth": [
-      { "image": "event-inflatable-1", "alt": "Inflatable photo booth lit pink and purple at a venue", "caption": "Inflatable Booth lit in pink and purple" },
-      { "image": "event-inflatable-2", "alt": "Inflatable photo booth lit blue in a function room", "caption": "Inflatable Booth lit in blue" }
+      {
+        "image": "event-inflatable-1",
+        "alt": "Inflatable photo booth lit pink and purple at a venue",
+        "caption": "Inflatable Booth lit in pink and purple"
+      },
+      {
+        "image": "event-inflatable-2",
+        "alt": "Inflatable photo booth lit blue in a function room",
+        "caption": "Inflatable Booth lit in blue"
+      }
     ],
     "gif-booth": [
-      { "image": "event-lcd-1", "alt": "The slim touchscreen pod the GIF Booth runs on, set up at an outdoor event", "caption": "The same slim pod as the LCD SlimPod, which the GIF Booth runs on" },
-      { "image": "event-lcd-3", "alt": "Guests posing beside the slim touchscreen pod used for the GIF Booth at an outdoor party", "caption": "Guests at an outdoor party with the same slim pod" }
+      {
+        "image": "event-lcd-1",
+        "alt": "The slim touchscreen pod the GIF Booth runs on, set up at an outdoor event",
+        "caption": "The same slim pod as the LCD SlimPod, which the GIF Booth runs on"
+      },
+      {
+        "image": "event-lcd-3",
+        "alt": "Guests posing beside the slim touchscreen pod used for the GIF Booth at an outdoor party",
+        "caption": "Guests at an outdoor party with the same slim pod"
+      }
     ]
-  }
+  },
+  "gallery": [
+    {
+      "image": "event-selfie-1",
+      "alt": "Selfie Mirror Pod with a blue and purple LED frame beside a printer, flash umbrella and guest book table",
+      "caption": "Selfie Mirror Pod"
+    },
+    {
+      "image": "event-party-1",
+      "alt": "Wooden enclosed Party Booth with a cream curtain set up in a marquee",
+      "caption": "Party Booth"
+    },
+    {
+      "image": "event-magic-1",
+      "alt": "Magic Mirror with an orange LED frame, red rope barriers and red carpet",
+      "caption": "Magic Mirror"
+    },
+    {
+      "image": "event-retro-1",
+      "alt": "Guests posing in front of a Retro Pod on a tripod",
+      "caption": "Retro Pod"
+    },
+    {
+      "image": "event-lcd-6",
+      "alt": "LCD SlimPod with a ring light, printer and dress-up hats",
+      "caption": "LCD SlimPod"
+    },
+    {
+      "image": "event-inflatable-1",
+      "alt": "Inflatable photo booth lit pink and purple at a venue",
+      "caption": "Inflatable Booth"
+    },
+    {
+      "image": "event-lcd-1",
+      "alt": "LCD SlimPod set up on artificial grass at an outdoor event",
+      "caption": "LCD SlimPod outdoors"
+    }
+  ]
 }

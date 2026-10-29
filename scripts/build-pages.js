@@ -256,7 +256,9 @@ const images = readJson(path.join(DATA, 'images.json'));
 const structure = readJson(path.join(DATA, 'booths.json'));
 const areasStruct = readJson(path.join(DATA, 'areas.json')).areas;
 const redirects = readJson(path.join(DATA, 'redirects.json'));
-const eventPhotos = readJson(path.join(DATA, 'event-photos.json')).booths || {};
+const eventPhotosData = readJson(path.join(DATA, 'event-photos.json'));
+const eventPhotos = eventPhotosData.booths || {};
+const mapEventPhotos = (list) => (list || []).map((p) => ({ caption: p.caption || '', picture: picture(p.image, p.alt, { sizes: '(max-width: 768px) 100vw, 33vw' }) }));
 
 function loadContentDir(type) {
   const dir = path.join(DATA, 'content', type);
@@ -653,10 +655,8 @@ for (const booth of booths) {
       customisation: booth.customisation,
       priceFrom: booth.priceFrom,
       packages: booth.packages || [],
-      eventPhotos: (eventPhotos[booth.slug] || []).map((p) => ({
-        caption: p.caption || '',
-        picture: picture(p.image, p.alt, { sizes: '(max-width: 768px) 100vw, 33vw' }),
-      })),
+      eventPhotos: mapEventPhotos(eventPhotos[booth.slug]),
+      eventPhotosHeading: `The ${booth.name} at Real Events`,
     },
   });
 }
@@ -796,7 +796,7 @@ simplePage({
 
 simplePage({
   slug: 'events', url: '/events/', outFile: 'events/index.html', crumbName: 'Events', eyebrow: 'Event photo booth hire', heroImage: 'booth-party',
-  model: { showBoothGrid: true },
+  model: { showBoothGrid: true, eventPhotos: mapEventPhotos(eventPhotosData.gallery), eventPhotosHeading: 'Our Booths at Real Events' },
   linkGroups: [{ title: 'Photo booth hire by event type', links: allEventLinks() }, { title: 'Areas we cover', links: [{ href: '/areas/', name: 'All areas we cover' }] }],
   extras: { schemaPageType: 'CollectionPage' },
 });

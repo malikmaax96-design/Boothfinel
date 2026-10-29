@@ -12,22 +12,8 @@
       </div>
     </section>
 {{> sections}}
-{{#if eventPhotos}}    <section class="event-photos section" id="event-photos">
-      <div class="container">
-        <div class="section-header reveal">
-          <p class="section-eyebrow">Real events</p>
-          <h2 class="section-title">The {{name}} at Real Events</h2>
-        </div>
-        <ul class="event-photos-grid">
-          {{#each eventPhotos}}<li class="event-photo reveal">
-            {{{picture}}}
-            {{#if caption}}<p>{{caption}}</p>{{/if}}
-          </li>
-          {{/each}}
-        </ul>
-      </div>
-    </section>
-{{/if}}    <section class="bd-specs section" id="specs">
+{{> event-photos}}
+    <section class="bd-specs section" id="specs">
       <div class="container">
         <div class="section-header reveal">
           <p class="section-eyebrow">Technical details</p>
