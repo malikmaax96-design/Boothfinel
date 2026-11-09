@@ -38,7 +38,7 @@
       "heading": "Which booth works for a Dunstable event",
       "paragraphs": [
         "For halls and community centres, the LCD SlimPod is the practical choice: it needs only 1.5m by 2m of floor, handles up to six guests per shot and is our most popular and most affordable booth. Hotels and golf clubs on the Downs edge give the Magic Mirror the ceiling height and floor space it likes, and its on-screen animations keep a wedding reception entertained between speeches and the first dance.",
-        "If you are planning a large Asian wedding in a Luton suite, the curtained Party Booth gives guests privacy. For milestone birthdays and company parties, the 360 Booth adds slow-motion video with music; we confirm the space it needs with your venue when we quote."
+        "If you are planning a large Asian wedding in a Luton suite, the curtained Party Booth gives guests privacy. For milestone birthdays and company parties in larger function rooms, the Inflatable Booth is a glowing centrepiece that fits up to ten guests, with its colour matched to the theme; it needs about 4m by 4m of floor and 3m of headroom."
       ]
     },
     {
@@ -66,7 +66,7 @@
     { "slug": "lcd-slimpod", "reason": "Its small footprint and low price suit village halls, community centres and school halls across Dunstable and Houghton Regis." },
     { "slug": "magic-mirror", "reason": "Hotels and golf clubs along the Downs edge have the room and ceiling height for a full-length mirror at a wedding reception." },
     { "slug": "party-booth", "reason": "The curtained enclosure gives guests privacy at large Asian weddings held in nearby Luton banqueting suites." },
-    { "slug": "360-booth", "reason": "Milestone birthdays and company parties get slow-motion video with music that guests share straight away." }
+    { "slug": "inflatable-booth", "reason": "Milestone birthdays and company parties in larger function rooms get a glowing enclosure that fits ten guests and prints for each of them." }
   ],
   "faqs": [
     {
@@ -90,5 +90,5 @@
       "a": "Usually, yes. The LCD SlimPod needs just 1.5m by 2m of floor space and a single standard socket. Send us the hall size or a few phone photos and we will confirm which booths fit comfortably before you pay a deposit."
     }
   ],
-  "todos": ["TODO: client to supply 360 Booth dimensions/space/power"]
+  "todos": []
 }

@@ -16,12 +16,12 @@
     {
       "heading": "Showpiece booths for big West London guest lists",
       "paragraphs": [
-        "The Inflatable Booth is the West London showpiece: a 2.5m LED-lit enclosure that fits ten guests, prints for every one of them and glows in a colour matched to the mandap or the decor. It needs 4m by 4m of floor and 3m of headroom, which the big banqueting halls of Southall and Wembley provide easily. The 360 Booth is the other big request for Asian receptions and Heathrow corporate events, with slow-motion video and instant sharing; we confirm its space and power needs for your venue at quote stage.",
+        "The Inflatable Booth is the West London showpiece: a 2.5m LED-lit enclosure that fits ten guests, prints for every one of them and glows in a colour matched to the mandap or the decor. It needs 4m by 4m of floor and 3m of headroom, which the big banqueting halls of Southall and Wembley provide easily. The curtained Party Booth is the other big request for Asian receptions, giving up to eight guests at a time a private space to pose, while Heathrow corporate events often choose the digital-only GIF Booth for instant sharing.",
         "The Magic Mirror continues to be the all-round wedding favourite, and the Selfie Mirror Pod gives a mirror experience with a DSLR camera and prints for each guest in a compact 2m by 2m footprint, which suits hotel suites and the smaller function rooms of Chiswick and Fulham."
       ],
       "list": [
         "Inflatable Booth: ten guests per shot, glow matched to the theme",
-        "360 Booth: slow-motion video for receptions and brand events",
+        "Party Booth: curtained privacy for receptions and family groups",
         "Magic Mirror: full-length interactive mirror, prints for all",
         "Selfie Mirror Pod: compact mirror for hotel suites and bars"
       ]
@@ -50,7 +50,7 @@
   ],
   "popularBooths": [
     { "slug": "inflatable-booth", "reason": "Banqueting halls in Southall, Harrow and Wembley have the floor space and headroom for a glowing enclosure that takes ten guests at a time." },
-    { "slug": "360-booth", "reason": "Asian receptions and Heathrow corporate events want slow-motion video with instant sharing for hundreds of guests." },
+    { "slug": "party-booth", "reason": "Asian receptions across West London want a curtained enclosure where up to eight guests can pose together in private." },
     { "slug": "magic-mirror", "reason": "The full-length interactive mirror stays the all-round wedding favourite for hotel suites and halls across the west." },
     { "slug": "selfie-mirror-pod", "reason": "Smaller function rooms in Chiswick and Fulham get a DSLR mirror experience in a 2m by 2m footprint." }
   ],
@@ -62,7 +62,5 @@
     { "q": "Can prints be branded for a corporate event at a Heathrow hotel?", "a": "Yes. A custom print and overlay template with your text and logo is included with every booking, and digital copies can be delivered by email or QR for guests to share. Send your logo files and brand colours and we will produce a proof to approve." },
     { "q": "Does the venue need your insurance certificate before you arrive?", "a": "Many Heathrow hotels and conference centres ask for it, along with a vehicle registration for the loading bay. We hold public liability insurance and send the certificate as soon as you request it, so pass on the venue contact and we will handle it." }
   ],
-  "todos": [
-    "TODO: client to supply 360 Booth dimensions/space/power"
-  ]
+  "todos": []
 }

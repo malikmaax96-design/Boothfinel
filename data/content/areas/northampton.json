@@ -10,7 +10,7 @@
       "heading": "Which booths Northampton bookings favour",
       "paragraphs": [
         "The Inflatable Booth is a crowd-pleaser in Northampton, where many weddings and large Asian celebrations take place in big banqueting rooms with ceiling height to spare. Its LED glow can be matched to the colour scheme, it holds up to ten people and it becomes a focal point in its own right. It needs a four-metre square and two sockets, so it suits venues with room to breathe.",
-        "For barns and village halls the Magic Mirror remains the wedding favourite, and the LCD SlimPod does the work at birthdays and smaller parties where budget and floor space are both tight. The 360 Booth has grown fast for proms and milestone birthdays; because the platform and rotating arm need clear space, we confirm the exact requirements with your venue at quote stage."
+        "For barns and village halls the Magic Mirror remains the wedding favourite, and the LCD SlimPod does the work at birthdays and smaller parties where budget and floor space are both tight. The curtained Party Booth has grown fast for proms and milestone birthdays, giving up to eight friends a private space to pose, though it needs about 2.5m square and a ceiling of 2.4m or more."
       ]
     },
     {
@@ -56,7 +56,7 @@
     { "slug": "inflatable-booth", "reason": "Large banqueting rooms and hotel suites around the town have the ceiling height for a glowing showpiece that holds ten guests." },
     { "slug": "magic-mirror", "reason": "Barn and village hall weddings in the surrounding villages still ask for the classic mirror more than anything else." },
     { "slug": "lcd-slimpod", "reason": "The affordable all-rounder for birthdays in community centres and Christmas parties at Brackmills." },
-    { "slug": "360-booth", "reason": "Proms and milestone birthdays at hotels and golf clubs want slow-motion video to share on the night." }
+    { "slug": "party-booth", "reason": "Proms and milestone birthdays at hotels and golf clubs want a curtained booth where up to eight friends can pile in together." }
   ],
   "faqs": [
     {
@@ -80,5 +80,5 @@
       "a": "Yes. Sessions are unlimited during the hire, the attendant keeps the queue moving and the mirror and inflatable booths take eight to ten people per shot. For very large Asian weddings we suggest a longer hire window so everyone who wants a photo gets one."
     }
   ],
-  "todos": ["TODO: client to supply 360 Booth dimensions/space/power"]
+  "todos": []
 }

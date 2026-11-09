@@ -1,7 +1,7 @@
 {
   "slug": "london",
   "title": "Photo Booth Hire London | Boothdrop Entertainment",
-  "metaDescription": "Photo booth hire across all 32 London boroughs and the City. Magic Mirror, 360 and slim pods with attendant, props and prints included. Get a free quote.",
+  "metaDescription": "Photo booth hire across all 32 London boroughs and the City. Magic Mirror, Party Booth and slim pods with attendant, props and prints. Get a free quote.",
   "h1": "Photo Booth Hire in London",
   "primaryKeyword": "photo booth hire London",
   "intro": "Boothdrop Entertainment delivers photo booths to weddings, corporate events, proms and parties across the whole of Greater London, from the City to the outer boroughs. Each booking comes with a professional attendant, free delivery and setup, unlimited sessions, props and a personalised print template. Packages start from £239 and an £80 deposit holds your date.",
@@ -38,7 +38,7 @@
       "heading": "The booths Londoners book most",
       "paragraphs": [
         "The Magic Mirror is the capital's wedding favourite: a full-length interactive mirror with animations and games that looks right at home in a hotel ballroom or a Georgian reception room. For smaller city rooms and tighter budgets, the LCD SlimPod is our most popular and most affordable option, with a footprint of just 1.5m by 2m and smart background removal that needs no green screen.",
-        "Corporate teams and brand events in London increasingly ask for the 360 Booth, where guests stand on a platform while a camera arm captures slow-motion video for instant sharing; we confirm its space requirements for your venue at quote stage. The GIF Booth is the lowest-footprint choice of all, digital-only and ideal for product launches and social-first parties where prints are not the point."
+        "Corporate teams and brand events in London increasingly ask for the Selfie Mirror Pod, an oval LED-framed mirror with a DSLR camera that takes up to eight per shot and prints for every guest in a 2m by 2m footprint. The GIF Booth is the lowest-footprint choice of all, digital-only and ideal for product launches and social-first parties where prints are not the point."
       ]
     },
     {
@@ -59,7 +59,7 @@
   "popularBooths": [
     { "slug": "magic-mirror", "reason": "The full-length interactive mirror is the wedding favourite for London hotel ballrooms and reception rooms with space to show it off." },
     { "slug": "lcd-slimpod", "reason": "Its 36cm width and single socket make it the go-to for compact city function rooms and budget-conscious parties." },
-    { "slug": "360-booth", "reason": "Corporate and brand events across the capital want slow-motion video that guests can share the same night." },
+    { "slug": "selfie-mirror-pod", "reason": "Corporate dinners and brand events across the capital get a DSLR mirror with instant prints for every guest in just 2m by 2m." },
     { "slug": "gif-booth", "reason": "Digital-only delivery and the smallest footprint suit launches and social-first parties in tight central venues." }
   ],
   "faqs": [
@@ -70,7 +70,5 @@
     { "q": "Our venue wants insurance paperwork from every supplier. Can you provide it?", "a": "Yes. Boothdrop Entertainment holds public liability insurance and we can send the certificate to your venue or planner as soon as you ask. Many London hotels and listed venues require it before granting access, so it is best to request it early." },
     { "q": "Can the booth run past midnight?", "a": "It can, provided the venue allows suppliers on site at that hour. Tell us the finish time when you enquire and we will quote the hire window to match, with pack-down planned to fit the venue's closing or curfew time." }
   ],
-  "todos": [
-    "TODO: client to supply 360 Booth dimensions/space/power"
-  ]
+  "todos": []
 }

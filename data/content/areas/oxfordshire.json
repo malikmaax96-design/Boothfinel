@@ -38,7 +38,7 @@
       "heading": "Booths that suit Oxfordshire events",
       "paragraphs": [
         "The Magic Mirror is the one most Oxfordshire couples ask for. Its full-length frame looks right in a stone barn or a panelled hall, and the on-screen animations keep a queue entertained during the evening reception. For smaller rooms, or where budget matters, the LCD SlimPod squeezes into 1.5 metres by 2 metres and still produces two prints per session plus digital copies.",
-        "Retro Pod bookings have grown for vintage-themed weddings on the Cotswold edge, since the built-in printer keeps cables out of sight and the classic strip prints match a rustic styling. For Oxford balls and larger corporate parties the 360 Booth gives a slow-motion video moment that guests share straight away; we confirm its space and power requirements for your venue when we quote."
+        "Retro Pod bookings have grown for vintage-themed weddings on the Cotswold edge, since the built-in printer keeps cables out of sight and the classic strip prints match a rustic styling. For Oxford balls and larger corporate parties the Inflatable Booth makes a glowing centrepiece that holds ten guests and prints for each of them, as long as the room allows roughly 4m square, 3m of headroom and two sockets."
       ]
     },
     {
@@ -53,7 +53,7 @@
     { "slug": "magic-mirror", "reason": "The full-length mirror and animations suit Oxfordshire's stone barns and panelled college halls, where most weddings in the county are held." },
     { "slug": "lcd-slimpod", "reason": "Its 1.5m by 2m footprint fits village halls and tighter hotel rooms, and the £239 starting price suits birthdays and smaller parties." },
     { "slug": "retro-pod", "reason": "The inbuilt printer and classic strip prints match the rustic, vintage styling common at Cotswold-edge barn weddings." },
-    { "slug": "360-booth", "reason": "Oxford balls and corporate launches want shareable video, and the slow-motion clips give guests something to post straight away." }
+    { "slug": "inflatable-booth", "reason": "Oxford balls and larger corporate parties have the room for a glowing enclosure that takes ten guests at once and matches the event colours." }
   ],
   "faqs": [
     {
@@ -77,7 +77,5 @@
       "a": "Absolutely. Every booking includes a custom print template, and we design it around your colours, fonts and names. Kraft-paper tones, botanical borders and classic photo strips are all popular choices for barn weddings, and you approve the design before the day."
     }
   ],
-  "todos": [
-    "TODO: client to supply 360 Booth dimensions/space/power"
-  ]
+  "todos": []
 }

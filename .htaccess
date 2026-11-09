@@ -74,6 +74,7 @@ AddDefaultCharset UTF-8
   RewriteRule ^blog/corporate-events(\.html)?/?$ /blog/why-corporate-events-need-a-photo-booth [R=301,L,NE]
   RewriteRule ^blog/party-guide(\.html)?/?$ /blog/party-planning-tips [R=301,L,NE]
   RewriteRule ^blog/wedding-tips(\.html)?/?$ /blog/how-to-choose-a-wedding-photo-booth [R=301,L,NE]
+  RewriteRule ^booths/360-photo-booth-hire(\.html)?/?$ /booths/ [R=301,L,NE]
 
   # 3. Strip index.html from the URL (/booths/index.html → /booths/)
   RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]

@@ -37,7 +37,7 @@
     {
       "heading": "Choosing a booth for a Watford event",
       "paragraphs": [
-        "The Magic Mirror is the booth we most often suggest for hotel and banqueting-suite weddings in the area: it looks elegant, takes up to eight guests in a shot and prints for everyone. Where privacy matters, the enclosed Party Booth gives guests a curtained space of their own. For school halls, pubs and tighter rooms, the LCD SlimPod is the compact, most affordable choice, and the 360 Booth adds slow-motion video with music for birthdays and company parties. We confirm space requirements for the 360 Booth with your venue at quote stage.",
+        "The Magic Mirror is the booth we most often suggest for hotel and banqueting-suite weddings in the area: it looks elegant, takes up to eight guests in a shot and prints for everyone. Where privacy matters, the enclosed Party Booth gives guests a curtained space of their own. For school halls, pubs and tighter rooms, the LCD SlimPod is the compact, most affordable choice, and the GIF Booth adds branded GIFs and boomerangs, sent straight to phones by email or QR code, for birthdays and company parties.",
         "Whichever you pick, the package includes a professional attendant, unlimited sessions during your hire, props, a custom template with your names or logo, LED lighting, digital sharing and a guest book on print booths. Green screen is available on request."
       ]
     },
@@ -59,7 +59,7 @@
     { "slug": "magic-mirror", "reason": "Hotels and banqueting suites around Watford suit the full-length mirror, which takes eight guests in a shot and prints for everyone." },
     { "slug": "party-booth", "reason": "The curtained enclosure gives Asian wedding guests a private space when the celebration crosses the border from north-west London." },
     { "slug": "lcd-slimpod", "reason": "Its slim footprint copes with school halls, pub function rooms and proms where floor space is limited and budgets are tight." },
-    { "slug": "360-booth", "reason": "Birthdays and company parties in hotels and business-park venues enjoy slow-motion video with music that is shared instantly." }
+    { "slug": "gif-booth", "reason": "Birthdays and company parties in hotels and business-park venues enjoy branded GIFs and boomerangs that are shared instantly." }
   ],
   "faqs": [
     {
@@ -83,5 +83,5 @@
       "a": "The LCD SlimPod needs a floor area of about 1.5m by 2m and one standard socket, so it fits most function rooms. Larger booths need more room, so send us a rough size of the space and we will suggest what works."
     }
   ],
-  "todos": ["TODO: client to supply 360 Booth dimensions/space/power"]
+  "todos": []
 }

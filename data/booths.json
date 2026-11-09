@@ -16,14 +16,6 @@
       "priceFrom": null
     },
     {
-      "slug": "360-booth",
-      "urlSlug": "360-photo-booth-hire",
-      "image": "booth-360",
-      "formValue": "360 Booth",
-      "imageTodo": "TODO: client to supply a 360 Booth photo (placeholder graphic in use)",
-      "priceFrom": null
-    },
-    {
       "slug": "selfie-mirror-pod",
       "urlSlug": "selfie-mirror-pod-hire",
       "image": "booth-selfie",
@@ -80,6 +72,10 @@
     {
       "slug": "birthday-party-photo-booth-hire",
       "name": "Birthday Parties"
+    },
+    {
+      "slug": "christmas-party-photo-booth-hire",
+      "name": "Christmas Parties"
     }
   ]
 }

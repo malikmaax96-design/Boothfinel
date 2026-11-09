@@ -24,13 +24,13 @@
       "heading": "The booths West Sussex clients book most",
       "paragraphs": [
         "Weddings dominate the summer calendar here, and the Magic Mirror is the one most couples ask for by name. Its full-length screen, on-screen animations and a print for everyone in the shot work beautifully in a barn or a country house drawing room, and the guest book it comes with ends up as a keepsake. For tighter rooms, the LCD SlimPod is the affordable all-rounder: a touchscreen pod that needs just one socket, removes backgrounds without a green screen and still gives two prints per session.",
-        "The Retro Pod has become a strong choice for the county's vintage-leaning weddings and milestone birthdays, thanks to its classic photo-strip prints and an inbuilt printer that keeps cables tidy. For larger wedding receptions and corporate launches near Gatwick, the 360 Booth adds slow-motion video with music and instant sharing; we confirm its space and power requirements for your venue at quote stage."
+        "The Retro Pod has become a strong choice for the county's vintage-leaning weddings and milestone birthdays, thanks to its classic photo-strip prints and an inbuilt printer that keeps cables tidy. For larger wedding receptions and corporate launches near Gatwick, the Inflatable Booth adds a glowing centrepiece for up to ten guests in the event colours, provided the room offers around 4m by 4m of floor and 3m of headroom."
       ],
       "list": [
         "Magic Mirror: full-length wedding favourite with guest book included",
         "LCD SlimPod: slim footprint, one plug, packages from £239",
         "Retro Pod: photo-strip prints with an inbuilt printer",
-        "360 Booth: slow-motion video for big receptions and launches"
+        "Inflatable Booth: glowing enclosure for big receptions and launches"
       ]
     },
     {
@@ -53,7 +53,7 @@
     { "slug": "magic-mirror", "reason": "The full-length mirror suits the county's barn and country estate weddings, where there is room for a 2m by 2m footprint and the guest book becomes a keepsake." },
     { "slug": "lcd-slimpod", "reason": "Compact seafront hotel function rooms around Worthing and Shoreham need a slim pod that runs from one socket and fits without blocking the dance floor." },
     { "slug": "retro-pod", "reason": "Vintage-styled weddings in South Downs barns love the classic photo-strip prints, and the inbuilt printer keeps cables off uneven floors." },
-    { "slug": "360-booth", "reason": "Corporate launches and large receptions in the Gatwick hotels around Crawley want shareable slow-motion video for social media." }
+    { "slug": "inflatable-booth", "reason": "Corporate launches and large receptions in the Gatwick hotels around Crawley have the space for a glowing enclosure that fits ten guests." }
   ],
   "faqs": [
     {
@@ -74,10 +74,8 @@
     },
     {
       "q": "Will the booth work in an upstairs function room with no lift?",
-      "a": "Most of our booths can be carried up a staircase by the attendant, although the Inflatable Booth and the 360 Booth are better suited to ground-floor rooms. Tell us about the stairs when you book and we will suggest the right model for the space."
+      "a": "Most of our booths can be carried up a staircase by the attendant, although the Inflatable Booth is better suited to ground-floor rooms. Tell us about the stairs when you book and we will suggest the right model for the space."
     }
   ],
-  "todos": [
-    "TODO: client to supply 360 Booth dimensions/space/power"
-  ]
+  "todos": []
 }

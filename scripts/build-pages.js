@@ -611,6 +611,7 @@ function assemble(page) {
 }
 
 const HOME_CRUMB = { name: 'Home', href: '/' };
+const NUMBER_WORDS = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
 
 /* Booth pages */
 for (const booth of booths) {
@@ -677,7 +678,7 @@ for (const event of events) {
     primaryKeyword: event.primaryKeyword,
     sections: event.sections,
     faqs: event.faqs,
-    preselectEvent: { 'wedding-photo-booth-hire': 'Wedding', 'asian-wedding-photo-booth-hire': 'Asian Wedding', 'corporate-photo-booth-hire': 'Corporate Event', 'prom-photo-booth-hire': 'Prom / School Event', 'birthday-party-photo-booth-hire': 'Birthday Party' }[event.slug],
+    preselectEvent: { 'wedding-photo-booth-hire': 'Wedding', 'asian-wedding-photo-booth-hire': 'Asian Wedding', 'corporate-photo-booth-hire': 'Corporate Event', 'prom-photo-booth-hire': 'Prom / School Event', 'birthday-party-photo-booth-hire': 'Birthday Party', 'christmas-party-photo-booth-hire': 'Christmas Party' }[event.slug],
     ogImage: `/images/${event.image}-opt.jpg`,
     ogImageDims: { w: images[event.image].w, h: images[event.image].h },
     preloadImage: preloadFor(event.image),
@@ -791,7 +792,7 @@ simplePage({
   slug: 'booths', url: '/booths/', outFile: 'booths/index.html', crumbName: 'Booths', eyebrow: 'Our collection', heroImage: 'booth-slimpod',
   model: { showBoothGrid: true },
   linkGroups: [{ title: 'Photo booths by event', links: allEventLinks() }, { title: 'Areas we cover', links: [{ href: '/areas/', name: 'All areas we cover' }] }],
-  extras: { schemaPageType: 'CollectionPage', boothGridHeading: 'All Eight Booths', extraSchema: [{ '@type': 'ItemList', itemListElement: booths.map((b, i) => ({ '@type': 'ListItem', position: i + 1, name: `${b.name} hire`, url: `${site.url}${b.href}` })) }] },
+  extras: { schemaPageType: 'CollectionPage', boothGridHeading: `All ${NUMBER_WORDS[booths.length] || booths.length} Booths`, extraSchema: [{ '@type': 'ItemList', itemListElement: booths.map((b, i) => ({ '@type': 'ListItem', position: i + 1, name: `${b.name} hire`, url: `${site.url}${b.href}` })) }] },
 });
 
 simplePage({
@@ -934,6 +935,7 @@ assemble({
     'corporate-photo-booth-hire': 'Branded prints and digital files for awards nights, Christmas parties, launches and exhibitions.',
     'prom-photo-booth-hire': 'Supervised, fast-moving booths that keep a whole year group entertained and give every student a print.',
     'birthday-party-photo-booth-hire': 'From 18ths to 60ths, themed templates and props that get everyone in front of the camera.',
+    'christmas-party-photo-booth-hire': 'Logo-branded office parties, festive family gatherings and New Year countdown overlays.',
   };
   const londonChildren = londonParent.children.map((s) => areaBySlug.get(s));
   const galleryMods = ['', 'gallery-item--tall', '', 'gallery-item--wide', '', '', 'gallery-item--tall', ''];
@@ -955,8 +957,10 @@ assemble({
     bodyClass: 'home',
     preloadImage: preloadFor('hero-bg'),
     boothGridHeading: 'Choose Your Perfect Booth',
-    boothGridDesc: 'Eight booth styles, all with an attendant, props, a custom template and free delivery and setup.',
+    boothGridDesc: `${NUMBER_WORDS[booths.length] || booths.length} booth styles, all with an attendant, props, a custom template and free delivery and setup.`,
     model: {
+      boothCount: booths.length,
+      boothCountWord: (NUMBER_WORDS[booths.length] || String(booths.length)).toLowerCase(),
       h1Html: escapeHtml(home.h1).replace(/\bfor\b/i, '<br>for').replace(/Every Occasion/, '<span class="gold-text">Every Occasion</span>'),
       heroSubtitle: home.heroSubtitle,
       heroTagline: home.heroTagline,

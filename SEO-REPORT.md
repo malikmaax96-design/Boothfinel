@@ -246,3 +246,10 @@ Sticky mobile call/quote bar on every page; one reusable quote form partial (nam
 ## Update (29 Oct 2026): client-supplied event photos
 
 Five photos supplied by the client were added (Selfie Mirror Pod, Party Booth, Retro Pod, LCD SlimPod, Magic Mirror) on their booth pages and in a new "Our Booths at Real Events" section on `/events/`. Metadata was stripped. **TODO / client to confirm**: (1) the Retro Pod photo shows guests' faces and the Party Booth photo shows a guest with a young child, so confirm permission to publish; (2) the LCD SlimPod photo (ring light, red rug) appears to have been taken in the United States (banners for Delaware County, PA); it is captioned without a location and is used only on the booth page, never on a UK area page; (3) the client's Windows Downloads folder "bootdroop event picture" may hold more photos, which have not been added. The 360 Booth still has no event photo.
+
+## Update (9 Nov 2026): 360 Booth removed, 13 new pages
+
+- **360 Booth discontinued** at the client's request: page deleted, `/booths/360-photo-booth-hire` 301-redirects to `/booths/`, every mention removed from area, event, blog and FAQ copy, and booth counts now read seven (computed from the data, so they stay right if booths change again).
+- **New pages for SEO** (Google Ads switched off, so organic reach matters more): Christmas party event page, plus town pages for Bedford, Leighton Buzzard, Stevenage, St Albans, Hitchin, Harpenden, Welwyn Garden City, Hertford, High Wycombe, Kettering, Wellingborough and Peterborough. Each links up to its county page and across to three neighbours. 74 pages in total.
+- **Checks**: 0 broken internal links; HTML validates; compared with the last deployed build no title or canonical changed, and the only heading change is the booths overview ("Seven Booths").
+- **TODO (client)**: confirm invoice and payment terms for corporate Christmas bookings, and whether hire can be extended on the night. Supply the per-booth event photos ("Boothdrop px") so each booth page can show several.

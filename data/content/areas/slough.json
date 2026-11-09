@@ -23,7 +23,7 @@
     {
       "heading": "The booths Slough families and businesses ask for",
       "paragraphs": [
-        "The Party Booth is the obvious choice when privacy matters, and the Inflatable Booth, with its glow matched to the wedding colours, is a showpiece for banqueting suites with high ceilings. The Magic Mirror is popular for receptions in hotels and for smaller family celebrations, and the 360 Booth is in demand for sangeets and birthdays, where slow-motion video set to music fits the mood. Because the 360 platform needs clear floor space and power, we confirm the exact requirements with the venue at quote stage."
+        "The Party Booth is the obvious choice when privacy matters, and the Inflatable Booth, with its glow matched to the wedding colours, is a showpiece for banqueting suites with high ceilings. The Magic Mirror is popular for receptions in hotels and for smaller family celebrations, and the Selfie Mirror Pod is in demand for sangeets and birthdays, where a compact LED-framed mirror with instant prints for up to eight guests per shot suits smaller function rooms."
       ]
     },
     {
@@ -56,7 +56,7 @@
     { "slug": "party-booth", "reason": "The enclosed curtain gives privacy for ladies' sessions at South Asian weddings in the town's banqueting suites." },
     { "slug": "inflatable-booth", "reason": "High-ceilinged banqueting halls suit a glowing showpiece that holds ten guests and matches the wedding colours." },
     { "slug": "magic-mirror", "reason": "Hotel receptions near Heathrow and smaller family celebrations in Langley and Burnham favour the classic mirror." },
-    { "slug": "360-booth", "reason": "Sangeets and milestone birthdays want slow-motion video set to music for instant sharing." }
+    { "slug": "selfie-mirror-pod", "reason": "Sangeets and milestone birthdays in smaller function rooms get mirror-style photos with instant prints for every guest in the shot." }
   ],
   "faqs": [
     {
@@ -84,5 +84,5 @@
       "a": "Yes, as long as you supply the exact wording. We design the template with your names, date and any message in the language or languages you want, and send a proof to approve before the event."
     }
   ],
-  "todos": ["TODO: client to supply 360 Booth dimensions/space/power"]
+  "todos": []
 }

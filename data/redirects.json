@@ -278,5 +278,10 @@
     "from": "/blog/wedding-tips",
     "to": "/blog/how-to-choose-a-wedding-photo-booth",
     "reason": "old blog post"
+  },
+  {
+    "from": "/booths/360-photo-booth-hire",
+    "to": "/booths/",
+    "reason": "360 Booth discontinued by the client"
   }
 ]

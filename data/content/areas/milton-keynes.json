@@ -38,7 +38,7 @@
       "heading": "Setup, power and access",
       "paragraphs": [
         "Our attendant arrives about an hour before your hire window opens. The build takes 45 to 60 minutes, and that time is not charged as hire. Most booths run from a single standard socket, and the Inflatable Booth needs two. We tape down cables, test every print and check the template before the first guest arrives.",
-        "If the room is upstairs with no lift, or the barn is a long walk from the nearest hard standing, let us know when you enquire. Slim booths are easy to carry, while the larger mirror, enclosed and inflatable booths prefer a ground-floor room with a straightforward route in. For the 360 Booth we confirm space requirements with the venue at quote stage."
+        "If the room is upstairs with no lift, or the barn is a long walk from the nearest hard standing, let us know when you enquire. Slim booths are easy to carry, while the larger mirror, enclosed and inflatable booths prefer a ground-floor room with a straightforward route in."
       ]
     },
     {
@@ -84,5 +84,5 @@
       "a": "Yes. Send us the venue contact, the delivery entrance and any visitor registration needs, and we will plan an arrival slot that fits. We bring our public liability certificate, and the venue can have a copy on request."
     }
   ],
-  "todos": ["TODO: client to supply 360 Booth dimensions/space/power"]
+  "todos": []
 }

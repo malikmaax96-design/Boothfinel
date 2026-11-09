@@ -11,11 +11,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.boothdrop.co.uk/booths/360-photo-booth-hire</loc>
-    <lastmod>2026-10-27</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.boothdrop.co.uk/booths/selfie-mirror-pod-hire</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.8</priority>
@@ -63,6 +58,11 @@
   <url>
     <loc>https://www.boothdrop.co.uk/events/birthday-party-photo-booth-hire</loc>
     <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.boothdrop.co.uk/events/christmas-party-photo-booth-hire</loc>
+    <lastmod>2026-11-09</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -236,6 +236,66 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.boothdrop.co.uk/areas/photo-booth-hire-bedford</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.boothdrop.co.uk/areas/photo-booth-hire-leighton-buzzard</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.boothdrop.co.uk/areas/photo-booth-hire-stevenage</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.boothdrop.co.uk/areas/photo-booth-hire-st-albans</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.boothdrop.co.uk/areas/photo-booth-hire-hitchin</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.boothdrop.co.uk/areas/photo-booth-hire-harpenden</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.boothdrop.co.uk/areas/photo-booth-hire-welwyn-garden-city</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.boothdrop.co.uk/areas/photo-booth-hire-hertford</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.boothdrop.co.uk/areas/photo-booth-hire-high-wycombe</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.boothdrop.co.uk/areas/photo-booth-hire-kettering</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.boothdrop.co.uk/areas/photo-booth-hire-wellingborough</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.boothdrop.co.uk/areas/photo-booth-hire-peterborough</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.boothdrop.co.uk/booths/</loc>
     <lastmod>2026-10-27</lastmod>
     <priority>0.6</priority>
@@ -292,7 +352,7 @@
   </url>
   <url>
     <loc>https://www.boothdrop.co.uk/blog/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

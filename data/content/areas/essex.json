@@ -10,12 +10,12 @@
       "heading": "Showpiece booths for showpiece parties",
       "paragraphs": [
         "Essex events tend to go big, and the Inflatable Booth is our most asked-for option in the county. The LED glow is set to match the colour scheme, up to ten guests can pile in together and prints are produced for everyone in the shot. For glamorous weddings in country clubs and barns, the Magic Mirror offers a full-length interactive frame with animations and games that look the part against a styled backdrop.",
-        "The 360 Booth has taken off for birthdays, engagement parties and Asian weddings around Chelmsford, Brentwood and Basildon, delivering slow-motion video clips with music for instant sharing; we confirm its space and power needs for your venue at quote stage. The Selfie Mirror Pod is the compact alternative where a smaller room still wants mirror-style photos and instant prints."
+        "The Party Booth has taken off for birthdays, engagement parties and Asian weddings around Chelmsford, Brentwood and Basildon, with a curtained, wood-panelled enclosure that fits up to eight guests and keeps every session private. The Selfie Mirror Pod is the compact alternative where a smaller room still wants mirror-style photos and instant prints."
       ],
       "list": [
         "Inflatable Booth: colour-matched glow, up to ten people per photo",
         "Magic Mirror: full-length frame, animations and prints for everyone",
-        "360 Booth: slow-motion video built for social sharing",
+        "Party Booth: curtained privacy for up to eight guests",
         "Selfie Mirror Pod: mirror photos in a two-metre footprint"
       ]
     },
@@ -51,7 +51,7 @@
   "popularBooths": [
     { "slug": "inflatable-booth", "reason": "Essex parties go big, and a colour-matched glowing enclosure for ten people is the showpiece that barn and country club receptions want." },
     { "slug": "magic-mirror", "reason": "Styled, glamorous weddings across the county suit a full-length interactive mirror with animations and a print for every guest." },
-    { "slug": "360-booth", "reason": "Milestone birthdays, engagement parties and Asian weddings around Chelmsford and Brentwood are built for shareable slow-motion video." },
+    { "slug": "party-booth", "reason": "Milestone birthdays, engagement parties and Asian weddings around Chelmsford and Brentwood suit a curtained booth where up to eight can pose in private." },
     { "slug": "selfie-mirror-pod", "reason": "Hotel function rooms and smaller barns get mirror-style photos and instant prints without giving up two metres of dance floor." }
   ],
   "faqs": [
@@ -73,10 +73,8 @@
     },
     {
       "q": "Do you cover Asian weddings in Essex?",
-      "a": "We do, from the mehndi to the reception. Print templates can include names in English and a second language, colours are matched to the decor, and the attendant is experienced with large guest lists. The 360 Booth and Magic Mirror are the most popular choices for these events."
+      "a": "We do, from the mehndi to the reception. Print templates can include names in English and a second language, colours are matched to the decor, and the attendant is experienced with large guest lists. The Magic Mirror and the curtained Party Booth are the most popular choices for these events."
     }
   ],
-  "todos": [
-    "TODO: client to supply 360 Booth dimensions/space/power"
-  ]
+  "todos": []
 }

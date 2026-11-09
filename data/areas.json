@@ -206,7 +206,8 @@
       "type": "county",
       "parent": null,
       "children": [
-        "cambridge"
+        "cambridge",
+        "peterborough"
       ],
       "neighbours": [
         "bedfordshire",
@@ -235,7 +236,9 @@
       "parent": null,
       "children": [
         "luton",
-        "dunstable"
+        "dunstable",
+        "bedford",
+        "leighton-buzzard"
       ],
       "neighbours": [
         "hertfordshire",
@@ -251,7 +254,13 @@
       "parent": null,
       "children": [
         "hemel-hempstead",
-        "watford"
+        "watford",
+        "stevenage",
+        "st-albans",
+        "hitchin",
+        "harpenden",
+        "welwyn-garden-city",
+        "hertford"
       ],
       "neighbours": [
         "bedfordshire",
@@ -267,7 +276,8 @@
       "parent": null,
       "children": [
         "aylesbury",
-        "milton-keynes"
+        "milton-keynes",
+        "high-wycombe"
       ],
       "neighbours": [
         "oxfordshire",
@@ -295,7 +305,9 @@
       "type": "county",
       "parent": null,
       "children": [
-        "northampton"
+        "northampton",
+        "kettering",
+        "wellingborough"
       ],
       "neighbours": [
         "bedfordshire",
@@ -472,6 +484,162 @@
         "bedfordshire"
       ],
       "hints": "Milton Keynes and its districts: Central Milton Keynes, Bletchley, Fenny Stratford, Wolverton, Stony Stratford, Newport Pagnell, Woburn Sands, Olney, Willen, Shenley. The city is laid out on a grid of V and H roads with many roundabouts. M1 J13–J15, A5, A421, A509. Venues: hotels and conference centres, golf clubs, business parks, community centres, school halls, barns in surrounding villages, sports club function rooms."
+    },
+    {
+      "slug": "bedford",
+      "name": "Bedford",
+      "type": "town",
+      "parent": "bedfordshire",
+      "children": [],
+      "neighbours": [
+        "bedfordshire",
+        "luton",
+        "milton-keynes"
+      ],
+      "hints": "Bedford town centre and the River Great Ouse embankment, Kempston, Biddenham, Bromham, Clapham, Elstow, Wixams, Cardington, Sharnbrook; nearby Ampthill, Flitwick, Sandy, Biggleswade. A6, A421, A428, the A1 to the east and M1 J13. Diverse communities including large South Asian and Italian populations. Venues: riverside hotels, banqueting halls, barns, golf clubs, village halls, community centres, school halls."
+    },
+    {
+      "slug": "leighton-buzzard",
+      "name": "Leighton Buzzard",
+      "type": "town",
+      "parent": "bedfordshire",
+      "children": [],
+      "neighbours": [
+        "bedfordshire",
+        "milton-keynes",
+        "dunstable"
+      ],
+      "hints": "Leighton Buzzard and Linslade, Heath and Reach, Stanbridge, Eggington, Soulbury, with Wing just over the Buckinghamshire border and Dunstable and Milton Keynes nearby. A505, A4146, A5; the Grand Union Canal runs through the town and the station is on the West Coast Main Line. Venues: village halls, barns, golf clubs, nearby hotels, community centres, school halls, garden marquees."
+    },
+    {
+      "slug": "stevenage",
+      "name": "Stevenage",
+      "type": "town",
+      "parent": "hertfordshire",
+      "children": [],
+      "neighbours": [
+        "hertfordshire",
+        "hitchin",
+        "welwyn-garden-city"
+      ],
+      "hints": "Stevenage including the Old Town, Shephall, Chells, Great Ashby and Bedwell; Knebworth village, Hitchin, Letchworth and Welwyn nearby. A1(M) J7–J8, A602, A1072. Venues: hotels, golf clubs, banqueting suites, country house venues in the surrounding villages (never name them), community centres, school halls, business parks."
+    },
+    {
+      "slug": "st-albans",
+      "name": "St Albans",
+      "type": "town",
+      "parent": "hertfordshire",
+      "children": [],
+      "neighbours": [
+        "hertfordshire",
+        "harpenden",
+        "watford"
+      ],
+      "hints": "St Albans city centre (a cathedral city with Roman Verulamium heritage), London Colney, Park Street, How Wood, Wheathampstead, Redbourn, Colney Heath, with Hatfield and Harpenden close by. M25 J21A–J22, M1 J6–J7, A414, A5183, A1081; St Albans City station. Venues: country house hotels, golf clubs, barns, period and listed buildings (no fixings to walls), village halls, school halls."
+    },
+    {
+      "slug": "hitchin",
+      "name": "Hitchin",
+      "type": "town",
+      "parent": "hertfordshire",
+      "children": [],
+      "neighbours": [
+        "hertfordshire",
+        "stevenage",
+        "luton"
+      ],
+      "hints": "Hitchin market town, Letchworth Garden City, Baldock, Ickleford, Pirton, Offley, with Stevenage to the south-east and Luton to the south-west. A1(M) J8, A505, A600, A602. Venues: barns in North Hertfordshire villages, golf clubs, hotels, town-centre function rooms, village halls, school halls."
+    },
+    {
+      "slug": "harpenden",
+      "name": "Harpenden",
+      "type": "town",
+      "parent": "hertfordshire",
+      "children": [],
+      "neighbours": [
+        "hertfordshire",
+        "st-albans",
+        "luton"
+      ],
+      "hints": "Harpenden town and common, Redbourn, Wheathampstead, Kinsbourne Green, Batford, between St Albans and Luton. A1081, M1 J9–J10; Harpenden station on Thameslink. Venues: village halls, golf clubs, hotels, private garden marquees, sports and cricket clubs, school halls."
+    },
+    {
+      "slug": "welwyn-garden-city",
+      "name": "Welwyn Garden City",
+      "type": "town",
+      "parent": "hertfordshire",
+      "children": [],
+      "neighbours": [
+        "hertfordshire",
+        "stevenage",
+        "hertford"
+      ],
+      "hints": "Welwyn Garden City, Welwyn village, Digswell, Woolmer Green, Hatfield to the south and Hertford to the east. A1(M) J4–J6, A414, A1000. Venues: hotels, golf clubs, university venues in Hatfield (generic), business parks, village halls, community halls, school halls."
+    },
+    {
+      "slug": "hertford",
+      "name": "Hertford",
+      "type": "town",
+      "parent": "hertfordshire",
+      "children": [],
+      "neighbours": [
+        "hertfordshire",
+        "welwyn-garden-city",
+        "essex"
+      ],
+      "hints": "Hertford, the county town, with Ware, Bengeo, Hertingfordbury, Hoddesdon and Welwyn Garden City nearby; the River Lea and Lee Navigation run through the area. A414, A10, A602; Hertford East and Hertford North stations. Venues: country house hotels (generic), barns, village halls, golf clubs, riverside function rooms, school halls."
+    },
+    {
+      "slug": "high-wycombe",
+      "name": "High Wycombe",
+      "type": "town",
+      "parent": "buckinghamshire",
+      "children": [],
+      "neighbours": [
+        "buckinghamshire",
+        "aylesbury",
+        "slough"
+      ],
+      "hints": "High Wycombe in the Chilterns, with Hazlemere, Loudwater, Flackwell Heath, West Wycombe, and Marlow, Beaconsfield, Princes Risborough and Amersham nearby. M40 J3–J4, A40, A404. Large South Asian community, so Asian weddings in banqueting suites are common. Venues: banqueting suites, hotels, Chiltern barns, golf clubs, village halls, Thames-side venues near Marlow."
+    },
+    {
+      "slug": "kettering",
+      "name": "Kettering",
+      "type": "town",
+      "parent": "northamptonshire",
+      "children": [],
+      "neighbours": [
+        "northamptonshire",
+        "wellingborough",
+        "northampton"
+      ],
+      "hints": "Kettering, Burton Latimer, Rothwell, Desborough, Barton Seagrave, with Corby and Wellingborough nearby. A14, A43, A6, A509; Kettering station on the Midland Main Line. Venues: hotels, golf clubs, village halls, barns, community centres, school halls, sports clubs."
+    },
+    {
+      "slug": "wellingborough",
+      "name": "Wellingborough",
+      "type": "town",
+      "parent": "northamptonshire",
+      "children": [],
+      "neighbours": [
+        "northamptonshire",
+        "kettering",
+        "bedford"
+      ],
+      "hints": "Wellingborough, Rushden, Higham Ferrers, Irthlingborough, Earls Barton, Finedon, Raunds, with Northampton to the west. A45, A509, A6; Wellingborough station on the Midland Main Line. Venues: hotels, golf clubs, barns, village halls, community centres, school halls."
+    },
+    {
+      "slug": "peterborough",
+      "name": "Peterborough",
+      "type": "town",
+      "parent": "cambridgeshire",
+      "children": [],
+      "neighbours": [
+        "cambridgeshire",
+        "northamptonshire",
+        "cambridge"
+      ],
+      "hints": "Peterborough (a cathedral city) with Orton, Hampton, Werrington, Bretton, Stanground, Yaxley, Whittlesey, and Market Deeping just over the Lincolnshire border. A1(M), A47, A15, A605; Peterborough station on the East Coast Main Line. Large South Asian and Eastern European communities. Venues: hotels, banqueting suites, conference venues, golf clubs, barns, community centres, school halls."
     }
   ]
 }

@@ -4,7 +4,7 @@
   "metaDescription": "Buckinghamshire photo booth hire for weddings, parties and corporate events in Aylesbury, High Wycombe and Milton Keynes. From £239. Get a free quote.",
   "h1": "Photo Booth Hire Across Buckinghamshire",
   "primaryKeyword": "photo booth hire Buckinghamshire",
-  "intro": "Chiltern barns, Marlow riverside venues and the conference hotels of Milton Keynes all fall within Boothdrop Entertainment's Buckinghamshire patch. Choose from eight booths with packages from £239, each with a professional attendant, free delivery and setup, props and a personalised print template.",
+  "intro": "Chiltern barns, Marlow riverside venues and the conference hotels of Milton Keynes all fall within Boothdrop Entertainment's Buckinghamshire patch. Choose from seven booths with packages from £239, each with a professional attendant, free delivery and setup, props and a personalised print template.",
   "sections": [
     {
       "heading": "Weddings in the Chilterns, launches in Milton Keynes",
@@ -30,19 +30,19 @@
     {
       "heading": "Popular booth choices across the county",
       "paragraphs": [
-        "The Retro Pod has found a real following in Buckinghamshire, especially for weddings in rustic barns, because its photo-strip prints and inbuilt printer give a classic look with almost no cabling on show. The Magic Mirror is the full-length showpiece for country house weddings. For corporate launches and bigger receptions in Milton Keynes, the 360 Booth creates slow-motion video clips with music and overlays that guests share straight away; we confirm its space and power needs with your venue at quote stage. The LCD SlimPod is the value option that fits almost anywhere."
+        "The Retro Pod has found a real following in Buckinghamshire, especially for weddings in rustic barns, because its photo-strip prints and inbuilt printer give a classic look with almost no cabling on show. The Magic Mirror is the full-length showpiece for country house weddings. For corporate launches and conference dinners in Milton Keynes, the GIF Booth creates branded GIFs, boomerangs and stills that guests receive by email or QR code and share straight away. The LCD SlimPod is the value option that fits almost anywhere."
       ],
       "list": [
         "Retro Pod: photo-strip prints, inbuilt printer, tidy footprint",
         "Magic Mirror: full-length mirror for country house weddings",
-        "360 Booth: slow-motion video for launches and large receptions",
+        "GIF Booth: branded GIFs and boomerangs for launches and conference dinners",
         "LCD SlimPod: the affordable touchscreen option from £239"
       ]
     },
     {
       "heading": "Lanes, gravel, stairs and sockets: access notes",
       "paragraphs": [
-        "Rural Buckinghamshire venues are often reached by narrow lanes, and the attendant plans extra time for the last mile. Gravel drives and uneven barn floors are handled with a trolley and a levelling base. Upstairs rooms are fine by lift or a straightforward staircase for most models, but the Inflatable Booth and 360 Booth are best kept on the ground floor. One standard socket is enough for most of our booths.",
+        "Rural Buckinghamshire venues are often reached by narrow lanes, and the attendant plans extra time for the last mile. Gravel drives and uneven barn floors are handled with a trolley and a levelling base. Upstairs rooms are fine by lift or a straightforward staircase for most models, but the Inflatable Booth is best kept on the ground floor. One standard socket is enough for most of our booths.",
         "Setup takes around 45 to 60 minutes before the hire window and is never charged as hire time. Marquee receptions, common in Chiltern gardens in summer, need a reliable 13A supply and a firm, dry floor under cover; let us know early so we can advise on the best position."
       ]
     }
@@ -57,8 +57,8 @@
       "reason": "Country house and riverside weddings around Marlow and Beaconsfield have the space and the setting for a full-length interactive mirror."
     },
     {
-      "slug": "360-booth",
-      "reason": "Launches and conference dinners in Milton Keynes hotels want slow-motion video that guests can share from their phones immediately."
+      "slug": "gif-booth",
+      "reason": "Launches and conference dinners in Milton Keynes hotels want branded GIFs and boomerangs that guests can share from their phones immediately."
     },
     {
       "slug": "lcd-slimpod",
@@ -72,7 +72,7 @@
     },
     {
       "q": "Can the booth go upstairs or into a marquee?",
-      "a": "Most pods and mirrors can be carried upstairs where there is no lift, while the Inflatable Booth and 360 Booth suit ground-floor spaces. Marquees are fine with a reliable 13A supply and a firm, dry floor. Describe the room when you enquire and we will confirm the best fit."
+      "a": "Most pods and mirrors can be carried upstairs where there is no lift, while the Inflatable Booth suits ground-floor spaces. Marquees are fine with a reliable 13A supply and a firm, dry floor. Describe the room when you enquire and we will confirm the best fit."
     },
     {
       "q": "Do you charge travel for venues in Buckingham or Olney?",
@@ -80,14 +80,12 @@
     },
     {
       "q": "Which booth suits a corporate launch in Milton Keynes?",
-      "a": "For a social-first launch the 360 Booth or the GIF Booth generate shareable video and animated content with your branding. For a conference dinner or Christmas party where guests want something to take home, the Magic Mirror or LCD SlimPod with a logo print template is the usual choice."
+      "a": "For a social-first launch the GIF Booth generates shareable GIFs, boomerangs and stills with your branding. For a conference dinner or Christmas party where guests want something to take home, the Magic Mirror or LCD SlimPod with a logo print template is the usual choice."
     },
     {
       "q": "Is Milton Keynes included in your Buckinghamshire coverage?",
       "a": "Yes. Milton Keynes, Newport Pagnell and Olney are within the ceremonial county and sit close to the M1, so they are among our most frequent destinations. Hotel and conference venues there are usually easy to access with loading bays and lifts."
     }
   ],
-  "todos": [
-    "TODO: client to supply 360 Booth dimensions/space/power"
-  ]
+  "todos": []
 }

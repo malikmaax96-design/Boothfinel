@@ -1,16 +1,16 @@
 {
   "slug": "east-london",
   "title": "Photo Booth Hire East London | Boothdrop Entertainment",
-  "metaDescription": "360 booths, Magic Mirrors and slim pods for East London weddings, warehouse parties and corporate events, Shoreditch to Romford. Get a free quote today.",
+  "metaDescription": "Magic Mirrors, GIF booths and slim pods for East London weddings, warehouse parties and corporate events, Shoreditch to Romford. Get a free quote today.",
   "h1": "Photo Booth Hire in East London",
   "primaryKeyword": "photo booth hire East London",
-  "intro": "East London stretches from the warehouse venues of Hackney and Shoreditch, through Canary Wharf and Stratford, out to the banqueting halls of Ilford and Romford, and Boothdrop Entertainment covers all of it. Choose from eight booths including the 360 Booth and Magic Mirror, with attendant, props and setup included from £239.",
+  "intro": "East London stretches from the warehouse venues of Hackney and Shoreditch, through Canary Wharf and Stratford, out to the banqueting halls of Ilford and Romford, and Boothdrop Entertainment covers all of it. Choose from seven booths including the GIF Booth and Magic Mirror, with attendant, props and setup included from £239.",
   "sections": [
     {
-      "heading": "Why the 360 Booth books so well out east",
+      "heading": "Instant content for a social-first crowd",
       "paragraphs": [
-        "Social-first events are East London's speciality, and the 360 Booth fits them perfectly: guests stand on a platform while a camera arm sweeps around them, producing slow-motion video with music and a branded overlay that is on their phones within seconds. It is a regular request for launches in Shoreditch, milestone birthdays in Hackney and Asian weddings in Ilford alike. Space and power requirements for the 360 vary by venue, so we confirm them with you at quote stage.",
-        "The GIF Booth is its digital-only cousin for brand activations where nobody wants paper. On the wedding side the Magic Mirror remains the favourite for banqueting-hall receptions in Redbridge and Havering, printing for every guest and handling eight people per shot, and the Inflatable Booth is the one to pick when you have a huge hall and a theme colour to match."
+        "Social-first events are East London's speciality, and the GIF Booth fits them perfectly: guests pose in front of a slim pod and leave with GIFs, boomerangs and stills carrying a custom animated overlay, delivered by email or QR code within seconds. It is a regular request for launches in Shoreditch, agency parties in Hackney and corporate nights in Canary Wharf alike. Because it shares the LCD SlimPod's slim hardware, it fits tight warehouse corners and railway arches from a single socket.",
+        "Where guests want something on paper, the LCD SlimPod offers the same footprint with prints, smart background removal and virtual props. On the wedding side the Magic Mirror remains the favourite for banqueting-hall receptions in Redbridge and Havering, printing for every guest and handling eight people per shot, and the Inflatable Booth is the one to pick when you have a huge hall and a theme colour to match."
       ]
     },
     {
@@ -38,7 +38,7 @@
       "heading": "Asian weddings, launches and Christmas parties",
       "paragraphs": [
         "Asian weddings are a large share of our East London bookings, especially in Ilford, Newbury Park, Barking and Romford, and the planning advice is simple: tell us which events the booth is for, because a mehndi, a reception and a walima all have different rooms, guest counts and finish times. Prints with the couple's names and the date in your chosen colours are included, and the attendant keeps the queue moving when 400 guests arrive at once.",
-        "Corporate Christmas parties in Canary Wharf and Stratford book up from September. Product launches and agency parties in Shoreditch tend to want the GIF Booth or 360 for instant content. Proms for schools in Newham, Waltham Forest and Redbridge mostly land in late June, and birthdays run from children's parties in community centres in Leyton and Walthamstow to 40ths in Hackney bars."
+        "Corporate Christmas parties in Canary Wharf and Stratford book up from September. Product launches and agency parties in Shoreditch tend to want the GIF Booth for instant content, or the LCD SlimPod when a printed keepsake matters too. Proms for schools in Newham, Waltham Forest and Redbridge mostly land in late June, and birthdays run from children's parties in community centres in Leyton and Walthamstow to 40ths in Hackney bars."
       ]
     },
     {
@@ -50,7 +50,7 @@
     }
   ],
   "popularBooths": [
-    { "slug": "360-booth", "reason": "Shoreditch launches, Hackney birthdays and Ilford receptions all want slow-motion video that guests share the same night." },
+    { "slug": "lcd-slimpod", "reason": "Railway arches and warehouse corners in Hackney and Shoreditch suit a slim pod that prints on the spot from one socket." },
     { "slug": "gif-booth", "reason": "Brand activations and agency parties in the east prefer instant digital content with no prints and the smallest footprint." },
     { "slug": "magic-mirror", "reason": "Banqueting-hall weddings in Redbridge and Havering want a showpiece mirror that prints for every one of eight guests per shot." },
     { "slug": "inflatable-booth", "reason": "Huge halls in Ilford and Romford have the space for a glowing enclosure matched to the wedding colours." }
@@ -61,9 +61,7 @@
     { "q": "Is there a travel charge for Romford, Upminster or Hornchurch?", "a": "No. Delivery, setup and pack-down are included throughout East London, Havering included. Should a travel contribution ever apply to a far-flung venue, it is shown on the quote up front rather than appearing later." },
     { "q": "Can the booth run late at an Asian wedding reception?", "a": "Yes. Receptions in Ilford, Barking and Romford often finish after midnight, and we quote the hire window to match the real finish time rather than a standard slot. Check that the venue allows suppliers to pack down at that hour and let us know." },
     { "q": "What does a Canary Wharf office need from you before the event?", "a": "Usually a booked loading-bay slot, our vehicle registration and a copy of our public liability insurance. We supply all three once the booking is confirmed, so pass us the building manager's contact details and we will deal with them directly." },
-    { "q": "How much space does the 360 Booth need?", "a": "The 360 Booth needs a clear area for the platform and the rotating camera arm, plus room for guests to queue safely. We confirm the exact space and power requirements for your venue at quote stage, so send us the room dimensions and a photo if you can." }
+    { "q": "How much space does the Inflatable Booth need?", "a": "The Inflatable Booth needs a level floor area of about 4m by 4m, a ceiling of at least 3m and two standard sockets, plus room for guests to queue safely. Most banqueting halls in Ilford and Romford manage that easily, but send us the room dimensions and a photo if you can." }
   ],
-  "todos": [
-    "TODO: client to supply 360 Booth dimensions/space/power"
-  ]
+  "todos": []
 }

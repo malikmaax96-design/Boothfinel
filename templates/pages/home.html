@@ -21,7 +21,7 @@
 
     <section class="stats-bar" aria-label="Key facts">
       <div class="stats-container">
-        <div class="stat-item"><span class="stat-num">8</span><span class="stat-label">Booth Types</span></div>
+        <div class="stat-item"><span class="stat-num">{{boothCount}}</span><span class="stat-label">Booth Types</span></div>
         <div class="stat-item"><span class="stat-num">&pound;{{site.priceFrom}}</span><span class="stat-label">Packages From</span></div>
         <div class="stat-item"><span class="stat-num">5&#9733;</span><span class="stat-label">Trustpilot Rated</span></div>
         <div class="stat-item"><span class="stat-num">Free</span><span class="stat-label">Delivery &amp; Setup</span></div>
@@ -99,7 +99,7 @@
           <h2 class="section-title">Book in 3 Easy Steps</h2>
         </div>
         <ol class="steps-grid">
-          <li class="step-card reveal"><div class="step-num">01</div><h3>Choose your booth</h3><p>Browse our eight booth styles and pick the one that fits your venue, guest numbers and theme.</p></li>
+          <li class="step-card reveal"><div class="step-num">01</div><h3>Choose your booth</h3><p>Browse our {{boothCountWord}} booth styles and pick the one that fits your venue, guest numbers and theme.</p></li>
           <li class="step-card reveal"><div class="step-num">02</div><h3>Secure your date</h3><p>Send an enquiry or book online. An &pound;{{site.deposit}} deposit holds the date; the balance is due one month before.</p></li>
           <li class="step-card reveal"><div class="step-num">03</div><h3>Enjoy the night</h3><p>We deliver, set up, run the booth and pack down. You and your guests just have fun.</p></li>
         </ol>

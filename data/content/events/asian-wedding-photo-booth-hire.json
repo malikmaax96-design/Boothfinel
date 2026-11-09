@@ -60,7 +60,7 @@
     {
       "heading": "Our recommendations, what is included and how to book",
       "paragraphs": [
-        "For the reception we usually suggest the Magic Mirror or the Inflatable Booth, and for mehndi and sangeet nights the Party Booth or the Inflatable with its glow matched to the decor. The 360 Booth is popular with younger guests for slow-motion video set to music; we confirm its space requirements for your venue at quote stage.",
+        "For the reception we usually suggest the Magic Mirror or the Inflatable Booth, and for mehndi and sangeet nights the Party Booth or the Inflatable with its glow matched to the decor. Younger guests often gravitate to the GIF Booth, which turns each session into boomerangs and GIFs sent straight to their phones by email or QR code.",
         "Every booking includes a professional attendant, free delivery, setup and pack-down, unlimited sessions, props, a guest book on print booths, your custom template, digital copies with email sharing and full public liability insurance. Packages start from £239, an £80 deposit holds the date and the balance is due one month before the event. We answer enquiries within 24 hours and cover London, the Home Counties, the South East, the East of England and the Midlands."
       ]
     }
@@ -79,8 +79,8 @@
       "reason": "Elegant enough to stand near the stage at a walima or reception, with prints for everyone in the group."
     },
     {
-      "slug": "360-booth",
-      "reason": "Slow-motion video with music that younger guests share straight away; space requirements confirmed at quote stage."
+      "slug": "gif-booth",
+      "reason": "Younger guests at the sangeet get boomerangs and GIFs with a custom animated overlay, sent to their phones by email or QR code."
     }
   ],
   "faqs": [
@@ -110,7 +110,6 @@
     }
   ],
   "todos": [
-    "TODO: client to supply 360 Booth dimensions/space/power",
     "TODO: client to confirm process for requesting a female attendant and how far in advance it can be confirmed"
   ]
 }

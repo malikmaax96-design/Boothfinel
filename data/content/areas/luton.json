@@ -9,7 +9,7 @@
     {
       "heading": "Booths that suit Luton's big celebrations",
       "paragraphs": [
-        "The Party Booth is a strong choice for Luton weddings because it is enclosed with a curtain and gives guests complete privacy while they pose. The 360 Booth is hugely popular at sangeets and milestone birthdays, with guests filmed in slow motion on a rotating platform; we confirm the floor space and power it needs with your venue at quote stage. The Selfie Mirror Pod handles high guest counts with instant prints for everyone in the shot, and the Magic Mirror remains the classic for receptions with a ballroom to fill."
+        "The Party Booth is a strong choice for Luton weddings because it is enclosed with a curtain and gives guests complete privacy while they pose. The Inflatable Booth is a favourite at sangeets and milestone birthdays, fitting up to ten guests in a glowing enclosure matched to the theme colour; it needs about 4m by 4m of floor, 3m of headroom and two sockets. The Selfie Mirror Pod handles high guest counts with instant prints for everyone in the shot, and the Magic Mirror remains the classic for receptions with a ballroom to fill."
       ]
     },
     {
@@ -54,7 +54,7 @@
   ],
   "popularBooths": [
     { "slug": "party-booth", "reason": "The curtained enclosure answers the privacy brief at large South Asian weddings in the town's banqueting suites." },
-    { "slug": "360-booth", "reason": "Sangeets and milestone birthdays want slow-motion video with music to share straight away." },
+    { "slug": "inflatable-booth", "reason": "Sangeets and milestone birthdays in the town's high-ceilinged suites suit a glowing enclosure that takes ten guests at once." },
     { "slug": "selfie-mirror-pod", "reason": "Instant prints for every guest keep a queue of several hundred wedding guests moving." },
     { "slug": "magic-mirror", "reason": "Airport hotel receptions and corporate dinners give the full-length mirror a ballroom to work in." }
   ],
@@ -84,5 +84,5 @@
       "a": "Yes. Ask for a quote covering both dates and we will price them together, with a different print template for each day if you like. An £80 deposit secures the dates and the balance is due one month before the first event."
     }
   ],
-  "todos": ["TODO: client to supply 360 Booth dimensions/space/power"]
+  "todos": []
 }
