@@ -13,8 +13,23 @@
         "caption": "Guests enjoying the LCD SlimPod"
       },
       {
+        "image": "event-lcd-7",
+        "alt": "LCD SlimPod with its ring light in a hotel function room",
+        "caption": "LCD SlimPod in a hotel function room"
+      },
+      {
+        "image": "event-lcd-8",
+        "alt": "LCD SlimPod set up in a restaurant-style function room with red walls",
+        "caption": "LCD SlimPod in a function room"
+      },
+      {
         "image": "event-lcd-2",
         "alt": "LCD SlimPod beside planters at a garden party",
+        "caption": "LCD SlimPod at a garden party"
+      },
+      {
+        "image": "event-lcd-9",
+        "alt": "LCD SlimPod under cover in a sunny garden with a high table",
         "caption": "LCD SlimPod at a garden party"
       },
       {
@@ -23,9 +38,19 @@
         "caption": "LCD SlimPod at a home celebration"
       },
       {
+        "image": "event-lcd-10",
+        "alt": "LCD SlimPod beside a table of dress-up props",
+        "caption": "LCD SlimPod with a props table"
+      },
+      {
         "image": "event-lcd-5",
         "alt": "Guests gathered around an LCD SlimPod in a hall",
         "caption": "LCD SlimPod in a hall"
+      },
+      {
+        "image": "event-lcd-11",
+        "alt": "LCD SlimPod set up indoors at a home party",
+        "caption": "LCD SlimPod at a home party"
       },
       {
         "image": "event-lcd-6",
@@ -38,6 +63,41 @@
         "image": "event-magic-1",
         "alt": "Magic Mirror with an orange LED frame, red rope barriers and red carpet in a function room",
         "caption": "Magic Mirror with red carpet and rope barriers"
+      },
+      {
+        "image": "event-magic-2",
+        "alt": "Magic Mirror at the end of a red carpet with gold rope barriers",
+        "caption": "Magic Mirror with red carpet and gold barriers"
+      },
+      {
+        "image": "event-magic-3",
+        "alt": "Guests on the red carpet beside the Magic Mirror",
+        "caption": "Guests on the red carpet"
+      },
+      {
+        "image": "event-magic-4",
+        "alt": "Magic Mirror glowing at the end of a red carpet aisle",
+        "caption": "Magic Mirror red carpet entrance"
+      },
+      {
+        "image": "event-magic-5",
+        "alt": "Magic Mirror with a rainbow LED frame in a function room",
+        "caption": "Magic Mirror with rainbow LED frame"
+      },
+      {
+        "image": "event-magic-6",
+        "alt": "Magic Mirror with red carpet and rope barriers in a modern hall",
+        "caption": "Magic Mirror in a modern hall"
+      },
+      {
+        "image": "event-magic-7",
+        "alt": "Magic Mirror on a patio with red carpet for a garden party",
+        "caption": "Magic Mirror at a garden party"
+      },
+      {
+        "image": "event-magic-8",
+        "alt": "Magic Mirror with a red tinsel backdrop and red carpet",
+        "caption": "Magic Mirror with tinsel backdrop"
       }
     ],
     "selfie-mirror-pod": [
@@ -45,6 +105,46 @@
         "image": "event-selfie-1",
         "alt": "Selfie Mirror Pod with a blue and purple LED frame beside a printer, flash umbrella and guest book table",
         "caption": "Selfie Mirror Pod with printer and guest book"
+      },
+      {
+        "image": "event-selfie-2",
+        "alt": "Guests in party hats at the Selfie Mirror Pod",
+        "caption": "Guests in party hats"
+      },
+      {
+        "image": "event-selfie-3",
+        "alt": "Selfie Mirror Pod at a busy party in a loft-style venue",
+        "caption": "Selfie Mirror Pod at a loft party"
+      },
+      {
+        "image": "event-selfie-4",
+        "alt": "Selfie Mirror Pod with a pink LED glow at a party",
+        "caption": "Selfie Mirror Pod with pink glow"
+      },
+      {
+        "image": "event-selfie-5",
+        "alt": "Selfie Mirror Pod with blue uplighting",
+        "caption": "Selfie Mirror Pod with blue uplighting"
+      },
+      {
+        "image": "event-selfie-6",
+        "alt": "Selfie Mirror Pod by a window with garden views",
+        "caption": "Selfie Mirror Pod by a garden window"
+      },
+      {
+        "image": "event-selfie-7",
+        "alt": "Selfie Mirror Pod beside a props table",
+        "caption": "Selfie Mirror Pod with props"
+      },
+      {
+        "image": "event-selfie-8",
+        "alt": "Selfie Mirror Pod set up in a hallway",
+        "caption": "Selfie Mirror Pod in a hallway"
+      },
+      {
+        "image": "event-selfie-9",
+        "alt": "Selfie Mirror Pod in a modern venue",
+        "caption": "Selfie Mirror Pod in a modern venue"
       }
     ],
     "retro-pod": [
@@ -52,6 +152,41 @@
         "image": "event-retro-1",
         "alt": "Guests posing in front of a Retro Pod on a tripod with its inbuilt printer and flash",
         "caption": "Guests at the Retro Pod"
+      },
+      {
+        "image": "event-retro-2",
+        "alt": "Guests in dress-up props posing at the Retro Pod",
+        "caption": "Guests in dress-up props"
+      },
+      {
+        "image": "event-retro-8",
+        "alt": "Students in dinner suits queuing for the Retro Pod at a prom",
+        "caption": "Prom guests at the Retro Pod"
+      },
+      {
+        "image": "event-retro-7",
+        "alt": "Prom guests in evening dresses and suits posing at the Retro Pod",
+        "caption": "Prom night at the Retro Pod"
+      },
+      {
+        "image": "event-retro-3",
+        "alt": "Guests with props at the Retro Pod at an evening party",
+        "caption": "Retro Pod at an evening party"
+      },
+      {
+        "image": "event-retro-4",
+        "alt": "Guests in fez hats posing at the Retro Pod",
+        "caption": "Guests in fez hats"
+      },
+      {
+        "image": "event-retro-5",
+        "alt": "Guests using the Retro Pod in a timber-framed venue",
+        "caption": "Retro Pod in a timber-framed venue"
+      },
+      {
+        "image": "event-retro-6",
+        "alt": "Retro Pod with its flash umbrella in a vaulted venue",
+        "caption": "Retro Pod in a vaulted venue"
       }
     ],
     "party-booth": [
@@ -59,6 +194,56 @@
         "image": "event-party-1",
         "alt": "Wooden enclosed Party Booth with a cream curtain set up in a marquee with a guest book table",
         "caption": "Party Booth with curtain and guest book table"
+      },
+      {
+        "image": "event-party-2",
+        "alt": "Two guests holding their photo strip in front of the Party Booth",
+        "caption": "Guests with their photo strip"
+      },
+      {
+        "image": "event-party-3",
+        "alt": "Party Booth in a barn with exposed timber beams",
+        "caption": "Party Booth in a barn"
+      },
+      {
+        "image": "event-party-4",
+        "alt": "Party Booth by a window with countryside views",
+        "caption": "Party Booth with countryside views"
+      },
+      {
+        "image": "event-party-5",
+        "alt": "Inside the Party Booth: the ring light and screen",
+        "caption": "Inside the Party Booth"
+      },
+      {
+        "image": "event-party-6",
+        "alt": "Party Booth in a lounge-style function room",
+        "caption": "Party Booth in a function room"
+      },
+      {
+        "image": "event-party-7",
+        "alt": "Party Booth on a flagstone floor",
+        "caption": "Party Booth on a flagstone floor"
+      },
+      {
+        "image": "event-party-8",
+        "alt": "Party Booth beside a black and gold balloon arch",
+        "caption": "Party Booth with a balloon arch"
+      },
+      {
+        "image": "event-party-9",
+        "alt": "Party Booth beside a guest book table",
+        "caption": "Party Booth with guest book table"
+      },
+      {
+        "image": "event-party-10",
+        "alt": "Party Booth against a stone wall",
+        "caption": "Party Booth against a stone wall"
+      },
+      {
+        "image": "event-party-11",
+        "alt": "Party Booth in a function room with a mirrored ceiling",
+        "caption": "Party Booth with a mirrored ceiling"
       }
     ],
     "inflatable-booth": [
@@ -68,9 +253,24 @@
         "caption": "Inflatable Booth lit in pink and purple"
       },
       {
+        "image": "event-inflatable-5",
+        "alt": "Group in dress-up props and a mascot costume inside the Inflatable Booth",
+        "caption": "Big group fun in the Inflatable Booth"
+      },
+      {
+        "image": "event-inflatable-4",
+        "alt": "Group in dinner suits posing inside the Inflatable Booth lit blue",
+        "caption": "Prom group inside the Inflatable Booth"
+      },
+      {
         "image": "event-inflatable-2",
         "alt": "Inflatable photo booth lit blue in a function room",
         "caption": "Inflatable Booth lit in blue"
+      },
+      {
+        "image": "event-inflatable-3",
+        "alt": "Inflatable photo booth with a red glow",
+        "caption": "Inflatable Booth with a red glow"
       }
     ],
     "gif-booth": [
@@ -88,28 +288,28 @@
   },
   "gallery": [
     {
-      "image": "event-selfie-1",
-      "alt": "Selfie Mirror Pod with a blue and purple LED frame beside a printer, flash umbrella and guest book table",
-      "caption": "Selfie Mirror Pod"
-    },
-    {
-      "image": "event-party-1",
-      "alt": "Wooden enclosed Party Booth with a cream curtain set up in a marquee",
+      "image": "event-party-2",
+      "alt": "Two guests holding their photo strip in front of the Party Booth",
       "caption": "Party Booth"
     },
     {
-      "image": "event-magic-1",
-      "alt": "Magic Mirror with an orange LED frame, red rope barriers and red carpet",
+      "image": "event-magic-2",
+      "alt": "Magic Mirror at the end of a red carpet with gold rope barriers",
       "caption": "Magic Mirror"
     },
     {
-      "image": "event-retro-1",
-      "alt": "Guests posing in front of a Retro Pod on a tripod",
+      "image": "event-selfie-2",
+      "alt": "Guests in party hats at the Selfie Mirror Pod",
+      "caption": "Selfie Mirror Pod"
+    },
+    {
+      "image": "event-retro-2",
+      "alt": "Guests in dress-up props posing at the Retro Pod",
       "caption": "Retro Pod"
     },
     {
-      "image": "event-lcd-6",
-      "alt": "LCD SlimPod with a ring light, printer and dress-up hats",
+      "image": "event-lcd-1",
+      "alt": "LCD SlimPod set up on artificial grass at an outdoor event",
       "caption": "LCD SlimPod"
     },
     {
@@ -118,9 +318,34 @@
       "caption": "Inflatable Booth"
     },
     {
-      "image": "event-lcd-1",
-      "alt": "LCD SlimPod set up on artificial grass at an outdoor event",
-      "caption": "LCD SlimPod outdoors"
+      "image": "event-party-3",
+      "alt": "Party Booth in a barn with exposed timber beams",
+      "caption": "Party Booth in a barn"
+    },
+    {
+      "image": "event-magic-7",
+      "alt": "Magic Mirror on a patio with red carpet for a garden party",
+      "caption": "Magic Mirror at a garden party"
+    },
+    {
+      "image": "event-selfie-1",
+      "alt": "Selfie Mirror Pod with a blue and purple LED frame beside a printer and guest book table",
+      "caption": "Selfie Mirror Pod"
+    },
+    {
+      "image": "event-lcd-7",
+      "alt": "LCD SlimPod with its ring light in a hotel function room",
+      "caption": "LCD SlimPod"
+    },
+    {
+      "image": "event-retro-3",
+      "alt": "Guests with props at the Retro Pod at an evening party",
+      "caption": "Retro Pod"
+    },
+    {
+      "image": "event-party-4",
+      "alt": "Party Booth by a window with countryside views",
+      "caption": "Party Booth"
     }
   ]
 }
