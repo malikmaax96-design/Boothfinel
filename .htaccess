@@ -75,6 +75,16 @@ AddDefaultCharset UTF-8
   RewriteRule ^blog/party-guide(\.html)?/?$ /blog/party-planning-tips [R=301,L,NE]
   RewriteRule ^blog/wedding-tips(\.html)?/?$ /blog/how-to-choose-a-wedding-photo-booth [R=301,L,NE]
   RewriteRule ^booths/360-photo-booth-hire(\.html)?/?$ /booths/ [R=301,L,NE]
+  RewriteRule ^photobooth-for-hire-in-harrow(\.html)?/?$ /areas/photo-booth-hire-harrow [R=301,L,NE]
+  RewriteRule ^photobooth-for-hire-in-wembley(\.html)?/?$ /areas/photo-booth-hire-wembley [R=301,L,NE]
+  RewriteRule ^photobooth-for-hire-in-ilford(\.html)?/?$ /areas/photo-booth-hire-ilford [R=301,L,NE]
+  RewriteRule ^photobooth-for-hire-in-romford(\.html)?/?$ /areas/photo-booth-hire-romford [R=301,L,NE]
+  RewriteRule ^photobooth-for-hire-in-croydon(\.html)?/?$ /areas/photo-booth-hire-croydon [R=301,L,NE]
+  RewriteRule ^photobooth-for-hire-in-enfield(\.html)?/?$ /areas/photo-booth-hire-enfield [R=301,L,NE]
+  RewriteRule ^photobooth-for-hire-in-southend-on-sea(\.html)?/?$ /areas/photo-booth-hire-southend-on-sea [R=301,L,NE]
+  RewriteRule ^photobooth-for-hire-in-colchester(\.html)?/?$ /areas/photo-booth-hire-colchester [R=301,L,NE]
+  RewriteRule ^photobooth-for-hire-in-maidstone(\.html)?/?$ /areas/photo-booth-hire-maidstone [R=301,L,NE]
+  RewriteRule ^photobooth-for-hire-in-guildford(\.html)?/?$ /areas/photo-booth-hire-guildford [R=301,L,NE]
 
   # 3. Strip index.html from the URL (/booths/index.html → /booths/)
   RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]

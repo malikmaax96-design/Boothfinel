@@ -283,5 +283,55 @@
     "from": "/booths/360-photo-booth-hire",
     "to": "/booths/",
     "reason": "360 Booth discontinued by the client"
+  },
+  {
+    "from": "/photobooth-for-hire-in-harrow",
+    "to": "/areas/photo-booth-hire-harrow",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-wembley",
+    "to": "/areas/photo-booth-hire-wembley",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-ilford",
+    "to": "/areas/photo-booth-hire-ilford",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-romford",
+    "to": "/areas/photo-booth-hire-romford",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-croydon",
+    "to": "/areas/photo-booth-hire-croydon",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-enfield",
+    "to": "/areas/photo-booth-hire-enfield",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-southend-on-sea",
+    "to": "/areas/photo-booth-hire-southend-on-sea",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-colchester",
+    "to": "/areas/photo-booth-hire-colchester",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-maidstone",
+    "to": "/areas/photo-booth-hire-maidstone",
+    "reason": "legacy agency area URL pattern"
+  },
+  {
+    "from": "/photobooth-for-hire-in-guildford",
+    "to": "/areas/photo-booth-hire-guildford",
+    "reason": "legacy agency area URL pattern"
   }
 ]

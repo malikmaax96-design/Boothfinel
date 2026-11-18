@@ -40,7 +40,9 @@
       "name": "North London",
       "type": "london-sub",
       "parent": "london",
-      "children": [],
+      "children": [
+        "enfield"
+      ],
       "neighbours": [
         "central-london",
         "east-london",
@@ -53,7 +55,10 @@
       "name": "East London",
       "type": "london-sub",
       "parent": "london",
-      "children": [],
+      "children": [
+        "ilford",
+        "romford"
+      ],
       "neighbours": [
         "central-london",
         "south-east-london",
@@ -66,7 +71,9 @@
       "name": "South London",
       "type": "london-sub",
       "parent": "london",
-      "children": [],
+      "children": [
+        "croydon"
+      ],
       "neighbours": [
         "south-east-london",
         "south-west-london",
@@ -107,7 +114,10 @@
       "name": "West London",
       "type": "london-sub",
       "parent": "london",
-      "children": [],
+      "children": [
+        "harrow",
+        "wembley"
+      ],
       "neighbours": [
         "central-london",
         "south-west-london",
@@ -164,7 +174,9 @@
       "name": "Kent",
       "type": "county",
       "parent": null,
-      "children": [],
+      "children": [
+        "maidstone"
+      ],
       "neighbours": [
         "south-east-london",
         "essex",
@@ -178,7 +190,9 @@
       "type": "county",
       "parent": null,
       "children": [
-        "chelmsford"
+        "chelmsford",
+        "southend-on-sea",
+        "colchester"
       ],
       "neighbours": [
         "east-london",
@@ -192,7 +206,9 @@
       "name": "Surrey",
       "type": "county",
       "parent": null,
-      "children": [],
+      "children": [
+        "guildford"
+      ],
       "neighbours": [
         "south-west-london",
         "berkshire",
@@ -640,6 +656,136 @@
         "cambridge"
       ],
       "hints": "Peterborough (a cathedral city) with Orton, Hampton, Werrington, Bretton, Stanground, Yaxley, Whittlesey, and Market Deeping just over the Lincolnshire border. A1(M), A47, A15, A605; Peterborough station on the East Coast Main Line. Large South Asian and Eastern European communities. Venues: hotels, banqueting suites, conference venues, golf clubs, barns, community centres, school halls."
+    },
+    {
+      "slug": "harrow",
+      "name": "Harrow",
+      "type": "town",
+      "parent": "west-london",
+      "children": [],
+      "neighbours": [
+        "west-london",
+        "wembley",
+        "watford"
+      ],
+      "hints": "London Borough of Harrow: Harrow-on-the-Hill, Wealdstone, Pinner, Stanmore, Kenton, Rayners Lane, South Harrow, North Harrow, Harrow Weald, Hatch End. A404, A409, A312, A40 nearby; Harrow-on-the-Hill station (Metropolitan line). Large Gujarati and wider South Asian communities, so Asian weddings, mehndi and sangeet nights are a big market. Venues: banqueting suites, hotels, community and cultural halls (generic), golf clubs, school halls, function rooms."
+    },
+    {
+      "slug": "wembley",
+      "name": "Wembley",
+      "type": "town",
+      "parent": "west-london",
+      "children": [],
+      "neighbours": [
+        "west-london",
+        "harrow",
+        "north-london"
+      ],
+      "hints": "Wembley in the London Borough of Brent: Wembley Park, Wembley Central, Alperton, Sudbury, Preston Road, Kingsbury, Neasden. A406 North Circular, A404, A4005; Wembley Park (Jubilee and Metropolitan lines) and Wembley Central stations. Wembley Stadium event days bring heavy traffic and parking restrictions, so we check the event calendar. Large South Asian communities. Venues: banqueting suites, hotels and conference venues near the stadium, community centres, school halls."
+    },
+    {
+      "slug": "ilford",
+      "name": "Ilford",
+      "type": "town",
+      "parent": "east-london",
+      "children": [],
+      "neighbours": [
+        "east-london",
+        "romford",
+        "essex"
+      ],
+      "hints": "Ilford in the London Borough of Redbridge: Ilford town centre, Gants Hill, Seven Kings, Goodmayes, Barkingside, Newbury Park, Wanstead, Woodford; Barking nearby. A12, A406 North Circular, A123; Ilford station on the Elizabeth line. Large South Asian communities, so big multi-day Asian weddings in banqueting suites are common. Venues: banqueting suites, hotels, community halls, school halls, function rooms."
+    },
+    {
+      "slug": "romford",
+      "name": "Romford",
+      "type": "town",
+      "parent": "east-london",
+      "children": [],
+      "neighbours": [
+        "east-london",
+        "ilford",
+        "essex"
+      ],
+      "hints": "Romford in the London Borough of Havering: Gidea Park, Harold Wood, Hornchurch, Upminster, Collier Row, Rainham; Brentwood just over the Essex border. A12, A127, A118, M25 J28; Romford station on the Elizabeth line. Venues: hotels, golf clubs, banqueting suites, function rooms, community halls, barns and country venues on the Essex edge, school halls."
+    },
+    {
+      "slug": "croydon",
+      "name": "Croydon",
+      "type": "town",
+      "parent": "south-london",
+      "children": [],
+      "neighbours": [
+        "south-london",
+        "bromley",
+        "surrey"
+      ],
+      "hints": "London Borough of Croydon: Croydon town centre, Purley, Coulsdon, Thornton Heath, Norbury, South Norwood, Addiscombe, Shirley, Selsdon, Sanderstead. A23, A232, A212, M25 J7 via the A23/M23; East Croydon station and the tram network. Diverse communities including South Asian, Caribbean and African families. Venues: hotels and conference venues, banqueting suites, golf clubs, community halls, church halls, school halls."
+    },
+    {
+      "slug": "enfield",
+      "name": "Enfield",
+      "type": "town",
+      "parent": "north-london",
+      "children": [],
+      "neighbours": [
+        "north-london",
+        "hertfordshire",
+        "east-london"
+      ],
+      "hints": "London Borough of Enfield: Enfield Town, Southgate, Palmers Green, Winchmore Hill, Edmonton, Ponders End, Enfield Lock, Bush Hill Park; Cheshunt and Potters Bar just over the Hertfordshire border. A10, A406 North Circular, A110, M25 J24–J25. Large Greek Cypriot and Turkish communities as well as many others. Venues: banqueting suites, golf clubs, hotels, community halls, school halls, function rooms."
+    },
+    {
+      "slug": "southend-on-sea",
+      "name": "Southend-on-Sea",
+      "type": "town",
+      "parent": "essex",
+      "children": [],
+      "neighbours": [
+        "essex",
+        "chelmsford",
+        "colchester"
+      ],
+      "hints": "Southend-on-Sea (a city since 2022): Westcliff-on-Sea, Leigh-on-Sea, Southchurch, Thorpe Bay, Shoeburyness, Prittlewell; Rayleigh, Rochford, Hadleigh and Benfleet nearby. A127, A13; London Southend Airport. The seafront and the pier are local landmarks. Venues: seafront hotels and function rooms, golf clubs, banqueting suites, village halls, school halls, sports clubs."
+    },
+    {
+      "slug": "colchester",
+      "name": "Colchester",
+      "type": "town",
+      "parent": "essex",
+      "children": [],
+      "neighbours": [
+        "essex",
+        "chelmsford",
+        "southend-on-sea"
+      ],
+      "hints": "Colchester (a city since 2022, with Roman town walls): Lexden, Stanway, Greenstead, Mile End, Wivenhoe, West Mersea, Tiptree; Dedham Vale to the north. A12, A120, A133. Venues: barns and country hotels in the surrounding villages, golf clubs, university venues (generic), village halls, school halls, function rooms. Garrison town, so military mess events happen (describe generically)."
+    },
+    {
+      "slug": "maidstone",
+      "name": "Maidstone",
+      "type": "town",
+      "parent": "kent",
+      "children": [],
+      "neighbours": [
+        "kent",
+        "bromley",
+        "south-east-london"
+      ],
+      "hints": "Maidstone, the county town of Kent, on the River Medway: Bearsted, Allington, Barming, Aylesford, Larkfield, Coxheath, Loose, Penenden Heath. M20 J5–J8, M2, A229, A20, A249. Venues: oast houses and barns, country house hotels, golf clubs, village halls, riverside function rooms, school halls."
+    },
+    {
+      "slug": "guildford",
+      "name": "Guildford",
+      "type": "town",
+      "parent": "surrey",
+      "children": [],
+      "neighbours": [
+        "surrey",
+        "south-west-london",
+        "hampshire"
+      ],
+      "hints": "Guildford, the county town of Surrey: Merrow, Burpham, Stoughton, Shalford, Bramley; Godalming and Woking nearby; the Surrey Hills to the south and east. A3, A31, A25, A281; M25 J10 via the A3. Venues: country house hotels, barns, golf clubs, university venues (generic), village halls, school halls."
     }
   ]
 }
