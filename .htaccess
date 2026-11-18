@@ -91,6 +91,7 @@ AddDefaultCharset UTF-8
   RewriteRule ^(.*/)?index\.html$ /$1 [R=301,L]
 
   # 4. Strip .html from directly requested URLs (/faq.html → /faq)
+  RewriteCond %{REQUEST_URI} !^/google[0-9a-f]+\.html$ [NC]
   RewriteCond %{THE_REQUEST} \s/+([^\s?]+)\.html[\s?] [NC]
   RewriteRule ^ /%1 [R=301,L]
 
